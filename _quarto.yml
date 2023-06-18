@@ -22,23 +22,3 @@ format:
     toc: true
 
 editor: visual
-
-project:
-  type: website
-
-website:
-  title: "YellowIsland2023"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
-
-format:
-  html:
-    theme: cosmo
-    css: styles.css
-    toc: true
-
-editor: visual
-
