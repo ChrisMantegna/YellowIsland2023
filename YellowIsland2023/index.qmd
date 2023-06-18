@@ -1,4 +1,3 @@
-
 ---
 title: "Yellow Island 2023"
 subtitle: "DDCSP & REU"
@@ -48,15 +47,15 @@ Raven: <http://raven.fish.washington.edu:8787>
 
 ## Reading Resources
 
-reference the how to d oecology and another few books
+reference the how to do ecology and another few books
 
 ------------------------------------------------------------------------
 
-## Caegories of Work
+## Categories of Work
 
 Not doing none of this
 
-Current Grades can be accessed at <https://canvas.uw.edu/courses/1634025>
+Google Drive link for content
 
 | *Categories*             | Call Sign | *Do This*                |
 |--------------------------|-----------|--------------------------|
