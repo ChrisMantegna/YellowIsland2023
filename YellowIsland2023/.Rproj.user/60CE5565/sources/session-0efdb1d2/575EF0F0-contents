@@ -1,0 +1,96 @@
+---
+title: "Yellow Island 2023"
+subtitle: "DDCSP & REU"
+---
+
+## About
+
+We are intertidal ecologists
+
+------------------------------------------------------------------------
+
+FHL & YI are where we work
+
+::: callout-note
+Work Hard - Rest Harder
+:::
+
+------------------------------------------------------------------------
+
+Sentence
+
+## Format
+
+Talk REU, DDCSP, overall plan
+
+::: {.callout-important style="color: orange"}
+Pithy comment
+:::
+
+## Platforms
+
+JupyterHub[^1] Instance: <https://jupyter.rttl.uw.edu/2023-spring-fish-546-a>
+
+[^1]: https://jupyter.rttl.uw.edu/2023-spring-fish-546-a/hub/admin
+
+Course[^2] GitHub Organization: <https://github.com/course-fish546-2023>
+
+[^2]: https://github.com/sr320/course-fish546-2023
+
+Raven: <http://raven.fish.washington.edu:8787>
+
+## Class Announcements
+
+-   see [GitHub issues](https://github.com/course-fish546-2023/assistance/issues?q=is%3Aissue+is%3Aopen+label%3AAnnouncement)
+
+------------------------------------------------------------------------
+
+## Reading Resources
+
+reference the how to do ecology and another few books
+
+------------------------------------------------------------------------
+
+## Categories of Work
+
+Not doing none of this
+
+Google Drive link for content
+
+| *Categories*             | Call Sign | *Do This*                |
+|--------------------------|-----------|--------------------------|
+| Skill Building           | SB        | Writing & Coding Work    |
+| Reading                  | R         | Building your foundation |
+| Professional Development | PD        | Grad School 7 Beyond     |
+| Mental Health            | MH        | Self Care for real       |
+| Show Me Something        | SMS       | Teach me something new   |
+
+## Subtitle
+
+### One thing
+
+Words
+
+### Another thing
+
+Words
+
+### More things
+
+Words
+
+## Useful Resources
+
+-   [MarineOmics Portal](https://marineomics.github.io) - website with genomic tutorials.
+-   [sandbox.bio](https://sandbox.bio) - Interactive bioinformatics tutorials
+-   [Aquamine](https://aquamine.elsiklab.missouri.edu/) - data mining system that integrates genome assemblies and gene annotation data for aquatic eumetazoan species
+-   [Happy git with R](https://happygitwithr.com/index.html) - Happy Git provides opinionated instructions on how to:
+    -   Install Git and get it working smoothly with GitHub, in the shell and in the RStudio IDE.
+
+    -   Develop a few key workflows that cover your most common tasks.
+
+    -   Integrate Git and GitHub into your daily work with R and R Markdown.---
+
+```{r}
+1 + 1
+```
