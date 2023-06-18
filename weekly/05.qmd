@@ -10,28 +10,23 @@ format:
     highlight-style: github
     code-overflow: wrap
 ---
-This week we will focus on new landscapes for ourselves and for our work. We will spend some time getting to know each other, getting to understand where we are in the big picture, and we'll focus on building community and our own presence 
 
-## Schedule at a glance  
-July 9 - 15
-Add calendar color coding
-Full calendar is [here](https://calendar.google.com/calendar/u/0?cid=Y2xhc3Nyb29tMTA0NzQ5OTc5MDE2MTE0NTI2MDYzQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20)  
-  
-| Sunday |
-|--------|
-| Day Off | 
+This week we will focus on new landscapes for ourselves and for our work. We will spend some time getting to know each other, getting to understand where we are in the big picture, and we'll focus on building community and our own presence
 
-| Monday| 
-|-------|
-| Juneteenth on Yellow | 
+## Schedule at a glance
 
-pd, group meeting |
-Tuesday | Wednesday | Thursday | Friday | Saturday |
----------|-----------|----------|--------|----------|
+July 9 - 15 Add calendar color coding Full calendar is [here](https://calendar.google.com/calendar/u/0?cid=Y2xhc3Nyb29tMTA0NzQ5OTc5MDE2MTE0NTI2MDYzQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20)
+
+| Sunday  |
+|---------|
+| Day Off |
+
+| Monday               |
+|----------------------|
+| Juneteenth on Yellow |
+
+pd, group meeting \| Tuesday \| Wednesday \| Thursday \| Friday \| Saturday \| ---------\|-----------\|----------\|--------\|----------\|
 
 ## Content
-sb
-r
-pd
-mh
-sms
+
+sb r pd mh sms

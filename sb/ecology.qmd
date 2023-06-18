@@ -15,6 +15,7 @@ output:
     callout-appearance: default
   html_document: null
 ---
+
 ```{r setup, include=FALSE}
 # this is just here to remind me what I'm doing
 knitr::opts_chunk$set(
@@ -30,18 +31,17 @@ knitr::opts_chunk$set(
 ```
 
 # Ecology
-what it is
-why we do it
+
+what it is why we do it
 
 # Intertidal Ecology
-what it is
-why we do it
-big names
-specific information related to PNW intertidal
+
+what it is why we do it big names specific information related to PNW intertidal
 
 # How to do Ecology
-Book title and links to getting it
-link to readings for the chapters in the book that we will read
 
-# Any assignment that  is related to this or the future work
+Book title and links to getting it link to readings for the chapters in the book that we will read
+
+# Any assignment that is related to this or the future work
+
 hyper links/ people as resources
