@@ -1,0 +1,3 @@
+R & RStudio load and access
+How to get GH linked and talking
+commit, push, pull
