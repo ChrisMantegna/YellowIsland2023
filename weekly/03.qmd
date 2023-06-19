@@ -17,11 +17,14 @@ June 25 - July 1
 Add calendar color coding
 Full calendar is [here](https://calendar.google.com/calendar/u/0?cid=Y2xhc3Nyb29tMTA0NzQ5OTc5MDE2MTE0NTI2MDYzQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20)  
   
+| Color | Category |
+|-------|----------|
+| Yellow | All |
+| Blue | REU |
+| Green | DDCSP |
+| Purple | Chris |
+| Grey | Day Off |
 
 
 ## Content
-sb
-r
-pd
-mh
-sms
+| sb | r | pd | mh | sms |
