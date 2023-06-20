@@ -61,7 +61,7 @@ Google Drive link for content
 |--------------------------|-----------|--------------------------|
 | Skill Building           | SB        | Writing & Coding Work    |
 | Reading                  | R         | Building your foundation |
-| Professional Development | PD        | Grad School 7 Beyond     |
+| Professional Development | PD        | Grad School & Beyond     |
 | Mental Health            | MH        | Self Care for real       |
 | Show Me Something        | SMS       | Teach me something new   |
 
