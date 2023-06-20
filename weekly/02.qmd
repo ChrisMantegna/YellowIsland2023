@@ -1,6 +1,6 @@
 ---
 title: "Week 02: New Landscapes"
-subtitle: "Getting to know the Ecology of Yellow Island"
+subtitle: "Setting ourselves up to explore new places"
 
 format:
   html:
@@ -10,6 +10,7 @@ format:
     highlight-style: github
     code-overflow: wrap
 ---
+<<<<<<< HEAD
 
 This week we will focus on new landscapes for ourselves and for our work. We will spend some time getting to know each other, getting to understand where we are in the big picture, and we'll focus on building community and our own presence
 
@@ -30,3 +31,38 @@ pd, group meeting \| Tuesday \| Wednesday \| Thursday \| Friday \| Saturday \| -
 ## Content
 
 sb r pd mh sms
+=======
+This week we will focus on new landscapes for ourselves and for our work. We will spend some time getting to know each other, getting to understand where we are in the big picture, and we'll focus on building community and our own presence. We'll get into a daily R practice, a daily writing practice, and build a place where we can showcase the work we are doing. 
+
+## Schedule at a glance  
+June 18 - 24
+Add calendar color coding
+Full calendar is [here](https://calendar.google.com/calendar/u/0?cid=Y2xhc3Nyb29tMTA0NzQ5OTc5MDE2MTE0NTI2MDYzQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20)  
+  
+| Color | Category |
+|-------|----------|
+| Yellow | All |
+| Blue | REU |
+| Green | DDCSP |
+| Purple | Chris |
+| Grey | Day Off |
+
+
+## Content
+| [sb](02-coding.qmd) | [sb](02-prompts.qmd) | [r]( |
+Skill Building (coding)  
+- Install [Zotero](https://www.zotero.org/). This is the reference manager we are using to share papers and written resources
+- Install [R & RStudio](https://happygitwithr.com/install-r-rstudio.html). You must install R first and then RStudio. RStudio is the user interface and R is the engine.
+- Create a [GitHub account](https://happygitwithr.com/github-acct.html). This will be an excellent resource for you to store data and host a website for free - choose a name wisely. My name is my name - ChrisMantegna - this is standard convention. Creativity and cleverness must be on the level of the average user if you want it to be easily remembered.
+- Practice base R skills
+
+Skill Building (writing)  
+- Follow the prompts for the week. It is difficult to build up to 30 minutes of writing practice at one time. Give yourself some grace, break it up into feasible time chunks that will add up to 30 minutes as you start.  
+
+Reading
+- We will read the foundational papers from the 2004 summer REU group to get an idea of what they did on the island.
+- [Blog Post](https://www.kieselaymon.com/blog/2015/1/11/were-not-good-enough-to-not-practice) by Kiese Laymon, writer of Heavy and other books. It's a nice reminder that we can all use practice.  
+- [Upon Comparing Oneself to Others](https://aslopubs.onlinelibrary.wiley.com/doi/full/10.1002/lob.10579) by Paul A. del Giorgio. A nice reminder that exactly who you are is exactly who you need to be.
+- We will ustilize the [Happy Git](https://happygitwithr.com/index.html) resource to help us to get our platforms to talk to each other
+
+>>>>>>> a472b098e1dc561c0da73c89b75439c942414e23
