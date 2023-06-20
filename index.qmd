@@ -29,17 +29,14 @@ Pithy comment
 
 ## Platforms
 
-JupyterHub[^1] Instance: <https://jupyter.rttl.uw.edu/2023-spring-fish-546-a>
+Yellow Island 2023 Google Drive: <https://drive.google.com/drive/u/0/folders/1NEp6_73H2SqPfiTaYpkL8MMa4qDkqyD->
 
-[^1]: https://jupyter.rttl.uw.edu/2023-spring-fish-546-a/hub/admin
+YI Photos: <https://photos.app.goo.gl/ednJboGLcGKaUEEH7>
 
-Course[^2] GitHub Organization: <https://github.com/course-fish546-2023>
+YI Calendar: <https://calendar.google.com/calendar/u/0?cid=Y2xhc3Nyb29tMTA0NzQ5OTc5MDE2MTE0NTI2MDYzQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20>
 
-[^2]: https://github.com/sr320/course-fish546-2023
 
-Raven: <http://raven.fish.washington.edu:8787>
-
-## Class Announcements
+## Group Announcements
 
 -   see [GitHub issues](https://github.com/course-fish546-2023/assistance/issues?q=is%3Aissue+is%3Aopen+label%3AAnnouncement)
 
@@ -55,7 +52,6 @@ reference the how to do ecology and another few books
 
 Not doing none of this
 
-Google Drive link for content
 
 | *Categories*             | Call Sign | *Do This*                |
 |--------------------------|-----------|--------------------------|
@@ -81,9 +77,6 @@ Words
 
 ## Useful Resources
 
--   [MarineOmics Portal](https://marineomics.github.io) - website with genomic tutorials.
--   [sandbox.bio](https://sandbox.bio) - Interactive bioinformatics tutorials
--   [Aquamine](https://aquamine.elsiklab.missouri.edu/) - data mining system that integrates genome assemblies and gene annotation data for aquatic eumetazoan species
 -   [Happy git with R](https://happygitwithr.com/index.html) - Happy Git provides opinionated instructions on how to:
     -   Install Git and get it working smoothly with GitHub, in the shell and in the RStudio IDE.
 
@@ -91,6 +84,3 @@ Words
 
     -   Integrate Git and GitHub into your daily work with R and R Markdown.---
 
-```{r}
-1 + 1
-```
