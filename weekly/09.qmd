@@ -1,6 +1,6 @@
 ---
-title: "Week 05: New Landscapes"
-subtitle: "Getting to know the Ecology of Yellow Island"
+title: "Week 8: Presentations - DDCSP"
+subtitle: "How to put your best foot forward"
 
 format:
   html:
@@ -15,7 +15,9 @@ This week we will focus on new landscapes for ourselves and for our work. We wil
 
 ## Schedule at a glance
 
-July 9 - 15 Add calendar color coding Full calendar is [here](https://calendar.google.com/calendar/u/0?cid=Y2xhc3Nyb29tMTA0NzQ5OTc5MDE2MTE0NTI2MDYzQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20)
+August 6 - August 12  
+Add calendar color coding   
+Full calendar is [here](https://calendar.google.com/calendar/u/0?cid=Y2xhc3Nyb29tMTA0NzQ5OTc5MDE2MTE0NTI2MDYzQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20)
 
 | Color | Category |
 |-------|----------|

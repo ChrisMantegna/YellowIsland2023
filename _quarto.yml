@@ -7,13 +7,13 @@ website:
   navbar:
     left:
       - href: index.qmd
-        text: Skill Building
+        text: Schedule
+      - href: 02.qmd
+        text: REU
       - href: index.qmd
-        text: Reading
+        text: DDCSP
       - href: index.qmd
-        text: Professional Development
-      - href: index.qmd
-        text: Mental Health
+        text: Resources
 
 format:
   html:
