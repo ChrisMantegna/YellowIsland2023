@@ -18,7 +18,7 @@
     "href": "index.html#platforms",
     "title": "Yellow Island 2023",
     "section": "Platforms",
-    "text": "Platforms\nJupyterHub1 Instance: https://jupyter.rttl.uw.edu/2023-spring-fish-546-a\nCourse2 GitHub Organization: https://github.com/course-fish546-2023\nRaven: http://raven.fish.washington.edu:8787"
+    "text": "Platforms\nYellow Island 2023 Google Drive: https://drive.google.com/drive/u/0/folders/1NEp6_73H2SqPfiTaYpkL8MMa4qDkqyD-\nYI Photos: https://photos.app.goo.gl/ednJboGLcGKaUEEH7\nYI Calendar: https://calendar.google.com/calendar/u/0?cid=Y2xhc3Nyb29tMTA0NzQ5OTc5MDE2MTE0NTI2MDYzQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20"
   },
   {
     "objectID": "index.html#class-announcements",
@@ -39,7 +39,7 @@
     "href": "index.html#categories-of-work",
     "title": "Yellow Island 2023",
     "section": "Categories of Work",
-    "text": "Categories of Work\nNot doing none of this\nGoogle Drive link for content\n\n\n\nCategories\nCall Sign\nDo This\n\n\n\n\nSkill Building\nSB\nWriting & Coding Work\n\n\nReading\nR\nBuilding your foundation\n\n\nProfessional Development\nPD\nGrad School 7 Beyond\n\n\nMental Health\nMH\nSelf Care for real\n\n\nShow Me Something\nSMS\nTeach me something new"
+    "text": "Categories of Work\nNot doing none of this\n\n\n\nCategories\nCall Sign\nDo This\n\n\n\n\nSkill Building\nSB\nWriting & Coding Work\n\n\nReading\nR\nBuilding your foundation\n\n\nProfessional Development\nPD\nGrad School & Beyond\n\n\nMental Health\nMH\nSelf Care for real\n\n\nShow Me Something\nSMS\nTeach me something new"
   },
   {
     "objectID": "index.html#subtitle",
@@ -53,7 +53,7 @@
     "href": "index.html#useful-resources",
     "title": "Yellow Island 2023",
     "section": "Useful Resources",
-    "text": "Useful Resources\n\nMarineOmics Portal - website with genomic tutorials.\nsandbox.bio - Interactive bioinformatics tutorials\nAquamine - data mining system that integrates genome assemblies and gene annotation data for aquatic eumetazoan species\nHappy git with R - Happy Git provides opinionated instructions on how to:\n\nInstall Git and get it working smoothly with GitHub, in the shell and in the RStudio IDE.\nDevelop a few key workflows that cover your most common tasks.\nIntegrate Git and GitHub into your daily work with R and R Markdown.—\n\n\n\n1 + 1\n\n[1] 2"
+    "text": "Useful Resources\n\nHappy git with R - Happy Git provides opinionated instructions on how to:\n\nInstall Git and get it working smoothly with GitHub, in the shell and in the RStudio IDE.\nDevelop a few key workflows that cover your most common tasks.\nIntegrate Git and GitHub into your daily work with R and R Markdown.—"
   },
   {
     "objectID": "about.html",
@@ -67,7 +67,7 @@
     "href": "sb/02-coding.html",
     "title": "Yellow Island 2023",
     "section": "",
-    "text": "R & RStudio load and access How to get GH linked and talking commit, push, pull"
+    "text": "Using RStudio and GitHub\nThese platforms together allow you to see if you linked the websites together correctly"
   },
   {
     "objectID": "sb/07-prompts.html",
@@ -95,7 +95,7 @@
     "href": "sb/02-prompts.html",
     "title": "Yellow Island 2023",
     "section": "",
-    "text": "2 prompts for reflection writing practice 3 prompts for skill building 1 prompt for free write"
+    "text": "The goal of the writing prompts is to spur a daily practice of reflecting on your experience, engaging with your observations, and planning your larger project. Each day you should spend ~30 minutes responding to the given prompts, reflecting on something else that has engaged your interest, etc. There is no prescribed way to do this, you can answer the same prompt multiple times, it can be drawings or mind maps - the only requirement is that you do your reflection in your journal, not via computer.\n\nWhen you think of community, what comes to mind? Does that same thought or image translate to communities of intertidal species? Subtidal? Terrestrial?\nThinking of the barriers you’ve faced in environmental science, what have they revealed about you to you?\nThinking of your first trip to Yellow, what sights, smells, sounds felt familiar? Feels alien? What did that invoke for you?\nSummer in the PNW is a beautiful spectacle, what does Summer look like in the place you call home? How is it similar? Different?\nThe regulated access to Yellow gives us space to learn and enjoy without the fear of negative interaction, but it can also feel isolating. How do you feel balancing these things? Does this binary framing feel fair or appropriate to you?"
   },
   {
     "objectID": "sb/ecology.html",
@@ -137,35 +137,35 @@
     "href": "weekly/05.html#schedule-at-a-glance",
     "title": "Week 05: New Landscapes",
     "section": "Schedule at a glance",
-    "text": "Schedule at a glance\nJuly 9 - 15 Add calendar color coding Full calendar is here\n\n\n\nSunday\n\n\n\n\nDay Off\n\n\n\n\n\n\nMonday\n\n\n\n\nJuneteenth on Yellow\n\n\n\npd, group meeting | Tuesday | Wednesday | Thursday | Friday | Saturday | ———|———–|———-|——–|———-|"
+    "text": "Schedule at a glance\nJuly 9 - 15 Add calendar color coding Full calendar is here\n\n\n\nColor\nCategory\n\n\n\n\nYellow\nAll\n\n\nBlue\nREU\n\n\nGreen\nDDCSP\n\n\nPurple\nChris\n\n\nGrey\nDay Off"
   },
   {
     "objectID": "weekly/05.html#content",
     "href": "weekly/05.html#content",
     "title": "Week 05: New Landscapes",
     "section": "Content",
-    "text": "Content\nsb r pd mh sms"
+    "text": "Content\nsb | r | pd | mh | sms |"
   },
   {
     "objectID": "weekly/03.html",
     "href": "weekly/03.html",
-    "title": "Week 02: New Landscapes",
+    "title": "Week 03: Community Interactions",
     "section": "",
-    "text": "mimic the set up on week 2 page - update for week 3\nThis week we will focus on new landscapes for ourselves and for our work. We will spend some time getting to know each other, getting to understand where we are in the big picture, and we’ll focus on building community and our own presence"
+    "text": "Focus is on applying what we’ve learned and expanding our definition of what community is and requires"
   },
   {
     "objectID": "weekly/03.html#schedule-at-a-glance",
     "href": "weekly/03.html#schedule-at-a-glance",
-    "title": "Week 02: New Landscapes",
+    "title": "Week 03: Community Interactions",
     "section": "Schedule at a glance",
-    "text": "Schedule at a glance\nJune 25 - July 1 (su - sa) Add calendar color coding Full calendar is here\n\n\n\nSunday\n\n\n\n\nDay Off\n\n\n\n\n\n\nMonday\n\n\n\n\nJuneteenth on Yellow\n\n\n\npd, group meeting | Tuesday | Wednesday | Thursday | Friday | Saturday | ———|———–|———-|——–|———-|"
+    "text": "Schedule at a glance\nJune 25 - July 1 Add calendar color coding Full calendar is here\n\n\n\nColor\nCategory\n\n\n\n\nYellow\nAll\n\n\nBlue\nREU\n\n\nGreen\nDDCSP\n\n\nPurple\nChris\n\n\nGrey\nDay Off"
   },
   {
     "objectID": "weekly/03.html#content",
     "href": "weekly/03.html#content",
-    "title": "Week 02: New Landscapes",
+    "title": "Week 03: Community Interactions",
     "section": "Content",
-    "text": "Content\nsb r pd mh sms"
+    "text": "Content\nsb | r | pd | mh | sms |"
   },
   {
     "objectID": "weekly/04.html",
@@ -179,21 +179,21 @@
     "href": "weekly/04.html#schedule-at-a-glance",
     "title": "Week 02: New Landscapes",
     "section": "Schedule at a glance",
-    "text": "Schedule at a glance\nJuly 2 - 8 (su -sa) Add calendar color coding Full calendar is here\n\n\n\nSunday\n\n\n\n\nDay Off\n\n\n\n\n\n\nMonday\n\n\n\n\nJuneteenth on Yellow\n\n\n\npd, group meeting | Tuesday | Wednesday | Thursday | Friday | Saturday | ———|———–|———-|——–|———-|"
+    "text": "Schedule at a glance\nJuly 2 - 8 (su -sa) Add calendar color coding Full calendar is here\n\n\n\nColor\nCategory\n\n\n\n\nYellow\nAll\n\n\nBlue\nREU\n\n\nGreen\nDDCSP\n\n\nPurple\nChris\n\n\nGrey\nDay Off"
   },
   {
     "objectID": "weekly/04.html#content",
     "href": "weekly/04.html#content",
     "title": "Week 02: New Landscapes",
     "section": "Content",
-    "text": "Content\nsb r pd mh sms"
+    "text": "Content\nsb | r | pd | mh | sms |"
   },
   {
     "objectID": "weekly/02.html",
     "href": "weekly/02.html",
     "title": "Week 02: New Landscapes",
     "section": "",
-    "text": "This week we will focus on new landscapes for ourselves and for our work. We will spend some time getting to know each other, getting to understand where we are in the big picture, and we’ll focus on building community and our own presence"
+    "text": "<<<<<<< HEAD\nThis week we will focus on new landscapes for ourselves and for our work. We will spend some time getting to know each other, getting to understand where we are in the big picture, and we’ll focus on building community and our own presence"
   },
   {
     "objectID": "weekly/02.html#schedule-at-a-glance",
@@ -207,7 +207,7 @@
     "href": "weekly/02.html#content",
     "title": "Week 02: New Landscapes",
     "section": "Content",
-    "text": "Content\nsb r pd mh sms"
+    "text": "Content"
   },
   {
     "objectID": "weekly/06.html",
@@ -221,14 +221,14 @@
     "href": "weekly/06.html#schedule-at-a-glance",
     "title": "Week 06: eDNA",
     "section": "Schedule at a glance",
-    "text": "Schedule at a glance\nJuly 16 - 22 Add calendar color coding Full calendar is here\n\n\n\nSunday\n\n\n\n\nDay Off\n\n\n\n\n\n\nMonday\n\n\n\n\nJuneteenth on Yellow\n\n\n\npd, group meeting | Tuesday | Wednesday | Thursday | Friday | Saturday | ———|———–|———-|——–|———-|"
+    "text": "Schedule at a glance\nJuly 16 - 22 Add calendar color coding Full calendar is here\n\n\n\nColor\nCategory\n\n\n\n\nYellow\nAll\n\n\nBlue\nREU\n\n\nGreen\nDDCSP\n\n\nPurple\nChris\n\n\nGrey\nDay Off"
   },
   {
     "objectID": "weekly/06.html#content",
     "href": "weekly/06.html#content",
     "title": "Week 06: eDNA",
     "section": "Content",
-    "text": "Content\nsb r pd mh sms"
+    "text": "Content\nsb | r | pd | mh | sms |"
   },
   {
     "objectID": "weekly/07.html",
@@ -242,34 +242,97 @@
     "href": "weekly/07.html#schedule-at-a-glance",
     "title": "Week 07: New Landscapes",
     "section": "Schedule at a glance",
-    "text": "Schedule at a glance\nJuly 16 - 22\nAdd calendar color coding\nFull calendar is here\n\n\n\nSunday\n\n\n\n\nDay Off\n\n\n\n\n\n\nMonday\n\n\n\n\nJuneteenth on Yellow\n\n\n\npd, group meeting | Tuesday | Wednesday | Thursday | Friday | Saturday | ———|———–|———-|——–|———-|"
+    "text": "Schedule at a glance\nJuly 23 - 29\nAdd calendar color coding\nFull calendar is here\n\n\n\nColor\nCategory\n\n\n\n\nYellow\nAll\n\n\nBlue\nREU\n\n\nGreen\nDDCSP\n\n\nPurple\nChris\n\n\nGrey\nDay Off"
   },
   {
     "objectID": "weekly/07.html#content",
     "href": "weekly/07.html#content",
     "title": "Week 07: New Landscapes",
     "section": "Content",
-    "text": "Content\nsb r pd mh sms"
+    "text": "Content\nsb | r | pd | mh | sms |"
   },
   {
     "objectID": "weekly/08.html",
     "href": "weekly/08.html",
-    "title": "Week 8: New Landscapes",
+    "title": "Week 8: Presentations - REU",
     "section": "",
     "text": "This week we will focus on new landscapes for ourselves and for our work. We will spend some time getting to know each other, getting to understand where we are in the big picture, and we’ll focus on building community and our own presence"
   },
   {
     "objectID": "weekly/08.html#schedule-at-a-glance",
     "href": "weekly/08.html#schedule-at-a-glance",
-    "title": "Week 8: New Landscapes",
+    "title": "Week 8: Presentations - REU",
     "section": "Schedule at a glance",
-    "text": "Schedule at a glance\nJuly 16 - 22\nAdd calendar color coding\nFull calendar is here\n\n\n\nSunday\n\n\n\n\nDay Off\n\n\n\n\n\n\nMonday\n\n\n\n\nJuneteenth on Yellow\n\n\n\npd, group meeting | Tuesday | Wednesday | Thursday | Friday | Saturday | ———|———–|———-|——–|———-|"
+    "text": "Schedule at a glance\nJuly 30 - August 5\nAdd calendar color coding\nFull calendar is here\n\n\n\nColor\nCategory\n\n\n\n\nYellow\nAll\n\n\nBlue\nREU\n\n\nGreen\nDDCSP\n\n\nPurple\nChris\n\n\nGrey\nDay Off"
   },
   {
     "objectID": "weekly/08.html#content",
     "href": "weekly/08.html#content",
-    "title": "Week 8: New Landscapes",
+    "title": "Week 8: Presentations - REU",
     "section": "Content",
-    "text": "Content\nsb r pd mh sms"
+    "text": "Content\nsb | r | pd | mh | sms |"
+  },
+  {
+    "objectID": "weekly/02.html#schedule-at-a-glance-1",
+    "href": "weekly/02.html#schedule-at-a-glance-1",
+    "title": "Week 02: New Landscapes",
+    "section": "Schedule at a glance",
+    "text": "Schedule at a glance\nJune 18 - 24 Add calendar color coding Full calendar is here\n\n\n\nColor\nCategory\n\n\n\n\nYellow\nAll\n\n\nBlue\nREU\n\n\nGreen\nDDCSP\n\n\nPurple\nChris\n\n\nGrey\nDay Off"
+  },
+  {
+    "objectID": "weekly/02.html#content-1",
+    "href": "weekly/02.html#content-1",
+    "title": "Week 02: New Landscapes",
+    "section": "Content",
+    "text": "Content\nsb | sb | [r]( |\nSkill Building (coding)\n- Install Zotero. This is the reference manager we are using to share papers and written resources - Install R & RStudio. You must install R first and then RStudio. RStudio is the user interface and R is the engine. - Create a GitHub account. This will be an excellent resource for you to store data and host a website for free - choose a name wisely. My name is my name - ChrisMantegna - this is standard convention. Creativity and cleverness must be on the level of the average user if you want it to be easily remembered. - Practice base R skills\nSkill Building (writing)\n- Follow the prompts for the week. It is difficult to build up to 30 minutes of writing practice at one time. Give yourself some grace, break it up into feasible time chunks that will add up to 30 minutes as you start.\nReading - We will read the foundational papers from the 2004 summer REU group to get an idea of what they did on the island. - Blog Post by Kiese Laymon, writer of Heavy and other books. It’s a nice reminder that we can all use practice.\n- Upon Comparing Oneself to Others by Paul A. del Giorgio. A nice reminder that exactly who you are is exactly who you need to be. - We will ustilize the Happy Git resource to help us to get our platforms to talk to each other\n\n\n\n\n\n\n\na472b098e1dc561c0da73c89b75439c942414e23"
+  },
+  {
+    "objectID": "weekly/01.html",
+    "href": "weekly/01.html",
+    "title": "Week 01: Welcome to the Program!",
+    "section": "",
+    "text": "This week the DDCSP students are in community with each other and they will join us on June 19th at the beginning of Week 2. The REU students and I will get to know each other, the rest of the REU cohort, and the FHL campus and amentities."
+  },
+  {
+    "objectID": "weekly/01.html#schedule-at-a-glance",
+    "href": "weekly/01.html#schedule-at-a-glance",
+    "title": "Week 01: Welcome to the Program!",
+    "section": "Schedule at a glance",
+    "text": "Schedule at a glance\nJune 11 - 17\nFull calendar is here\n\n\n\nColor\nCategory\n\n\n\n\nYellow\nAll\n\n\nBlue\nREU\n\n\nGreen\nDDCSP\n\n\nPurple\nChris\n\n\nGrey\nDay Off"
+  },
+  {
+    "objectID": "weekly/01.html#content",
+    "href": "weekly/01.html#content",
+    "title": "Week 01: Welcome to the Program!",
+    "section": "Content",
+    "text": "Content\nsb | r | pd | mh | sms |"
+  },
+  {
+    "objectID": "weekly/09.html",
+    "href": "weekly/09.html",
+    "title": "Week 8: Presentations - DDCSP",
+    "section": "",
+    "text": "This week we will focus on new landscapes for ourselves and for our work. We will spend some time getting to know each other, getting to understand where we are in the big picture, and we’ll focus on building community and our own presence"
+  },
+  {
+    "objectID": "weekly/09.html#schedule-at-a-glance",
+    "href": "weekly/09.html#schedule-at-a-glance",
+    "title": "Week 8: Presentations - DDCSP",
+    "section": "Schedule at a glance",
+    "text": "Schedule at a glance\nAugust 6 - August 12\nAdd calendar color coding\nFull calendar is here\n\n\n\nColor\nCategory\n\n\n\n\nYellow\nAll\n\n\nBlue\nREU\n\n\nGreen\nDDCSP\n\n\nPurple\nChris\n\n\nGrey\nDay Off"
+  },
+  {
+    "objectID": "weekly/09.html#content",
+    "href": "weekly/09.html#content",
+    "title": "Week 8: Presentations - DDCSP",
+    "section": "Content",
+    "text": "Content\nsb | r | pd | mh | sms |"
+  },
+  {
+    "objectID": "index.html#group-announcements",
+    "href": "index.html#group-announcements",
+    "title": "Yellow Island 2023",
+    "section": "Group Announcements",
+    "text": "Group Announcements\n\nsee GitHub issues"
   }
 ]
