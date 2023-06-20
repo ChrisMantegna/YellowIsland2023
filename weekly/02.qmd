@@ -1,6 +1,6 @@
 ---
 title: "Week 02: New Landscapes"
-subtitle: "Getting to know the Ecology of Yellow Island"
+subtitle: "Setting ourselves up to explore new places"
 
 format:
   html:
@@ -10,7 +10,7 @@ format:
     highlight-style: github
     code-overflow: wrap
 ---
-This week we will focus on new landscapes for ourselves and for our work. We will spend some time getting to know each other, getting to understand where we are in the big picture, and we'll focus on building community and our own presence 
+This week we will focus on new landscapes for ourselves and for our work. We will spend some time getting to know each other, getting to understand where we are in the big picture, and we'll focus on building community and our own presence. We'll get into a daily R practice, a daily writing practice, and build a place where we can showcase the work we are doing. 
 
 ## Schedule at a glance  
 June 18 - 24
@@ -27,4 +27,10 @@ Full calendar is [here](https://calendar.google.com/calendar/u/0?cid=Y2xhc3Nyb29
 
 
 ## Content
-| sb | r | pd | mh | sms |
+| sb | r | pd | mh | sms |  
+Skill Building (sb)  
+- Install [Zotero](https://www.zotero.org/). This is the reference manager we are using to share papers and written resources
+- Install [R & RStudio](https://happygitwithr.com/install-r-rstudio.html). You must install R first and then RStudio. RStudio is the user interface and R is the engine.
+- Create a [GitHub account](https://happygitwithr.com/github-acct.html). This will be an excellent resource for you to store data and host a website for free - choose a name wisely. My name is my name - ChrisMantegna - this is standard convention. Creativity and cleverness must be on the level of the average user if you want it to be easily remembered.
+- Practice base R skills
+
