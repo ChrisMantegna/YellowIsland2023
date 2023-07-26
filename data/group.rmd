@@ -1,165 +1,206 @@
-# General code for the basic analyses we will perform on the quadrat count data taken from yellow.  
+# General code for the basic analyses we will perform on the quadrat count data taken from yellow.
 
-#Setup
-# Load required libraries
-install.packages("vegan")   # If not installed previously
-library(vegan)
+#Setup 
+```{r}
+# Load required libraries install.packages("vegan") \# If not installed previously library(vegan)
 
 # Read the data from CSV
-intertidal_data <- read.csv("intertidal_data.csv", stringsAsFactors = FALSE)  
 
-#Species Richness, Diversity, Abundance
-#Recall our operators, $ and ~
+intertidal_data <- read.csv("intertidal_data.csv", stringsAsFactors = FALSE)
+```
 
 # Species Richness
+```{r}
 species_richness <- length(unique(intertidal_data$Species))
+``` 
 
 # Species Diversity (Shannon's Diversity Index)
+```{r}
 diversity_index <- diversity(intertidal_data$Percent_Cover, index = "shannon")
-
+```
 # Species Abundance
+```{r}
 species_abundance <- aggregate(Quadrat_Count ~ Species, intertidal_data, sum)
-
-# Community Compposition visualization via PCA Plot
+```
+# Community Composition visualization via PCA Plot
+```{r}
+# This is a plot that shows 3 dimensions of data in 2 dimensions
 # Create a species abundance matrix
+
 species_matrix <- t(table(intertidal_data$Species, intertidal_data$Quadrat_Count))
 
 # Run PCA
+
 pca_result <- rda(species_matrix)
 
 # Create a PCA plot in base R - do this first and then do it in ggplot
+
 plot(pca_result, type = "points", display = "species", cex = 1.5)
 
 # Load required libraries
-install.packages("ggplot2")   # If not installed previously
-library(ggplot2)
+
+install.packages("ggplot2") # If not installed previously library(ggplot2)
 
 # Extract PCA scores for each species
+
 pca_scores <- scores(pca_result, display = "species")
 
 # Convert PCA scores to a data frame
+
 pca_data <- as.data.frame(pca_scores$species)
 
 # Add Species names as a column
+
 pca_data$Species <- rownames(pca_data)
 
 # Create a PCA plot using ggplot2
-ggplot(pca_data, aes(x = PC1, y = PC2, label = Species)) +
-  geom_point() +
-  geom_text(size = 3, hjust = 0, vjust = 0) +
-  xlab("Principal Component 1") +
-  ylab("Principal Component 2") +
-  ggtitle("PCA Plot of Intertidal Species") +
-  theme_minimal()
 
-#Species Accumulation Curve
-# Load required library
-install.packages("vegan")   # If not installed previously
-library(vegan)
+ggplot(pca_data, aes(x = PC1, y = PC2, label = Species)) + geom_point() + geom_text(size = 3, hjust = 0, vjust = 0) + xlab("Principal Component 1") + ylab("Principal Component 2") + ggtitle("PCA Plot of Intertidal Species") + theme_minimal()
+```
 
-# Assuming you have a data frame 'species_data' with species names in column 'Species'
+#Species Accumulation Curve 
+```{r}
+# Load required library install.packages("vegan") # If not installed previously library(vegan)
+
+# Assuming you have a data frame 'species_data' with species names in column 'Species'. We may have to do this with genus or even family
+
 # and quadrat IDs in column 'Quadrat_ID'
 
 # Calculate species accumulation curve
+
 accum_curve <- specaccum(table(species_data$Species, species_data$Quadrat_ID))
 
 # Plot the species accumulation curve
+
 plot(accum_curve, xlab = "Number of Quadrats Sampled", ylab = "Number of Species")
+```
+
 
 # Species - Environment Relationships
+```{r}
 # Load required library
-install.packages("vegan")   # If not installed previously
-library(vegan)
+
+install.packages("vegan") # If not installed previously library(vegan)
 
 # Assuming you have environmental variables in columns 'Temperature', 'Salinity', etc. - We Only have substrate type but we can use this later if we find environmental data from NOAA or the likes
 
 # Create a community data matrix
+
 community_matrix <- table(species_data$Species, species_data$Quadrat_ID)
 
 # Create an environmental data matrix
+
 environment_matrix <- as.matrix(species_data[, c("Temperature", "Salinity")])
 
 # Run Canonical Correspondence Analysis (CCA)
-cca_result <- cca(community_matrix ~ ., data = species_data[, c("Species", "Quadrat_ID")], 
-                  env = environment_matrix)
+
+cca_result <- cca(community_matrix ~ ., data = species_data[, c("Species", "Quadrat_ID")], env = environment_matrix)
 
 # Summary of the CCA results
-summary(cca_result)
 
-# Cluster Analysis - used to compare between sites
-# Assuming you have a data frame 'species_data' with species abundances in quadrats
+summary(cca_result)
+```
+
+# Cluster Analysis 
+```{r}
+# Assuming you have a data frame 'species_data' with species abundances in quadrats/ This is used to compare between sites/ sections for us
 
 # Calculate Bray-Curtis dissimilarity matrix
+
 bray_curtis_matrix <- vegdist(species_data[, -c("Species", "Quadrat_ID")], method = "bray")
 
 # Perform hierarchical clustering
+
 hc <- hclust(bray_curtis_matrix)
 
 # Plot the dendrogram
+
 plot(hc, main = "Dendrogram of Intertidal Quadrats", xlab = "Quadrats", ylab = "Distance")
+```
 
 # Indicator Species Analysis
+```{r}
 # Assuming you have a data frame 'species_data' with species abundances and environmental data
 
 # Load required library
-install.packages("indicspecies")   # If not installed previously
-library(indicspecies)
+
+install.packages("indicspecies") # If not installed previously library(indicspecies)
 
 # Run Indicator Species Analysis
-indicator_species <- multipatt(species_data[, -c("Species", "Quadrat_ID")], 
-                               species_data$Species)
+
+indicator_species <- multipatt(species_data[, -c("Species", "Quadrat_ID")], species_data$Species)
 
 # View the results
+
 summary(indicator_species)
+```
 
 # Non-metric Multidimensional Scaling (NMDS)
+```{r}
 # Load required library
-install.packages("vegan")   # If not installed previously
-library(vegan)
+
+install.packages("vegan") # If not installed previously library(vegan)
 
 # Assuming you have a data frame 'species_data' with species abundances in quadrats
 
 # Calculate Bray-Curtis dissimilarity matrix
-bray_curtis_matrix <- vegdist(species_data[, -c("Species", "Quadrat_ID")], method = "bray")
+
+bray_curtis_matrix <- vegdist(species_data\[, -c("Species", "Quadrat_ID")], method = "bray")
 
 # Perform NMDS
+
 nmds_result <- metaMDS(bray_curtis_matrix, distance = "bray")
 
 # Plot the NMDS ordination
+
 plot(nmds_result, type = "text")
+```
 
 # Permutational Analysis of Variance (PERMANOVA)
+```{r}
+
 # Load required library
-install.packages("vegan")   # If not installed previously
-library(vegan)
+
+install.packages("vegan") # If not installed previously library(vegan)
 
 # Assuming you have a data frame 'species_data' with species abundances in quadrats
 
 # Calculate Bray-Curtis dissimilarity matrix
+
 bray_curtis_matrix <- vegdist(species_data[, -c("Species", "Quadrat_ID")], method = "bray")
 
 # Perform PERMANOVA
-permanova_result <- adonis(formula = bray_curtis_matrix ~ Grouping_Variable, 
-                           data = species_data)
+
+permanova_result <- adonis(formula = bray_curtis_matrix ~ Grouping_Variable, data = species_data)
 
 # View the results
+
 summary(permanova_result)
+```
 
 # Correlation Analysis
+```{r}
 # Assuming you have a data frame 'species_data' with species abundances and environmental data
 
 # Calculate the correlation matrix
+
 correlation_matrix <- cor(species_data[, -c("Species", "Quadrat_ID")])
 
 # View the correlation matrix
+
 print(correlation_matrix)
+```
 
 # Species Abundance Distribution (SAD) Analysis
+```{r}
 # Assuming you have a data frame 'species_data' with species abundances in quadrats
 
 # Calculate species abundance distribution
+
 sad <- table(species_data$Species)
 
 # Plot the SAD
+
 plot(sad, xlab = "Species Abundance", ylab = "Frequency", main = "Species Abundance Distribution")
+```
 
