@@ -1,4 +1,4 @@
-title: "RNA-seq Data Retrieval & Kallisto Evaluation"
+title: "Core Code for Ecological Quadrat Count Data"
 author: Chris
 date: "`r format(Sys.time(), '%d %B, %Y')`"  
 output: 
@@ -17,9 +17,12 @@ editor:
 
 ```{r setup, include=FALSE}
 library(knitr)
-library(tidyverse)
-library(kableExtra)
+install.packages("tidyverse")
+library("tidyverse")
+#library(kableExtra)
+install.packages("vegan")
 library(vegan)
+install.packages("indicspecies")
 library("indicspecies")
 library(RColorBrewer)
 library(data.table)
