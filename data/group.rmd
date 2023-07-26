@@ -1,8 +1,47 @@
-# General code for the basic analyses we will perform on the quadrat count data taken from yellow.
+title: "RNA-seq Data Retrieval & Kallisto Evaluation"
+author: Chris
+date: "`r format(Sys.time(), '%d %B, %Y')`"  
+output: 
+  html_document:
+    theme: readable
+    highlight: zenburn
+    toc: true
+    toc_float: true
+    number_sections: true
+    code_folding: show
+    code_download: true
+editor: 
+  markdown: 
+    wrap: 72
+---
 
-#Setup 
+```{r setup, include=FALSE}
+library(knitr)
+library(tidyverse)
+library(kableExtra)
+library(vegan)
+library("indicspecies")
+library(RColorBrewer)
+library(data.table)
+library(DT)
+library('ggplot2')
+knitr::opts_chunk$set(
+  echo = TRUE,         # Display code chunks
+  eval = FALSE,         # Evaluate code chunks
+  warning = FALSE,     # Hide warnings
+  message = FALSE,     # Hide messages
+  fig.width = 6,       # Set plot width in inches
+  fig.height = 4,      # Set plot height in inches
+  fig.align = "center" # Align plots to the center
+)
+```
+
+# General code for the basic analyses we will perform on the quadrat count data taken from yellow. When you use it, copy it to a new file so that you know what the original is and what your version is - this will help you to keep track of changes/ names/ etc.
+
+#Setup
+
 ```{r}
-# Load required libraries install.packages("vegan") \# If not installed previously library(vegan)
+# Load required libraries install.packages("vegan") # If not installed previously library(vegan)
 
 # Read the data from CSV
 
@@ -10,19 +49,25 @@ intertidal_data <- read.csv("intertidal_data.csv", stringsAsFactors = FALSE)
 ```
 
 # Species Richness
+
 ```{r}
 species_richness <- length(unique(intertidal_data$Species))
-``` 
+```
 
 # Species Diversity (Shannon's Diversity Index)
+
 ```{r}
 diversity_index <- diversity(intertidal_data$Percent_Cover, index = "shannon")
 ```
+
 # Species Abundance
+
 ```{r}
 species_abundance <- aggregate(Quadrat_Count ~ Species, intertidal_data, sum)
 ```
+
 # Community Composition visualization via PCA Plot
+
 ```{r}
 # This is a plot that shows 3 dimensions of data in 2 dimensions
 # Create a species abundance matrix
@@ -39,7 +84,7 @@ plot(pca_result, type = "points", display = "species", cex = 1.5)
 
 # Load required libraries
 
-install.packages("ggplot2") # If not installed previously library(ggplot2)
+# install.packages("ggplot2") # If not installed previously library(ggplot2)
 
 # Extract PCA scores for each species
 
@@ -58,7 +103,8 @@ pca_data$Species <- rownames(pca_data)
 ggplot(pca_data, aes(x = PC1, y = PC2, label = Species)) + geom_point() + geom_text(size = 3, hjust = 0, vjust = 0) + xlab("Principal Component 1") + ylab("Principal Component 2") + ggtitle("PCA Plot of Intertidal Species") + theme_minimal()
 ```
 
-#Species Accumulation Curve 
+#Species Accumulation Curve
+
 ```{r}
 # Load required library install.packages("vegan") # If not installed previously library(vegan)
 
@@ -75,12 +121,12 @@ accum_curve <- specaccum(table(species_data$Species, species_data$Quadrat_ID))
 plot(accum_curve, xlab = "Number of Quadrats Sampled", ylab = "Number of Species")
 ```
 
-
 # Species - Environment Relationships
+
 ```{r}
 # Load required library
 
-install.packages("vegan") # If not installed previously library(vegan)
+# install.packages("vegan") # If not installed previously library(vegan)
 
 # Assuming you have environmental variables in columns 'Temperature', 'Salinity', etc. - We Only have substrate type but we can use this later if we find environmental data from NOAA or the likes
 
@@ -101,7 +147,8 @@ cca_result <- cca(community_matrix ~ ., data = species_data[, c("Species", "Quad
 summary(cca_result)
 ```
 
-# Cluster Analysis 
+# Cluster Analysis
+
 ```{r}
 # Assuming you have a data frame 'species_data' with species abundances in quadrats/ This is used to compare between sites/ sections for us
 
@@ -119,12 +166,13 @@ plot(hc, main = "Dendrogram of Intertidal Quadrats", xlab = "Quadrats", ylab = "
 ```
 
 # Indicator Species Analysis
+
 ```{r}
 # Assuming you have a data frame 'species_data' with species abundances and environmental data
 
 # Load required library
 
-install.packages("indicspecies") # If not installed previously library(indicspecies)
+# install.packages("indicspecies") # If not installed previously library(indicspecies)
 
 # Run Indicator Species Analysis
 
@@ -136,10 +184,11 @@ summary(indicator_species)
 ```
 
 # Non-metric Multidimensional Scaling (NMDS)
+
 ```{r}
 # Load required library
 
-install.packages("vegan") # If not installed previously library(vegan)
+# install.packages("vegan") # If not installed previously library(vegan)
 
 # Assuming you have a data frame 'species_data' with species abundances in quadrats
 
@@ -157,11 +206,12 @@ plot(nmds_result, type = "text")
 ```
 
 # Permutational Analysis of Variance (PERMANOVA)
+
 ```{r}
 
 # Load required library
 
-install.packages("vegan") # If not installed previously library(vegan)
+# install.packages("vegan") # If not installed previously library(vegan)
 
 # Assuming you have a data frame 'species_data' with species abundances in quadrats
 
@@ -179,6 +229,7 @@ summary(permanova_result)
 ```
 
 # Correlation Analysis
+
 ```{r}
 # Assuming you have a data frame 'species_data' with species abundances and environmental data
 
@@ -192,6 +243,7 @@ print(correlation_matrix)
 ```
 
 # Species Abundance Distribution (SAD) Analysis
+
 ```{r}
 # Assuming you have a data frame 'species_data' with species abundances in quadrats
 
@@ -203,4 +255,3 @@ sad <- table(species_data$Species)
 
 plot(sad, xlab = "Species Abundance", ylab = "Frequency", main = "Species Abundance Distribution")
 ```
-
