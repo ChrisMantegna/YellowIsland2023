@@ -1,0 +1,45 @@
+---
+title: "Testing Method"
+author: "Chris"
+date: "2023-07-27"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+# Step 1: Create a data frame with the provided data
+data <- read.csv("section1.csv", headers= TRUE)
+```
+
+```{r}
+# Step 2: Load the required packages and create the stacked bar plot using ggplot2
+library(ggplot2)
+
+ggplot(data, aes(x = zonation, y = BARNACLE + `BARE ROCK` + ALGAE, fill = factor(substring(names(data)[3:5], 1)))) +
+  geom_bar(stat = "identity") +
+  labs(title = "Stacked Bar Plot of Substrate Type by Zonation",
+       x = "Zonation",
+       y = "Percent",
+       fill = "Substrate Type") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+```
+
+
+```{r}
+
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

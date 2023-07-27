@@ -1,18 +1,19 @@
-title: "Core Code for Ecological Quadrat Count Data"
-author: Chris
-date: "`r format(Sys.time(), '%d %B, %Y')`"  
+---
+title: "Core Code for Ecological Quadrat Count Data" 
+author: Chris 
+date: "`r format(Sys.time(), '%d %B, %Y')`"\
 output: 
-  html_document:
-    theme: readable
-    highlight: zenburn
-    toc: true
-    toc_float: true
-    number_sections: true
-    code_folding: show
-    code_download: true
+  html_document: 
+  theme: readable 
+  highlight: zenburn 
+    toc: true 
+    toc_float: true 
+    number_sections: true 
+    code_folding: show 
+    code_download: true 
 editor: 
-  markdown: 
-    wrap: 72
+markdown: 
+wrap: 72 
 ---
 
 ```{r setup, include=FALSE}
@@ -26,7 +27,6 @@ install.packages("indicspecies")
 library("indicspecies")
 library(RColorBrewer)
 library(data.table)
-library(DT)
 library('ggplot2')
 knitr::opts_chunk$set(
   echo = TRUE,         # Display code chunks
@@ -197,7 +197,7 @@ summary(indicator_species)
 
 # Calculate Bray-Curtis dissimilarity matrix
 
-bray_curtis_matrix <- vegdist(species_data\[, -c("Species", "Quadrat_ID")], method = "bray")
+bray_curtis_matrix <- vegdist(species_data[, -c("Species", "Quadrat_ID")], method = "bray")
 
 # Perform NMDS
 
@@ -257,4 +257,75 @@ sad <- table(species_data$Species)
 # Plot the SAD
 
 plot(sad, xlab = "Species Abundance", ylab = "Frequency", main = "Species Abundance Distribution")
+```
+
+# Heatmap
+
+```{r}
+#install.packages("reshape2")
+# Load required libraries
+library(ggplot2)
+
+# Prepare data for heatmap
+heatmap_data <- intertidal_data[, -1]  # Remove the "Site" column
+rownames(heatmap_data) <- intertidal_data$Site
+
+# Create the heatmap
+heatmap_plot <- ggplot(heatmap_data, aes(x = Species, y = Site, fill = Species)) +
+  geom_tile() +
+  theme_minimal() +
+  scale_fill_manual(values = c("white", "blue"), labels = c("Absent", "Present")) +
+  labs(title = "Presence/Absence Heatmap",
+       x = "Species",
+       y = "Site")
+
+print(heatmap_plot)
+
+```
+
+# Stacked Bar Plot
+
+```{r}
+# Load required libraries
+library(ggplot2)
+library(reshape2)
+
+# Melt the data for stacked barplot
+melted_data <- melt(intertidal_data, id.vars = "Site")
+
+# Create the stacked barplot
+stacked_barplot <- ggplot(melted_data, aes(x = Site, fill = factor(value))) +
+  geom_bar() +
+  theme_minimal() +
+  scale_fill_manual(values = c("blue", "white"), labels = c("Present", "Absent")) +
+  labs(title = "Presence/Absence Stacked Barplot",
+       x = "Site",
+       y = "Count",
+       fill = "Presence")
+
+print(stacked_barplot)
+
+```
+
+# Stacked Area Plot
+
+```{r}
+# Load required libraries
+library(ggplot2)
+library(reshape2)
+
+# Melt the data for stacked area plot
+melted_data <- melt(intertidal_data, id.vars = "Site")
+
+# Create the stacked area plot
+stacked_area_plot <- ggplot(melted_data, aes(x = Site, y = value, fill = variable)) +
+  geom_area() +
+  theme_minimal() +
+  labs(title = "Intertidal Percent Cover",
+       x = "Site",
+       y = "Percent Cover",
+       fill = "Species")
+
+print(stacked_area_plot)
+
 ```
