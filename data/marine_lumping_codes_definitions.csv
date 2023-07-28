@@ -1,0 +1,76 @@
+lumping_code,lumping_name,marine_species_definition,WoRMS_AphiaID,kingdom,phylum,class,order,family,genus,species,load_date
+ANTELE,Anthopleura elegantissima/sola,anthopleura elegantissima/sola; may also include a. xanthogrammica at some sites,100696,Animalia,Cnidaria,Anthozoa,Actiniaria,Actiniidae,Anthopleura,NULL,2023-06-06
+ARTCOR,Articulated Corallines,erect; jointed; calcified; red algae of the Family Corallinaceae; with flexible; articulate fronds arising from crustose bases,143691,Plantae,(Division) Rhodophyta,Florideophyceae,Corallinales,Corallinaceae,NULL,NULL,2023-06-06
+ASTSER,Astrometis sertulifera,astrometis sertulifera,255044,Animalia,Echinodermata,Asteroidea,Forcipulatida,Asteriidae,Astrometis,Astrometis sertulifera,2023-06-06
+BARNAC,Barnacles,any species of barnacle; used for transects where species are not distinguished; also used in early photoplot data?,106033,Animalia,Arthropoda,Thecostraca,Sessilia,NULL,NULL,NULL,2023-06-06
+CAUUST,Caulacanthus okamurae,caulacanthus ustulatus,145606,Plantae,(Division) Rhodophyta,Florideophyceae,Gigartinales,Caulacanthaceae,Caulacanthus,Caulacanthus ustulatus,2023-06-06
+CHITON,Chitons,any species of chiton,55,Animalia,Mollusca,Polyplacophora,NULL,NULL,NULL,NULL,2023-06-06
+CHOCAN,Chondracanthus canaliculatus,chondracanthus canaliculatus,371723,Plantae,(Division) Rhodophyta,Florideophyceae,Gigartinales,Gigartinaceae,Chondracanthus,Chondracanthus canaliculatus,2023-06-06
+CHTBAL,Chthamalus spp/Balanus glandula,chthamalus dalli/fissus/balanus glandula; includes semibalanus balanoides for Sitka AK sites only;  used for photoplots scored in the lab,106033,Animalia,Arthropoda,Thecostraca,Sessilia,NULL,NULL,NULL,2023-06-06
+CLACOL,Cladophora columbiana,cladophora columbiana,371784,Plantae,(Division) Chlorophyta,Ulvophyceae,Cladophorales,Cladophoraceae,Cladophora,Cladophora columbiana,2023-06-06
+COLLEA,Colpomenia/Leathesia spp,colpomenia/leathesia spp,842,Chromista,Ochrophyta,Phaeophyceae,Ectocarpales,NULL,NULL,NULL,2023-06-06
+CRUCOR,Crustose Corallines,thin; flattened; calcified; crust-like red algae of the Family Corallinaceae; having no erect; articulated fronds. Bleached crustose corallines (white) are scored as well because they may be alive,143691,Plantae,(Division) Rhodophyta,Florideophyceae,Corallinales,Corallinaceae,NULL,NULL,2023-06-06
+DERIMB,Dermasterias imbricata,dermasterias imbricata,240771,Animalia,Echinodermata,Asteroidea,Valvatida,Asteropseidae,Dermasterias,Dermasterias imbricata,2023-06-06
+DIDVEX,Didemnum vexillum,didemnum vexillum,250126,Animalia,Chordata,Ascidiacea,Aplousobranchia,Didemnidae,Didemnum,Didemnum vexillum,2023-06-06
+EGRMEN,Egregia menziesii,egregia menziesii,372502,Chromista,Ochrophyta,Phaeophyceae,Laminariales,Lessoniaceae,Egregia,Egregia menziesii,2023-06-06
+EISARB,Eisenia arborea,eisenia arborea,371990,Chromista,Ochrophyta,Phaeophyceae,Laminariales,Lessoniaceae,Eisenia,Eisenia arborea,2023-06-06
+ENDMUR,Endocladia muricata,endocladia muricata,372566,Plantae,(Division) Rhodophyta,Florideophyceae,Gigartinales,Endocladiaceae,Endocladia,Endocladia muricata,2023-06-06
+ENPEPH,Endarachne/Petalonia/Phaeostrophion spp,endarachne/petalonia/phaeostrophion spp,830,Chromista,Ochrophyta,Phaeophyceae,NULL,NULL,NULL,NULL,2023-06-06
+EVATRO,Evasterias troschelii,evasterias troschelii,255040,Animalia,Echinodermata,Asteroidea,Forcipulatida,Asteriidae,Evasterias,Evasterias troschelii,2023-06-06
+FUCGAR,Fucus gardneri,fucus gardneri,145544,Chromista,Ochrophyta,Phaeophyceae,Fucales,Fucaceae,Fucus,Fucus distichus,2023-06-06
+GELPTE,Gelidium coulteri/pusillum/pterocladiella spp,gelidium coulteri/pusillum/pterocladiella spp,146315,Plantae,(Division) Rhodophyta,Florideophyceae,Gelidiales,NULL,NULL,NULL,2023-06-06
+HALCRA,Haliotis cracherodii,haliotis cracherodii,405012,Animalia,Mollusca,Gastropoda,Lepetellida,Haliotidae,Haliotis,Haliotis cracherodii,2023-06-06
+HALSTE,Halidrys dioica/Stephanosystis spp,halidrys dioica/cystoseira spp,370250,Chromista,Ochrophyta,Phaeophyceae,Fucales,Sargassaceae,Stephanocystis,NULL,2023-06-06
+HEDSES,Hedophyllum sessile,hedophyllum sessile,496237,Chromista,Ochrophyta,Phaeophyceae,Laminariales,Laminariaceae,Hedophyllum,Hedophyllum sessile,2023-06-06
+HENSPP,Henricia spp,henricia spp,123276,Animalia,Echinodermata,Asteroidea,Spinulosida,Echinasteridae,Henricia,NULL,2023-06-06
+HESCAL,Pelvetiopsis californica,prev. hesperophycus californicus; currently pelvetiopsis californica,374117,Chromista,Ochrophyta,Phaeophyceae,Fucales,Fucaceae,Hesperophycus,Hesperophycus californicus,2023-06-06
+KATTUN,Katharina tunicata,katharina tunicata,386338,Animalia,Mollusca,Polyplacophora,Chitonida,Mopaliidae,Katharina,Katharina tunicata,2023-06-06
+LEPTAS,Leptasterias spp,leptasterias spp,123222,Animalia,Echinodermata,Asteroidea,Forcipulatida,Asteriidae,Leptasterias,NULL,2023-06-06
+LIMPET,Limpets,all species of limpets through spring 2002; all limpets other than lottia gigantea from fall 2002 to present,391063,Animalia,Mollusca,Gastropoda,NULL,NULL,NULL,NULL,2023-06-06
+LOMHAK,Lomentaria hakodatensis,lomentaria hakodatensis,232230,Plantae,(Division) Rhodophyta,Florideophyceae,Rhodymeniales,Lomentariaceae,Lomentaria,Lomentaria hakodatensis,2023-06-06
+LOTGIG,Lottia gigantea,lottia gigantea,456593,Animalia,Mollusca,Gastropoda,NULL,Lottiidae,Lottia,Lottia gigantea,2023-06-06
+MASSPP,Mastocarpus papillatus/jardinii,mastocarpus papillatus/jardinii,144163,Plantae,(Division) Rhodophyta,Florideophyceae,Gigartinales,Phyllophoraceae,Mastocarpus,NULL,2023-06-06
+MAZAFF,Mazzaella affinis,mazzaella affinis,371703,Plantae,(Division) Rhodophyta,Florideophyceae,Gigartinales,Gigartinaceae,Mazzaella,Mazzaella affinis,2023-06-06
+MAZPAR,Mazzaella parksii,mazzaella parksii,376220,Plantae,(Division) Rhodophyta,Florideophyceae,Gigartinales,Gigartinaceae,Mazzaella,Mazzaella parksii,2023-06-06
+MAZSPP,Mazzaella spp.,mazzaella spp (=iridaea spp),369878,Plantae,(Division) Rhodophyta,Florideophyceae,Gigartinales,Gigartinaceae,Mazzaella,NULL,2023-06-06
+MYTCAL,Mytilus californianus,primarily mytilus californianus; but may include m. trossulus/galloprovincialis; septifer; and brachydontes where photoplots scored in lab or where juvenile species were too small to id in the field,367837,Animalia,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus californianus,2023-06-06
+MYTTRO,Mytilus trossulus,mytilus trossulus,138228,Animalia,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,NULL,2023-06-06
+NEOLAR,Neorhodomela larix,neorhodomela larix,372616,Plantae,(Division) Rhodophyta,Florideophyceae,Ceramiales,Rhodomelaceae,Neorhodomela,Neorhodomela larix,2023-06-06
+NONCRU,Non-coralline Crusts,any thin; flattened; crust-like algae other than coralline crusts,3,Plantae,NULL,NULL,NULL,NULL,NULL,NULL,2023-06-06
+ORTKOE,Orthasterias koehleri,orthasterias koehleri,255048,Animalia,Echinodermata,Asteroidea,Forcipulatida,Asteriidae,Orthasterias,Orthasterias koehleri,2023-06-06
+OTHALG,Other Algae/Plants,algae/plants that cannot be identified to species or group,NA,NULL,NULL,NULL,NULL,NULL,NULL,NULL,2023-06-06
+OTHBAR,Other Barnacle,barnacle other than chthamalus spp; balanus glandula; pollicipes;tetraclita; or semibalanus,1082,Animalia,Arthropoda,Thecostraca,NULL,NULL,NULL,NULL,2023-06-06
+OTHBRO,Other Brown Algae,brown algae other than those scored separately (varies by group and over time),7,Chromista,NULL,NULL,NULL,NULL,NULL,NULL,2023-06-06
+OTHGRE,Other Green Algae,green algae other than those scored separately (varies by group and over time),801,Plantae,(Division) Chlorophyta,NULL,NULL,NULL,NULL,NULL,2023-06-06
+OTHINV,Other Invertebrate,invertebrates other than those scored separately (varies by group and over time),2,Animalia,NULL,NULL,NULL,NULL,NULL,NULL,2023-06-06
+OTHRED,Other Red Algae,red algae other than those scored separately (varies by group and over time),852,Plantae,(Division) Rhodophyta,NULL,NULL,NULL,NULL,NULL,2023-06-06
+OTHSUB,Other Substrate,substrate other than rock or sand; includes dead barnacles; mussels; etc. where these are not scored separately,NA,NULL,NULL,NULL,NULL,NULL,NULL,NULL,2023-06-06
+PATMIN,Patiria miniata,patiria miniata,382131,Animalia,Echinodermata,Asteroidea,Valvatida,Asterinidae,Patiria,Patiria miniata,2023-06-06
+PELLIM,Pelvetiopsis limitata,pelvetiopsis limitata,372511,Chromista,Ochrophyta,Phaeophyceae,Fucales,Fucaceae,Pelvetiopsis,Pelvetiopsis limitata,2023-06-06
+PHRSAB,Phragmatopoma/Sabellaria spp,phragmatopoma californica at sites south of Bodega; but may include other species of sabellaridae at more northern sites,979,Animalia,Annelida,Polychaeta,NULL,Sabellariidae,NULL,NULL,2023-06-06
+PHYSPP,Phyllospadix spp,primarily phyllospadix scouleri/torreyi overstory but includes p. serrulatus at northern sites,370041,Plantae,(Division) Tracheophyta,Magnoliopsida,Alismatales,Zosteraceae,Phyllospadix,NULL,2023-06-06
+PHYUND,Phyllospadix spp understory,phyllospadix spp occurring under other species of algae/plants,370041,Plantae,(Division) Tracheophyta,Magnoliopsida,Alismatales,Zosteraceae,Phyllospadix,NULL,2023-06-06
+PISBRE,Pisaster brevispinus,pisaster brevispinus,240757,Animalia,Echinodermata,Asteroidea,Forcipulatida,Asteriidae,Pisaster,Pisaster brevispinus,2023-06-06
+PISGIG,Pisaster giganteus,pisaster giganteus,240758,Animalia,Echinodermata,Asteroidea,Forcipulatida,Asteriidae,Pisaster,Pisaster giganteus,2023-06-06
+PISOCH,Pisaster ochraceus,pisaster ochraceus,240755,Animalia,Echinodermata,Asteroidea,Forcipulatida,Asteriidae,Pisaster,Pisaster ochraceus,2023-06-06
+POLPOL,Pollicipes polymerus,pollicipes polymerus,535329,Animalia,Arthropoda,Thecostraca,Pollicipedomorpha,Pollicipedidae,Pollicipes,Pollicipes polymerus,2023-06-06
+PORSPP,Porphyra spp.,porphyra spp,603075,Plantae,(Division) Rhodophyta,Bangiophyceae,Bangiales,Bangiaceae,Pyropia,NULL,2023-06-06
+POSPAL,Postelsia palmaeformis,postelsia palmaeformis,372518,Chromista,Ochrophyta,Phaeophyceae,Laminariales,Laminariaceae,Postelsia,Postelsia palmaeformis,2023-06-06
+PYCHEL,Pycnopodia helianthoides,pycnopodia helianthoides,240764,Animalia,Echinodermata,Asteroidea,Forcipulatida,Asteriidae,Pycnopodia,Pycnopodia helianthoides,2023-06-06
+ROCK,Rock,bare; unconsolidated substrates larger than sand/gravel (including cobble; rocks; and boulders) and all consolidated substrates (i.e.; bedrock) that contain no obvious living organisms or tar (epoxy corner markers and blue-green algal films are scored as ,NA,NULL,NULL,NULL,NULL,NULL,NULL,NULL,2023-06-06
+SAND,Sand,granular; particulate (fine sand to gravel) substrate. Photoplots: score ,NA,NULL,NULL,NULL,NULL,NULL,NULL,NULL,2023-06-06
+SARHOR,Sargassum horneri,sargassum horneri,494853,Chromista,Ochrophyta,Phaeophyceae,Fucales,Sargassaceae,Sargassum,Sargassum horneri,2023-06-06
+SARMUT,Sargassum muticum,sargassum muticum,494791,Chromista,Ochrophyta,Phaeophyceae,Fucales,Sargassaceae,Sargassum,Sargassum muticum,2023-06-06
+SCYSPP,Scytosiphon/Melanosiphon spp,scytosiphon spp; melanosiphon spp\n,830,Chromista,Ochrophyta,Phaeophyceae,NULL,NULL,NULL,NULL,2023-06-06
+SEMCAR,Semibalanus cariosus,semibalanus cariosus,594746,Animalia,Arthropoda,Thecostraca,Balanomorpha,Balanidae,Semibalanus,Semibalanus cariosus,2023-06-06
+SEPBRA,Septifer bifurcatus; Brachidontes adamsianus,septifer bifurcatus/brachydontes adamsianus,211,Animalia,Mollusca,Bivalvia,Mytilida,Mytilidae,NULL,NULL,2023-06-06
+SILCOM,Silvetia compressa,silvetia compressa,374120,Chromista,Ochrophyta,Phaeophyceae,Fucales,Fucaceae,Silvetia,Silvetia compressa,2023-06-06
+SILHES,Silvetia/Hesperophycus,silvetia compressa/hesperophycus californicus,143723,Chromista,Ochrophyta,Phaeophyceae,Fucales,Fucaceae,NULL,NULL,2023-06-06
+STRFRA,Strongylocentrotus franciscanus,strongylocentrotus franciscanus,591102,Animalia,Echinodermata,Echinoidea,Camarodonta,Strongylocentrotidae,Mesocentrotus,Mesocentrotus franciscanus,2023-06-06
+STRPUR,Strongylocentrotus purpuratus,strongylocentrotus purpuratus,240747,Animalia,Echinodermata,Echinoidea,Camarodonta,Strongylocentrotidae,Strongylocentrotus,Strongylocentrotus purpuratus,2023-06-06
+TAR,Tar,fresh or weathered oil or tar coating on the substrate,NA,NULL,NULL,NULL,NULL,NULL,NULL,NULL,2023-06-06
+TETRUB,Tetraclita rubescens,tetraclita rubescens,733565,Animalia,Arthropoda,Thecostraca,Balanomorpha,Tetraclitidae,Tetraclita,Tetraclita squamosa,2023-06-06
+ULVENT,Ulva/Enteromorpha,ulva spp/enteromorpha spp,146216,Plantae,(Division) Chlorophyta,Ulvophyceae,NULL,NULL,NULL,NULL,2023-06-06
+UNDPIN,Undaria pinnatifida,undaria pinnatifida,145721,Chromista,Ochrophyta,Phaeophyceae,Laminariales,Alariaceae,Undaria,Undaria pinnatifida,2023-06-06
+UNIDEN,Unidentified,cannot tell if plant; invertebrate; or substrate,NA,NULL,NULL,NULL,NULL,NULL,NULL,NULL,2023-06-06
+ZOSMAR,Zostera marina,zostera marina,495077,Plantae,(Division) Tracheophyta,Magnoliopsida,Alismatales,Zosteraceae,Zostera,Zostera marina,2023-06-06
