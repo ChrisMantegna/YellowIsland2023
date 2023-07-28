@@ -1,0 +1,190 @@
+---
+title: "Initial Data Visualization " 
+author: Chris 
+date: "`r format(Sys.time(), '%d %B, %Y')`"\
+output: 
+  html_document: 
+  theme: readable 
+  highlight: zenburn 
+    toc: true 
+    toc_float: true 
+    number_sections: true 
+    code_folding: show 
+    code_download: true 
+editor: 
+markdown: 
+wrap: 72 
+---
+
+###READ ME
+We will use the following files to explore our data
+presence.csv - Presence/ Absence data of seaweeds (may collapse this further, but it is here as a relic)
+percentCover.csv - the substrate and second layer information
+truncated.csv - this is a simplified version of species data that
+Add parameters block/ explanation of choices on render
+What I did - will chronicle as things work
+
+# Package Install and call
+```{r}
+
+# Installation is commented out, remove hashtag if you need to install
+#install.packages("kableExtra")
+
+```
+
+```{r}
+
+#Use library to call your installed packages for use
+library(data.table)
+library(dplyr)
+library('ggplot2')
+library("indicspecies")
+library(kableExtra)
+library(knitr)
+library(RColorBrewer)
+library(tidyr)
+library(tidyverse)
+library(vegan)
+
+```
+
+# Working directory & data load
+```{r}
+
+getwd()
+
+```
+
+```{r}
+#You can also hover over the file on your 'files pane' and right click to import data
+#change this path/ place to you and your file path
+setwd("/home/shared/8TB_HDD_02/cnmntgna/GitHub/YellowIsland2023/data")
+
+counts<- read.csv("data.csv", header= TRUE)
+pa<- read.csv("presence.csv", header= TRUE)
+
+```
+
+# At-a-Glance data frame check
+```{r}
+
+#shows the dimensions of your data frame, a quick check to make sure everything imported the way you like
+dim(counts)
+
+#quick view of data frame structure
+str(counts)
+
+#look at the summary of your data
+summary(counts)
+
+```
+
+```{r}
+
+#repeat the process for the second dataframe. Make Note that our data here is characters and will have to change to a number so we can manipulate it.
+dim(pa)
+
+str(pa)
+
+summary(pa)
+
+```
+
+# Change dataframe structures so we can work with the data
+
+```{r}
+
+#trying to apply the section1 test code to create a stacked bar for species presence across the sections.
+counts_long <- counts %>%
+  gather(key = "Species", value = "Count", PORIFERA:OSTEICHTHYES)
+
+```
+
+```{r}
+# this counts the categories from above so i can plot them
+counts2 <- counts_long %>%
+  group_by(SECTION, Species, Count) %>%
+  tally()
+```
+
+```{r}
+
+# plot the species counts
+ggplot(counts2, aes(x = Species, y = n, fill = Count)) +
+  geom_bar(stat = "identity") +
+  labs(title = "Species Count by Section",
+       x = "Species",
+       y = "Count",
+       fill = "Count") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  facet_wrap(~SECTION, ncol = 2)
+
+```
+# Species Richness
+## How many different species are present in different sections on YI?
+### Note 'species' is a misleading name because these aren't all species, some are phyla. This will be corrected
+```{r}
+# total island richness is 28 unique species present (non-algal) 
+species_richness <- length(unique(counts2$Species))
+
+print(species_richness)
+```
+
+# Trying Presence/ Absence Data Manipulation
+```{r}
+# Step 1: Create a data frame with the provided data
+data <- read.csv("presence.csv")
+```
+
+```{r}
+
+#different data pivot; using the full sheet
+
+data_long <- data %>%
+  gather(key = "Seaweed", value = "Presence", FL_ROCKWEED:FL_OTHER)
+
+```
+
+```{r}
+
+seaweed_counts <- data_long %>%
+  group_by(SECTION, Seaweed, Presence) %>%
+  tally()
+
+```
+
+
+```{r}
+
+ggplot(seaweed_counts, aes(x = Seaweed, y = n, fill = Presence)) +
+  geom_bar(stat = "identity") +
+  labs(title = "Presence/Absence of Seaweeds",
+       x = "Seaweed Species",
+       y = "Count",
+       fill = "Presence") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  facet_wrap(~SECTION, ncol = 2)
+
+```
+```{R}
+#section1 test data to show zonation v substrate - have to alter this to make that happen
+
+test_long <- data %>%
+  pivot_longer(cols = c(BARNACLE, ROCK, ALGAE),
+               names_to = "substrate",
+               values_to = "percent")
+
+# Printing the first few rows of the resulting data frame
+print(data_long)
+```
+
+# Next plot
+```{r}
+
+```
+
+
+
+
