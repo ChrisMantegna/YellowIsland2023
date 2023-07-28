@@ -251,7 +251,7 @@ permanova_result <- adonis(distance_matrix ~ SECTION, data = counts)
 print(permanova_result)
 
 ```
-# ANOVA
+# ANOVA - GLM
 # counts
 ```{r}
 library(stats)
@@ -290,7 +290,26 @@ print(zone_anova)
 ```
 ### The explanation here is that SECTION has a small deviance and a low degree of freedom meaning the model is a good fit for this data and SECTION has a significant effect on species count. Additionally, the small degree of freedom for ZONATION also indicates a significant effect on species count - this we knew. 
 
-# ANOVA
+# ANOVA 
+## counts
+```{r}
+
+# Perform the ANOVA for section comparison
+section_anova <- aov(Total_Count ~ SECTION, data = total_counts)
+
+# Print the ANOVA table with p-values
+summary(section_anova)
+
+# Perform the ANOVA for zone comparison
+zone_anova <- aov(Total_Count ~ ZONATION, data = total_counts)
+
+# Print the ANOVA table with p-values
+summary(zone_anova)
+
+```
+This result shows that the better fit for Zonation yields a statistically significant result. The SECTION didn't fit because the data isn't normally distributed and a better fit for the GLM above
+
+# ANOVA - GLM
 ## algae
 ```{r}
 
@@ -321,7 +340,41 @@ print(zone_anova)
 
 ```
 
+# ANOVA
+## algae
+```{r}
 
+# Combine the columns related to algae counts into a single column
+algae_data <- algae %>%
+  select(SECTION, ZONATION, starts_with("BROWN_FL"), starts_with("RED_FL"), starts_with("GREEN_FL"),
+         starts_with("ENCRUSTING_FL"), starts_with("OTHER_FL"),
+         starts_with("BROWN_SL"), starts_with("RED_SL"), starts_with("GREEN_SL"),
+         starts_with("ENCRUSTING_SL"), starts_with("OTHER_SL"))
+
+# Gather the algae count data into a long format
+algae_data_long <- algae_data %>%
+  pivot_longer(cols = starts_with("BROWN_FL"):starts_with("OTHER_SL"),
+               names_to = "Algal_Type", values_to = "Count")
+
+# Calculate the total count of each algal type for each section and zone
+total_counts_algae <- algae_data_long %>%
+  group_by(SECTION, ZONATION, Algal_Type) %>%
+  summarise(Total_Count = sum(Count))
+
+# Perform the ANOVA for section comparison
+section_anova_algae <- aov(Total_Count ~ SECTION, data = total_counts_algae)
+
+# Print the ANOVA table with p-values
+summary(section_anova_algae)
+
+# Perform the ANOVA for zone comparison
+zone_anova_algae <- aov(Total_Count ~ ZONATION, data = total_counts_algae)
+
+# Print the ANOVA table with p-values
+summary(zone_anova_algae)
+
+```
+Similar output to the counts information above - zonation vice section makes the most impact, section didn't seem to have any impact here at all.
 
 # Stacked bar
 ## algae
