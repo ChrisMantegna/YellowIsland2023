@@ -1,0 +1,88 @@
+# trying to figure out why the plot tells me my columns are different lengths
+```{r}
+# Using sapply to calculate the length of each column in the data frame
+column_lengths <- sapply(data, length)
+
+# Print the column lengths
+print(column_lengths)
+
+```
+
+```{r}
+# Convert the results to a data frame for a more readable output
+column_lengths_df <- data.frame(column = names(data), length = column_lengths)
+
+# Print the data frame with column lengths
+print(column_lengths_df)
+
+```
+
+```{r}
+
+#data1 is the first transformation where we move data to longer format vice the current one.
+#name this something you can easily recall, for me that is data2
+#data1<- data %>% 
+  pivot_longer(cols = 16:43, 
+               names_to = "Species", 
+               values_to = "Count")
+
+# this didn't give me what i was looking for. the sections aren't ID'd and the Count column isn't summing instances across section, so I tried to do this instead:
+
+# this was a failed attempt and changes the format - will remove when cleaning document.
+#data2 <- melt(data, id.vars = "section", variable.name = "species", value.name = "count")
+
+
+```
+# Return here to fix this output/ purpose
+```{r}
+
+# this didn't work - must separate by section to make this valuable
+# how to break it down per section. Pulled this code from old class code and changed the names.
+
+data2 <- data1 %>%
+  gather(key = "Section", value = "Species", -Species)
+
+#sr <- data3 %>%
+  group_by('Section') %>%
+  summarise(SR = unique(Species))
+
+print(sr)
+```
+
+
+# Attempting to visualize the presence/ absence data
+```{r}
+
+# Convert the presence-absence data to a readable table and then converting the factors so we can count/ quantify the values
+
+pa1 <- pa %>%
+  pivot_longer(cols = 5:32,
+               names_to = "species",
+               values_to = "presence_absence") %>%
+mutate(species = factor(species, levels = unique(species)))
+
+```
+
+```{r}
+
+paSummary <- pa1 %>%
+  group_by(SECTION, species, presence_absence) %>%
+  tally(name = "count")
+
+```
+
+# Plot
+```{r}
+
+ggplot(paSummary, aes(x = SECTION, y = count, fill = presence_absence)) +
+  geom_bar(stat = "identity") +
+  labs(title = "Stacked Bar Plot of Presence/Absence Counts by Section",
+       x = "Section Number",
+       y = "Count",
+       fill = "Presence/Absence") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+
+
+```

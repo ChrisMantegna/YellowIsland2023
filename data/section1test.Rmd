@@ -11,26 +11,106 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ```{r}
 # Step 1: Create a data frame with the provided data
-data <- read.csv("section1.csv", headers= TRUE)
+data <- read.csv("presence.csv")
+```
+
+```{r}
+#different data pivot; using the full sheet
+library(dplyr)
+library(tidyr)
+
+data_long <- data %>%
+  gather(key = "Seaweed", value = "Presence", FL_ROCKWEED:FL_OTHER)
+
+```
+
+```{r}
+seaweed_counts <- data_long %>%
+  group_by(SECTION, Seaweed, Presence) %>%
+  tally()
+
+```
+
+
+```{r}
+library(ggplot2)
+
+ggplot(seaweed_counts, aes(x = Seaweed, y = n, fill = Presence)) +
+  geom_bar(stat = "identity") +
+  labs(title = "Presence/Absence of Seaweeds",
+       x = "Seaweed Species",
+       y = "Count",
+       fill = "Presence") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  facet_wrap(~SECTION, ncol = 2)
+
+```
+
+```{r}
+# Assuming your original data frame is named "data"
+library(tidyr)
+
+data_long <- data %>%
+  pivot_longer(cols = c(BARNACLE, ROCK, ALGAE),
+               names_to = "substrate",
+               values_to = "percent")
+
+# Printing the first few rows of the resulting data frame
+print(data_long)
+
 ```
 
 ```{r}
 # Step 2: Load the required packages and create the stacked bar plot using ggplot2
-library(ggplot2)
+#library(ggplot2)
 
-ggplot(data, aes(x = zonation, y = BARNACLE + `BARE ROCK` + ALGAE, fill = factor(substring(names(data)[3:5], 1)))) +
+ggplot(data_long, aes(x = zonation, y = percent, fill = substrate)) +
   geom_bar(stat = "identity") +
-  labs(title = "Stacked Bar Plot of Substrate Type by Zonation",
+  labs(title = "Section 1- Stacked Bar Plot of Substrate Type by Zonation",
        x = "Zonation",
        y = "Percent",
-       fill = "Substrate Type") +
+       fill = "Substrate") +
   theme_minimal() +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+
+```
+
+# Species richness by section and plot
+```{r}
+
+# Calculate species richness and standard deviation by section without typing out all column names
+species_richness <- data %>%
+  rowwise(SECTION) %>%
+  summarise(species_count = sum(c_across(FL_ROCKWEED:FL_TAR) == "P"),
+            sd = sd(c_across(FL_ROCKWEED:FL_TAR) == "P"))
+
+# Create a bar plot for species richness by section with error bars
+ggplot(species_richness, aes(x = factor(SECTION), y = species_count)) +
+  geom_bar(stat = "identity", fill = "steelblue") +
+  labs(title = "Species Richness by Section",
+       x = "Section",
+       y = "Species Richness") +
+  geom_errorbar(aes(ymin = species_count - sd, ymax = species_count + sd),
+                width = 0.2, color = "black", size = 0.7) +
+  theme_minimal()
 
 ```
 
 
 ```{r}
+
+# Create a bar plot with error bars for species richness by section
+ggplot(species_richness, aes(x = factor(SECTION), y = species_count)) +
+  geom_bar(stat = "identity", fill = "steelblue") +
+  geom_errorbar(aes(ymin = species_count - sd, ymax = species_count + sd),
+                width = 0.2, color = "black", size = 0.7) +
+  labs(title = "Species Richness by Section",
+       x = "Section",
+       y = "Species Richness") +
+  theme_minimal()
+
 
 ```
 
