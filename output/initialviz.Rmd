@@ -16,24 +16,19 @@ markdown:
 wrap: 72 
 ---
 
-###READ ME
-We will use the following files to explore our data
+###READ ME We will use the following files to explore our data
 
-algae.csv - the algal presence/ absence by top layer and second layer
-percentCover.csv - the substrate and second layer information
-truncated.csv - this is a simplified version of species data
+algae.csv - the algal presence/ absence by top layer and second layer percentCover.csv - the substrate and second layer information truncated.csv - this is a simplified version of species data
 
-Note: Add parameters block/ explanation of choices on render
-What I did - will chronicle as things work
-OLD csv: presence.csv - Presence/ Absence data of seaweeds (may collapse this further, but it is here as a relic)
-OLD csv: data.csv - Full data set without manipulation
+Note: Add parameters block/ explanation of choices on render What I did - will chronicle as things work OLD csv: presence.csv - Presence/ Absence data of seaweeds (may collapse this further, but it is here as a relic) OLD csv: data.csv - Full data set without manipulation
 
 # Package Install and call
+
 ```{r}
 
 # Installation is commented out, remove hashtag if you need to install
-#install.packages("kableExtra")
-#install.packages('gridExtra')
+install.packages("kableExtra")
+install.packages('gridExtra')
 
 ```
 
@@ -54,6 +49,7 @@ library(vegan)
 ```
 
 # Working directory & data load
+
 ```{r}
 
 getwd()
@@ -63,7 +59,7 @@ getwd()
 ```{r}
 #You can also hover over the file on your 'files pane' and right click to import data
 #change this path/ place to you and your file path
-setwd("/home/shared/8TB_HDD_02/cnmntgna/GitHub/YellowIsland2023/data")
+
 
 counts<- read.csv("truncated.csv", header= TRUE) #species counts per section
 algae<- read.csv("algae.csv", header= TRUE) #algal cover in first and second layer of each quadrat
@@ -72,10 +68,16 @@ substrate<- read.csv("substrate.csv", header=TRUE) #substrate percent cover in f
 ```
 
 # At-a-Glance data frame check
+
 # counts
+
 ```{r}
 
 #shows the dimensions of your data frame, a quick check to make sure everything imported the way you like
+
+counts <- truncated
+algae <- algae
+substrate <- substrate
 dim(counts)
 
 #quick view of data frame structure
@@ -85,7 +87,9 @@ str(counts)
 summary(counts)
 
 ```
+
 # algae
+
 ```{r}
 
 #repeat the process for the second dataframe. Make Note that our data here is characters and will have to change to a number so we can manipulate it.
@@ -98,6 +102,7 @@ summary(algae)
 ```
 
 # substrate
+
 ```{r}
 
 #repeat the process for the second dataframe. Make Note that our data here is characters and will have to change to a number so we can manipulate it.
@@ -110,7 +115,9 @@ summary(substrate)
 ```
 
 # Change dataframe structures so we can work with the data
+
 ## counts
+
 ```{r}
 
 #trying to apply the section1 test code to create a stacked bar for species presence across the sections.
@@ -140,16 +147,22 @@ ggplot(counts2, aes(x = Species, y = n, fill = Count)) +
   facet_wrap(~SECTION, ncol = 2)
 
 ```
+
 # Species Richness
+
 ## How many different species are present in different sections on YI?
+
 ### Note 'species' is a misleading name because these aren't all species, some are phyla. This will be corrected
+
 ```{r}
 # total island richness is 28 unique species present (non-algal) 
 species_richness <- length(unique(counts2$Species))
 
 print(species_richness)
 ```
+
 # Clarifying species/ phyla by site and zonation
+
 ```{r}
 
 #this is grouped by zone, not by section
@@ -170,7 +183,9 @@ section_zone <- counts2 %>%
 ```
 
 # Heatmap
+
 ## counts
+
 ```{r}
 
 # Convert ZONATION to a factor with ordered levels
@@ -193,7 +208,9 @@ ggplot(data = heatmap_data, aes(x = ZONATION, y = Species, fill = Sum_Count)) +
 ```
 
 # Stacked Bar plot
+
 ## counts
+
 ```{r}
 # we will have to choose zone over section or vice versa so we can clearly see the result. Maybe we adjust the way we manipulate it
 
@@ -208,8 +225,10 @@ ggplot(data = section_zone, aes(x = factor(SECTION), y = Sum_Count, fill = Speci
 
 ```
 
-# NMDS 
+# NMDS
+
 # Not going to use this plot type - I just wanted to try it out to see if it is helpful
+
 ```{r}
 
 # Check for missing values in the entire data frame
@@ -235,7 +254,9 @@ legend("bottomright", legend = unique(counts$SECTION), col = unique(counts$SECTI
 ```
 
 # PERMANOVA - this is glitchy - use the ANOVA
+
 ## counts
+
 ```{r}
 
 # Convert the species count data to a distance matrix
@@ -251,8 +272,11 @@ permanova_result <- adonis(distance_matrix ~ SECTION, data = counts)
 print(permanova_result)
 
 ```
+
 # ANOVA - GLM
+
 # counts
+
 ```{r}
 library(stats)
 
@@ -288,10 +312,13 @@ print(section_anova)
 print(zone_anova)
 
 ```
-### The explanation here is that SECTION has a small deviance and a low degree of freedom meaning the model is a good fit for this data and SECTION has a significant effect on species count. Additionally, the small degree of freedom for ZONATION also indicates a significant effect on species count - this we knew. 
 
-# ANOVA 
+### The explanation here is that SECTION has a small deviance and a low degree of freedom meaning the model is a good fit for this data and SECTION has a significant effect on species count. Additionally, the small degree of freedom for ZONATION also indicates a significant effect on species count - this we knew.
+
+# ANOVA
+
 ## counts
+
 ```{r}
 
 # Perform the ANOVA for section comparison
@@ -307,10 +334,13 @@ zone_anova <- aov(Total_Count ~ ZONATION, data = total_counts)
 summary(zone_anova)
 
 ```
+
 This result shows that the better fit for Zonation yields a statistically significant result. The SECTION didn't fit because the data isn't normally distributed and a better fit for the GLM above
 
 # ANOVA - GLM
+
 ## algae
+
 ```{r}
 
 # Sum the counts for each species to get the total count per section and zone
@@ -341,7 +371,9 @@ print(zone_anova)
 ```
 
 # ANOVA
+
 ## algae
+
 ```{r}
 
 # Combine the columns related to algae counts into a single column
@@ -374,10 +406,13 @@ zone_anova_algae <- aov(Total_Count ~ ZONATION, data = total_counts_algae)
 summary(zone_anova_algae)
 
 ```
+
 Similar output to the counts information above - zonation vice section makes the most impact, section didn't seem to have any impact here at all.
 
 # Stacked bar
+
 ## algae
+
 ```{r}
 # this visualization is unhelpful - trying to break it down below
 # Create a new data frame with the right categories for viz
@@ -396,7 +431,9 @@ ggplot(data = plot_data, aes(x = factor(SECTION), y = Count, fill = ZONATION)) +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
 
 ```
+
 # Algal profile by zone and section
+
 ```{r}
 
 # Create a new data frame with the relevant columns for visualization
@@ -434,9 +471,8 @@ grid.arrange(plot_section, plot_zone, ncol = 2)
 
 ```
 
-
-
 # Trying a PCA
+
 ```{r}
 # This is a plot that shows 3 dimensions of data in 2 dimensions
 # Create a species abundance matrix
@@ -472,9 +508,6 @@ pca_data$Species <- rownames(pca_data)
 ggplot(pca_data, aes(x = PC1, y = PC2, label = Species)) + geom_point() + geom_text(size = 3, hjust = 0, vjust = 0) + xlab("Principal Component 1") + ylab("Principal Component 2") + ggtitle("PCA Plot of Intertidal Species") + theme_minimal()
 ```
 
-
-
-
 # Trying Presence/ Absence Data Manipulation
 
 ```{r}
@@ -494,7 +527,6 @@ seaweed_counts <- data_long %>%
 
 ```
 
-
 ```{r}
 
 ggplot(seaweed_counts, aes(x = Seaweed, y = n, fill = Presence)) +
@@ -508,6 +540,7 @@ ggplot(seaweed_counts, aes(x = Seaweed, y = n, fill = Presence)) +
   facet_wrap(~SECTION, ncol = 2)
 
 ```
+
 ```{R}
 #section1 test data to show zonation v substrate - have to alter this to make that happen
 
@@ -521,10 +554,7 @@ print(data_long)
 ```
 
 # Next plot
+
 ```{r}
 
 ```
-
-
-
-
