@@ -1,0 +1,32 @@
+phototransummarysd_download.csv,
+field,definition
+group_code,The unique code for each monitoring group
+marine_site_name,The name of the site where the survey was conducted.
+site_code,The unique letter code for each site 
+site_lat,"The number of degrees North of the equator, expressed in decimal degrees, of the referenced marine_site_name."
+site_long,"The number of degrees West of the Prime Meridian, expressed in decimal degrees, of the referenced marine_site_name."
+ltm_lat,"The number of degrees North of the equator, expressed in decimal degrees, of the long-term monitoring surveys done at the referenced site. This may be the same as the site_lat. If different, the ltm_lat is closer to the actual long-term monitoring plots at the referenced site."
+ltm_long,"The number of degrees West of the Prime Meridian, expressed in decimal degrees, of the long-term monitoring surveys done at the referenced site. This may be the same as the site_lat. If different, the ltm_lat is closer to the actual long-term monitoring plots at the referenced site."
+marine_sort_order,"Used to order the sites geographically along the coast. Actual values are arbitrary, and should not be used for site identification."
+marine_common_year,"Year in which survey was done, BUT NOTE this can be different from the year in the survey date - for example, January of 2016 could still be considered FA15, so the marine_common_year would be 2015"
+season_name,Name of the season that corresponds to numerical season_sequence code
+marine_season_code,A four-character code to identify the Sampling season. The first two characters indicate the season and the last 2 characters indicate the year
+marine_common_season,"Consecutive sampling number. A code created to allow sequencing of the seasons, used for sorting data in chronological order."
+min_survey_date,First date in a survey event on which a site was sampled. Survey events are lumped by marine_common_season
+max_survey_date,"Last date in a survey event on which a site was sampled. Survey events are lumped by marine_common_season. If a site survey was completed on a single date, last_date will match first_date."
+target_assemblage,The specific organism that this transect was created to monitor.
+survey_type_code,The survey method used to collect the data (photo_plot_surveys; transect_surveys)
+species_code,Unique alphabetic lookup code for each species or lumped species group
+average_percent_cover,The average percent cover across all plots of the organism indicated by the Species code (Number of hits of a given species/Total hits all species). Total hits are generally 100.
+num_plots_sampled,The number of plots sampled during the referenced marine_common_season
+stddev,Standard deviation of percent cover values for the sample specified by site/target_assemblage/marine_common_season
+stderr,Standard error for percent cover values for the sample specified by site/target_assemblage/marine_common_season
+state_province,The State or Province and Country where the referenced site is located.
+georegion,geographic region in which site is located
+bioregion,biogeographic region in which site is located
+mpa_designation,"Describes whether the referenced site is located within a Marine Protected Area (MPA) or is a reference site. If 'NONE' is listed in this field, , the referenced site is not located within an MPA, or is not a reference site for an existing MPA site."
+mpa_region,"Describes which California baseline MPA region the referenced site is located within. If not located within California, the region will just indicate the state or province. Baseline monitoring occurred from 2007 – 2018, and included 37 state-funded regional monitoring projects across the state. For more infomation see https://wildlife.ca.gov/Conservation/Marine/MPAs"
+mpa_lt_region,"Describes which California long term MPA region the referenced site is located within. In 2018, CDFW and OPC developed the MPA Monitoring Action Plan (Action Plan) to inform next steps for long-term monitoring.For more infomation see https://wildlife.ca.gov/Conservation/Marine/MPAs"
+mpa_name,"The name of the MPA where the referenced site is located. If 'NONE' is listed in this field, the referenced site is not located within an MPA. "
+island,The name of the island where the referenced site is located. Sites not on islands are designated as mainland.
+last_updated,The date that this data file was last updated
