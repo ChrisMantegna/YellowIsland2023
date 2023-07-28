@@ -1,90 +1,90 @@
-site_long,ltm_lat,ltm_long,marine_sort_order,marine_common_year,season_name,marine_season_code,marine_common_season,min_survey_date,max_survey_date,target_assemblage,survey_type_code,species_code,average_percent_cover,num_plots_sampled,stddev,stderr,state_province,georegion,bioregion,mpa_designation,mpa_region,mpa_lt_region,mpa_name,island,last_updated,,,,
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,chthamalus_balanus,photo_plot_surveys,ARTCOR,0,5,0,0,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,chthamalus_balanus,photo_plot_surveys,CHITON,0,5,0,0,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,chthamalus_balanus,photo_plot_surveys,CHOCAN,0,5,0,0,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,chthamalus_balanus,photo_plot_surveys,CHTBAL,25,5,20.90454496,9.348796714,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,chthamalus_balanus,photo_plot_surveys,CLACOL,0,5,0,0,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,chthamalus_balanus,photo_plot_surveys,CRUCOR,0,5,0,0,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,chthamalus_balanus,photo_plot_surveys,EGRMEN,0,5,0,0,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,chthamalus_balanus,photo_plot_surveys,EISARB,0,5,0,0,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,chthamalus_balanus,photo_plot_surveys,ENDMUR,0,5,0,0,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,chthamalus_balanus,photo_plot_surveys,ENPEPH,0,5,0,0,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,chthamalus_balanus,photo_plot_surveys,FUCGAR,50.4,5,21.48953234,9.610411021,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,chthamalus_balanus,photo_plot_surveys,HALSTE,0,5,0,0,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,chthamalus_balanus,photo_plot_surveys,HESCAL,0,5,0,0,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,chthamalus_balanus,photo_plot_surveys,LIMPET,0,5,0,0,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,chthamalus_balanus,photo_plot_surveys,LOTGIG,0,5,0,0,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,chthamalus_balanus,photo_plot_surveys,MASSPP,7.2,5,4.147288271,1.854723699,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,chthamalus_balanus,photo_plot_surveys,MAZAFF,0,5,0,0,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,chthamalus_balanus,photo_plot_surveys,MAZSPP,0,5,0,0,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,chthamalus_balanus,photo_plot_surveys,MYTCAL,0,5,0,0,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,chthamalus_balanus,photo_plot_surveys,MYTTRO,0.2,5,0.447213595,0.2,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,chthamalus_balanus,photo_plot_surveys,NEOLAR,0,5,0,0,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,chthamalus_balanus,photo_plot_surveys,NONCRU,0,5,0,0,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,chthamalus_balanus,photo_plot_surveys,OTHALG,0,5,0,0,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,chthamalus_balanus,photo_plot_surveys,OTHBAR,0,5,0,0,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,chthamalus_balanus,photo_plot_surveys,OTHBRO,0,5,0,0,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,chthamalus_balanus,photo_plot_surveys,OTHGRE,0,5,0,0,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,chthamalus_balanus,photo_plot_surveys,OTHINV,0,5,0,0,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,chthamalus_balanus,photo_plot_surveys,OTHRED,0.2,5,0.447213595,0.2,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,chthamalus_balanus,photo_plot_surveys,OTHSUB,0.6,5,0.894427191,0.4,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,chthamalus_balanus,photo_plot_surveys,PELLIM,0,5,0,0,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,chthamalus_balanus,photo_plot_surveys,PHRSAB,0,5,0,0,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,chthamalus_balanus,photo_plot_surveys,PHYSPP,0,5,0,0,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,chthamalus_balanus,photo_plot_surveys,PISOCH,0,5,0,0,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,chthamalus_balanus,photo_plot_surveys,POLPOL,0,5,0,0,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,chthamalus_balanus,photo_plot_surveys,PORSPP,0,5,0,0,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,chthamalus_balanus,photo_plot_surveys,ROCK,16.4,5,7.092249291,3.171750305,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,chthamalus_balanus,photo_plot_surveys,SAND,0,5,0,0,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,chthamalus_balanus,photo_plot_surveys,SARMUT,0,5,0,0,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,chthamalus_balanus,photo_plot_surveys,SCYSPP,0,5,0,0,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,chthamalus_balanus,photo_plot_surveys,SEMCAR,0,5,0,0,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,chthamalus_balanus,photo_plot_surveys,SILCOM,0,5,0,0,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,chthamalus_balanus,photo_plot_surveys,TAR,0,5,0,0,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,chthamalus_balanus,photo_plot_surveys,TETRUB,0,5,0,0,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,chthamalus_balanus,photo_plot_surveys,ULVENT,0,5,0,0,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,fucus,photo_plot_surveys,ANTELE,0.4,5,0.894427191,0.4,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,fucus,photo_plot_surveys,ARTCOR,0,5,0,0,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,fucus,photo_plot_surveys,CHITON,0,5,0,0,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,fucus,photo_plot_surveys,CHOCAN,0,5,0,0,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,fucus,photo_plot_surveys,CHTBAL,24.8,5,33.2520676,14.87077671,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,fucus,photo_plot_surveys,CLACOL,0,5,0,0,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,fucus,photo_plot_surveys,CRUCOR,0,5,0,0,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,fucus,photo_plot_surveys,EGRMEN,0,5,0,0,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,fucus,photo_plot_surveys,EISARB,0,5,0,0,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,fucus,photo_plot_surveys,ENDMUR,0,5,0,0,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,fucus,photo_plot_surveys,ENPEPH,0,5,0,0,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,fucus,photo_plot_surveys,FUCGAR,62,5,38.60051813,17.2626765,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,fucus,photo_plot_surveys,HALSTE,0,5,0,0,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,fucus,photo_plot_surveys,HESCAL,0,5,0,0,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,fucus,photo_plot_surveys,LIMPET,0.2,5,0.447213595,0.2,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,fucus,photo_plot_surveys,LOTGIG,0,5,0,0,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,fucus,photo_plot_surveys,MASSPP,4.4,5,7.635443668,3.414674216,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,fucus,photo_plot_surveys,MAZAFF,0,5,0,0,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,fucus,photo_plot_surveys,MAZSPP,0.2,5,0.447213595,0.2,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,fucus,photo_plot_surveys,MYTCAL,0,5,0,0,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,fucus,photo_plot_surveys,MYTTRO,2.6,5,2.607680962,1.166190379,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,fucus,photo_plot_surveys,NEOLAR,0,5,0,0,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,fucus,photo_plot_surveys,NONCRU,0,5,0,0,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,fucus,photo_plot_surveys,OTHALG,0,5,0,0,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,fucus,photo_plot_surveys,OTHBAR,0,5,0,0,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,fucus,photo_plot_surveys,OTHBRO,0,5,0,0,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,fucus,photo_plot_surveys,OTHGRE,0,5,0,0,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,fucus,photo_plot_surveys,OTHINV,0,5,0,0,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,fucus,photo_plot_surveys,OTHRED,1,5,2.236067977,1,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,fucus,photo_plot_surveys,OTHSUB,0,5,0,0,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,fucus,photo_plot_surveys,PELLIM,0,5,0,0,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,fucus,photo_plot_surveys,PHRSAB,0,5,0,0,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,fucus,photo_plot_surveys,PHYSPP,0,5,0,0,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,fucus,photo_plot_surveys,PISOCH,0,5,0,0,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,fucus,photo_plot_surveys,POLPOL,0,5,0,0,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,fucus,photo_plot_surveys,PORSPP,0,5,0,0,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,fucus,photo_plot_surveys,ROCK,4,5,2.738612788,1.224744871,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,fucus,photo_plot_surveys,SAND,0,5,0,0,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,fucus,photo_plot_surveys,SARMUT,0,5,0,0,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,fucus,photo_plot_surveys,SCYSPP,0,5,0,0,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,fucus,photo_plot_surveys,SEMCAR,0.2,5,0.447213595,0.2,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,fucus,photo_plot_surveys,SILCOM,0,5,0,0,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,fucus,photo_plot_surveys,TAR,0,5,0,0,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,fucus,photo_plot_surveys,TETRUB,0,5,0,0,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
-UW,Manchester State Park; Central Puget Sound,MAN,47.57688141,-122.54411,47.57688141,-122.54411,3490,2022,Summer,SU22,166,6/27/2022,6/27/2022,fucus,photo_plot_surveys,ULVENT,0.2,5,0.447213595,0.2,Washington,WA Salish Sea,WA Salish Sea,NONE,NONE,NONE,NONE,Mainland,6/6/2023 13:09
+site_code,marine_season_code,marine_common_season,target_assemblage,survey_type_code,species_code,average_percent_cover,num_plots_sampled,stddev,stderr
+MAN,SU22,166,chthamalus_balanus,photo_plot_surveys,ARTCOR,0,5,0,0
+MAN,SU22,166,chthamalus_balanus,photo_plot_surveys,CHITON,0,5,0,0
+MAN,SU22,166,chthamalus_balanus,photo_plot_surveys,CHOCAN,0,5,0,0
+MAN,SU22,166,chthamalus_balanus,photo_plot_surveys,CHTBAL,25,5,20.90454496,9.348796714
+MAN,SU22,166,chthamalus_balanus,photo_plot_surveys,CLACOL,0,5,0,0
+MAN,SU22,166,chthamalus_balanus,photo_plot_surveys,CRUCOR,0,5,0,0
+MAN,SU22,166,chthamalus_balanus,photo_plot_surveys,EGRMEN,0,5,0,0
+MAN,SU22,166,chthamalus_balanus,photo_plot_surveys,EISARB,0,5,0,0
+MAN,SU22,166,chthamalus_balanus,photo_plot_surveys,ENDMUR,0,5,0,0
+MAN,SU22,166,chthamalus_balanus,photo_plot_surveys,ENPEPH,0,5,0,0
+MAN,SU22,166,chthamalus_balanus,photo_plot_surveys,FUCGAR,50.4,5,21.48953234,9.610411021
+MAN,SU22,166,chthamalus_balanus,photo_plot_surveys,HALSTE,0,5,0,0
+MAN,SU22,166,chthamalus_balanus,photo_plot_surveys,HESCAL,0,5,0,0
+MAN,SU22,166,chthamalus_balanus,photo_plot_surveys,LIMPET,0,5,0,0
+MAN,SU22,166,chthamalus_balanus,photo_plot_surveys,LOTGIG,0,5,0,0
+MAN,SU22,166,chthamalus_balanus,photo_plot_surveys,MASSPP,7.2,5,4.147288271,1.854723699
+MAN,SU22,166,chthamalus_balanus,photo_plot_surveys,MAZAFF,0,5,0,0
+MAN,SU22,166,chthamalus_balanus,photo_plot_surveys,MAZSPP,0,5,0,0
+MAN,SU22,166,chthamalus_balanus,photo_plot_surveys,MYTCAL,0,5,0,0
+MAN,SU22,166,chthamalus_balanus,photo_plot_surveys,MYTTRO,0.2,5,0.447213595,0.2
+MAN,SU22,166,chthamalus_balanus,photo_plot_surveys,NEOLAR,0,5,0,0
+MAN,SU22,166,chthamalus_balanus,photo_plot_surveys,NONCRU,0,5,0,0
+MAN,SU22,166,chthamalus_balanus,photo_plot_surveys,OTHALG,0,5,0,0
+MAN,SU22,166,chthamalus_balanus,photo_plot_surveys,OTHBAR,0,5,0,0
+MAN,SU22,166,chthamalus_balanus,photo_plot_surveys,OTHBRO,0,5,0,0
+MAN,SU22,166,chthamalus_balanus,photo_plot_surveys,OTHGRE,0,5,0,0
+MAN,SU22,166,chthamalus_balanus,photo_plot_surveys,OTHINV,0,5,0,0
+MAN,SU22,166,chthamalus_balanus,photo_plot_surveys,OTHRED,0.2,5,0.447213595,0.2
+MAN,SU22,166,chthamalus_balanus,photo_plot_surveys,OTHSUB,0.6,5,0.894427191,0.4
+MAN,SU22,166,chthamalus_balanus,photo_plot_surveys,PELLIM,0,5,0,0
+MAN,SU22,166,chthamalus_balanus,photo_plot_surveys,PHRSAB,0,5,0,0
+MAN,SU22,166,chthamalus_balanus,photo_plot_surveys,PHYSPP,0,5,0,0
+MAN,SU22,166,chthamalus_balanus,photo_plot_surveys,PISOCH,0,5,0,0
+MAN,SU22,166,chthamalus_balanus,photo_plot_surveys,POLPOL,0,5,0,0
+MAN,SU22,166,chthamalus_balanus,photo_plot_surveys,PORSPP,0,5,0,0
+MAN,SU22,166,chthamalus_balanus,photo_plot_surveys,ROCK,16.4,5,7.092249291,3.171750305
+MAN,SU22,166,chthamalus_balanus,photo_plot_surveys,SAND,0,5,0,0
+MAN,SU22,166,chthamalus_balanus,photo_plot_surveys,SARMUT,0,5,0,0
+MAN,SU22,166,chthamalus_balanus,photo_plot_surveys,SCYSPP,0,5,0,0
+MAN,SU22,166,chthamalus_balanus,photo_plot_surveys,SEMCAR,0,5,0,0
+MAN,SU22,166,chthamalus_balanus,photo_plot_surveys,SILCOM,0,5,0,0
+MAN,SU22,166,chthamalus_balanus,photo_plot_surveys,TAR,0,5,0,0
+MAN,SU22,166,chthamalus_balanus,photo_plot_surveys,TETRUB,0,5,0,0
+MAN,SU22,166,chthamalus_balanus,photo_plot_surveys,ULVENT,0,5,0,0
+MAN,SU22,166,fucus,photo_plot_surveys,ANTELE,0.4,5,0.894427191,0.4
+MAN,SU22,166,fucus,photo_plot_surveys,ARTCOR,0,5,0,0
+MAN,SU22,166,fucus,photo_plot_surveys,CHITON,0,5,0,0
+MAN,SU22,166,fucus,photo_plot_surveys,CHOCAN,0,5,0,0
+MAN,SU22,166,fucus,photo_plot_surveys,CHTBAL,24.8,5,33.2520676,14.87077671
+MAN,SU22,166,fucus,photo_plot_surveys,CLACOL,0,5,0,0
+MAN,SU22,166,fucus,photo_plot_surveys,CRUCOR,0,5,0,0
+MAN,SU22,166,fucus,photo_plot_surveys,EGRMEN,0,5,0,0
+MAN,SU22,166,fucus,photo_plot_surveys,EISARB,0,5,0,0
+MAN,SU22,166,fucus,photo_plot_surveys,ENDMUR,0,5,0,0
+MAN,SU22,166,fucus,photo_plot_surveys,ENPEPH,0,5,0,0
+MAN,SU22,166,fucus,photo_plot_surveys,FUCGAR,62,5,38.60051813,17.2626765
+MAN,SU22,166,fucus,photo_plot_surveys,HALSTE,0,5,0,0
+MAN,SU22,166,fucus,photo_plot_surveys,HESCAL,0,5,0,0
+MAN,SU22,166,fucus,photo_plot_surveys,LIMPET,0.2,5,0.447213595,0.2
+MAN,SU22,166,fucus,photo_plot_surveys,LOTGIG,0,5,0,0
+MAN,SU22,166,fucus,photo_plot_surveys,MASSPP,4.4,5,7.635443668,3.414674216
+MAN,SU22,166,fucus,photo_plot_surveys,MAZAFF,0,5,0,0
+MAN,SU22,166,fucus,photo_plot_surveys,MAZSPP,0.2,5,0.447213595,0.2
+MAN,SU22,166,fucus,photo_plot_surveys,MYTCAL,0,5,0,0
+MAN,SU22,166,fucus,photo_plot_surveys,MYTTRO,2.6,5,2.607680962,1.166190379
+MAN,SU22,166,fucus,photo_plot_surveys,NEOLAR,0,5,0,0
+MAN,SU22,166,fucus,photo_plot_surveys,NONCRU,0,5,0,0
+MAN,SU22,166,fucus,photo_plot_surveys,OTHALG,0,5,0,0
+MAN,SU22,166,fucus,photo_plot_surveys,OTHBAR,0,5,0,0
+MAN,SU22,166,fucus,photo_plot_surveys,OTHBRO,0,5,0,0
+MAN,SU22,166,fucus,photo_plot_surveys,OTHGRE,0,5,0,0
+MAN,SU22,166,fucus,photo_plot_surveys,OTHINV,0,5,0,0
+MAN,SU22,166,fucus,photo_plot_surveys,OTHRED,1,5,2.236067977,1
+MAN,SU22,166,fucus,photo_plot_surveys,OTHSUB,0,5,0,0
+MAN,SU22,166,fucus,photo_plot_surveys,PELLIM,0,5,0,0
+MAN,SU22,166,fucus,photo_plot_surveys,PHRSAB,0,5,0,0
+MAN,SU22,166,fucus,photo_plot_surveys,PHYSPP,0,5,0,0
+MAN,SU22,166,fucus,photo_plot_surveys,PISOCH,0,5,0,0
+MAN,SU22,166,fucus,photo_plot_surveys,POLPOL,0,5,0,0
+MAN,SU22,166,fucus,photo_plot_surveys,PORSPP,0,5,0,0
+MAN,SU22,166,fucus,photo_plot_surveys,ROCK,4,5,2.738612788,1.224744871
+MAN,SU22,166,fucus,photo_plot_surveys,SAND,0,5,0,0
+MAN,SU22,166,fucus,photo_plot_surveys,SARMUT,0,5,0,0
+MAN,SU22,166,fucus,photo_plot_surveys,SCYSPP,0,5,0,0
+MAN,SU22,166,fucus,photo_plot_surveys,SEMCAR,0.2,5,0.447213595,0.2
+MAN,SU22,166,fucus,photo_plot_surveys,SILCOM,0,5,0,0
+MAN,SU22,166,fucus,photo_plot_surveys,TAR,0,5,0,0
+MAN,SU22,166,fucus,photo_plot_surveys,TETRUB,0,5,0,0
+MAN,SU22,166,fucus,photo_plot_surveys,ULVENT,0.2,5,0.447213595,0.2
