@@ -1,19 +1,19 @@
-First,Second,Percent_Cover
-chthamalus_balanus,CHTBAL,25
-chthamalus_balanus,FUCGAR,50.4
-chthamalus_balanus,MASSPP,7.2
-chthamalus_balanus,MYTTRO,0.2
-chthamalus_balanus,OTHRED,0.2
-chthamalus_balanus,OTHSUB,0.6
-chthamalus_balanus,ROCK,16.4
-fucus,ANTELE,0.4
-fucus,CHTBAL,24.8
-fucus,FUCGAR,62
-fucus,LIMPET,0.2
-fucus,MASSPP,4.4
-fucus,MAZSPP,0.2
-fucus,MYTTRO,2.6
-fucus,OTHRED,1
-fucus,ROCK,4
-fucus,SEMCAR,0.2
-fucus,ULVENT,0.2
+First_Layer,Second_Layer,Phylum,Percent_Cover
+chthamalus_balanus,chthamalus dalli/fissus/balanus glandula,Arthropoda,25
+chthamalus_balanus,fucus gardneri,Ochrophyta,50.4
+chthamalus_balanus,mastocarpus papillatus/jardinii,Rhodophyta,7.2
+chthamalus_balanus,mytilus trossulus,Mollusca,0.2
+chthamalus_balanus,red algae other than those scored separately (varies by group and over time),unknown,0.2
+chthamalus_balanus,substrate other than rock or sand; includes dead barnacles; mussels; etc. where these are not scored separately,none,0.6
+chthamalus_balanus,bare; unconsolidated substrates larger than sand/gravel (including cobble; rocks; and boulders) and all consolidated substrates (i.e.; bedrock) that contain no obvious living organisms or tar (epoxy corner markers and blue-green algal films are scored as ,none,16.4
+fucus,anthopleura elegantissima/sola; may also include a. xanthogrammica at some sites,Cnidaria,0.4
+fucus,chthamalus dalli/fissus/balanus glandula,Arthropoda,24.8
+fucus,fucus gardneri,Ochrophyta,62
+fucus,all species of limpets through spring 2002; all limpets other than lottia gigantea from fall 2002 to present,Mollusca,0.2
+fucus,mastocarpus papillatus/jardinii,Rhodophyta,4.4
+fucus,mazzaella spp (=iridaea spp),Rhodophyta,0.2
+fucus,mytilus trossulus,Mollusca,2.6
+fucus,red algae other than those scored separately (varies by group and over time),unknown,1
+fucus,bare; unconsolidated substrates larger than sand/gravel (including cobble; rocks; and boulders) and all consolidated substrates (i.e.; bedrock) that contain no obvious living organisms or tar (epoxy corner markers and blue-green algal films are scored as ,none,4
+fucus,semibalanus cariosus,Arthropoda,0.2
+fucus,ulva spp/enteromorpha spp,Chlorophyta,0.2
