@@ -1,0 +1,84 @@
+---
+title: "Seal Project Visualizations"
+author: "Chris"
+date: "2023-07-28"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+# Load required packages
+#install.packages("ggplot2")
+library(ggplot2)
+
+```
+
+# Files Used
+seal.csv - Histogram of seal behavior
+
+
+```{r}
+
+# Read the data from the CSV file
+data <- read.csv("seal.csv")
+
+# Convert the DATE OF OBSERVATION column to Date format
+data$DATE.OF.OBSERVATION <- as.Date(data$DATE.OF.OBSERVATION, format = "%m/%d/%Y")
+
+# Calculate the total behavior frequency per day
+total_behavior_frequency <- aggregate(OCCURENCE ~ DATE.OF.OBSERVATION, data, sum)
+
+# Plot the histogram of behaviors per day
+ggplot(data, aes(x = DATE.OF.OBSERVATION, y = OCCURENCE, fill = BEHAVIOUR)) +
+  geom_bar(stat = "identity", position = "dodge") +
+  theme_minimal() +
+  labs(x = "Date of Observation", y = "Behavior Frequency", title = "Histogram of Behaviors Per Day")
+
+# Plot the histogram of total behavior frequency across all days
+ggplot(total_behavior_frequency, aes(x = DATE.OF.OBSERVATION, y = OCCURENCE)) +
+  geom_bar(stat = "identity", fill = "blue") +
+  theme_minimal() +
+  labs(x = "Date of Observation", y = "Total Behavior Frequency", title = "Histogram of Total Behavior Frequency")
+
+
+```
+
+
+# Grouped Bar
+I don't like the histogram of frequency, so I wanted to try this instead
+```{r}
+
+# Convert the DATE OF OBSERVATION column to Date format
+data$DATE.OF.OBSERVATION <- as.Date(data$DATE.OF.OBSERVATION, format = "%m/%d/%Y")
+
+
+# Plot the stacked bar plot for daily frequency of each behavior
+ggplot(data, aes(x = DATE.OF.OBSERVATION, y = OCCURENCE, fill = BEHAVIOUR)) +
+  geom_bar(stat = "identity") +
+  theme_minimal() +
+  labs(x = "Date of Observation", y = "Behavior Frequency", title = "Daily Frequency of Each Behavior") +
+  scale_fill_discrete(name = "Behavior")
+
+```
+
+# Behavior differences by age group
+```{r}
+
+data<- read.csv("play.csv")
+
+# Create a new column to represent play behavior as a factor
+data$Play <- factor(data$Play, levels = c("Y", "N"), labels = c("Play", "Non-Play"))
+
+# Plot the stacked bar plot for play versus non-play behavior
+ggplot(data, aes(x = Life_Stage, fill = Play)) +
+  geom_bar(position = "fill") +
+  theme_minimal() +
+  labs(x = "Life Stage", y = "Proportion", title = "Play Behavior vs. Non-Play Behavior") +
+  scale_fill_discrete(name = "Behavior")
+
+```
+
+
