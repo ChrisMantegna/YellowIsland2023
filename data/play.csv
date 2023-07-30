@@ -38,7 +38,7 @@ OBJ_MAN,Pup,Y
 GALUMPH,Adult,Y
 SLAP,Pup,Y
 REST_BO,Adult,Y
-SLAP,Adult,A
+SLAP,Adult,Y
 REST_H_O,Adult,N
 REST_BO,Yearling,N
 REST_BO,Adult,N
