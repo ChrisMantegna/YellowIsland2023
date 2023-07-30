@@ -1,0 +1,87 @@
+---
+title: "MARINe Data Visualization " 
+author: Chris 
+date: "`r format(Sys.time(), '%d %B, %Y')`"\
+output: 
+  html_document: 
+  theme: readable 
+  highlight: zenburn 
+    toc: true 
+    toc_float: true 
+    number_sections: true 
+    code_folding: show 
+    code_download: true 
+editor: 
+markdown: 
+wrap: 72 
+---
+
+###READ ME
+We will use the following files to explore our data
+
+post.csv - post point raw data
+manchester.csv - manchester raw data
+
+
+Note: Add parameters block/ explanation of choices on render
+What I did - will chronicle as things work
+OLD csv: presence.csv - Presence/ Absence data of seaweeds (may collapse this further, but it is here as a relic)
+OLD csv: data.csv - Full data set without manipulation
+
+# Package Install and call
+```{r}
+
+# Installation is commented out, remove hashtag if you need to install
+#install.packages("kableExtra")
+#install.packages('gridExtra')
+
+```
+
+```{r}
+
+#Use library to call your installed packages for use
+library(data.table)
+library(dplyr)
+library('ggplot2')
+library("indicspecies")
+library(kableExtra)
+library(knitr)
+library(RColorBrewer)
+library(tidyr)
+library(tidyverse)
+library(vegan)
+
+```
+
+# Read in data
+```{r}
+post<- read.csv("post.csv")
+manchester<- read.csv("manchester.csv")
+```
+
+```{r}
+
+#shows the dimensions of your data frame, a quick check to make sure everything imported the way you like
+dim(post)
+
+#quick view of data frame structure
+str(post)
+
+#look at the summary of your data
+summary(post)
+
+```
+
+```{r}
+
+#shows the dimensions of your data frame, a quick check to make sure everything imported the way you like
+dim(manchester)
+
+#quick view of data frame structure
+str(manchester)
+
+#look at the summary of your data
+summary(manchester)
+
+```
+
