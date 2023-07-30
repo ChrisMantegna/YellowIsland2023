@@ -93,7 +93,7 @@ ACK_Z,Adult,N
 ACK_Z,Adult,N
 REST_BO,Pup,N
 GALUMPH,Pup,N
-ALL_DIVE,Adult,U
+ALL_DIVE,Adult,N
 REST_H_O,Adult,N
 CLIMB,Pup,Y
 GALUMPH,Yearling,Y
@@ -109,7 +109,7 @@ ACK_SP,Adult,N
 ACK_SP,Adult,N
 REST_H_O,Pup,N
 ACK_SP,Pup,N
-ALL_DIVE,Adult,U
+ALL_DIVE,Adult,N
 REST_H_O,Adult,N
 REST_H_O,Pup,N
 REST_BO,Pup,N
