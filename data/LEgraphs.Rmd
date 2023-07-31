@@ -54,6 +54,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Know where you're working
 ```{r}
+
 # make sure you know where you are working, remove the #if you need to make this work
 #getwd()
 #setwd()
@@ -67,6 +68,7 @@ counts<- read.csv("truncated.csv", header= TRUE) #species counts per section
 algae<- read.csv("algae.csv", header= TRUE) #algal cover in first and second layer of each quadrat
 substrate<- read.csv("substrate.csv", header=TRUE) #substrate percent cover in first and second layer of each quadrat
 marine<- read.csv("combinedMarine.csv", header= TRUE)
+
 ```
 
 # Inspect your data
@@ -88,15 +90,108 @@ marine<- read.csv("combinedMarine.csv", header= TRUE)
 ```{r}
 
 counts1 <- counts %>%
-  #gather(key = "Phylum", value = "Count", ANNELIDA:OSTEICHTHYES)
+  gather(key = "Phylum", value = "Count", ANNELIDA:OSTEICHTHYES)
+
+# Sum the counts for each SECTION and Phylum
+section_phylum_counts <- counts1 %>%
+  group_by(SECTION, Phylum) %>%
+  summarize(Total_Count = sum(Count))
+
+# Plot the stacked bar graph for counts by SECTION with phyla as fill
+ggplot(section_phylum_counts, aes(x = SECTION, y = Total_Count, fill = Phylum)) +
+  geom_bar(stat = "identity") +
+  labs(x = "SECTION", y = "Count", title = "Counts for each SECTION by Phylum") +
+  theme_minimal()
+
+```
+
+# Same Graph as above but the colors and X-axis have been cleaned up
+```{r}
+
+# Get unique Phylum values
+unique_phyla <- unique(section_phylum_counts$Phylum)
+
+# Generate a color palette with enough colors to match the number of unique Phylum values
+n_colors <- length(unique_phyla)
+#custom_colors <- brewer.pal(n_colors, "Spectral")
+custom_colors <- c("sienna", "red", "yellow", "royalblue", "purple","seagreen", "black", "orange", "lightgrey")
+
+
+plot_width <- 10
+plot_height <- 6
+margin_bottom <- 1.5
+
+# Plot the stacked bar graph for counts by SECTION with phyla as fill and custom colors
+ggplot(section_phylum_counts, aes(x = SECTION, y = Total_Count, fill = Phylum)) +
+  geom_bar(stat = "identity") +
+  scale_fill_manual(values = custom_colors) +  # Set custom colors for the phyla
+  labs(x = "SECTION", y = "Count") +
+  ggtitle("Phyla Count by Section") +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5, face = "bold"),
+    plot.margin = unit(c(margin_bottom, 0.5, 0.5, 0.5), "cm"),
+    plot.title = element_text(hjust = 0.5),  # Center the plot title
+    plot.background = element_rect(fill = "white"),  # Set plot background color
+    panel.grid = element_blank(),  # Remove grid lines
+    axis.line = element_line(size = 0.5),  # Customize axis line width
+    legend.position = "right"  # Move the legend to the right
+  ) +
+  coord_cartesian(ylim = c(0, max(section_phylum_counts$Total_Count) * 1.1))  # Adjust Y-axis limits# Plot the stacked bar graph for counts by SECTION with phyla as fill and custom colors
+ggplot(section_phylum_counts, aes(x = SECTION, y = Total_Count, fill = Phylum)) +
+  geom_bar(stat = "identity") +
+  scale_fill_manual(values = custom_colors) +  # Set custom colors for the phyla
+  labs(x = "SECTION", y = "Count", title = "Phyla Count by Section") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 15, hjust = 1, vjust = 0.5, face = "bold"))
+
+
 ```
 
 # Next Viz
+# fix duplicate M and match the colors to the graph above
 ```{r}
+
+# Sum the counts for each ZONATION and Phylum
+zonation_phylum_counts <- counts1 %>%
+  group_by(ZONATION, Phylum) %>%
+  summarize(Total_Count = sum(Count))
+
+# Plot the bar graph for PHYLUM counts across ZONATION
+ggplot(zonation_phylum_counts, aes(x = ZONATION, y = Total_Count, fill = Phylum)) +
+  geom_bar(stat = "identity") +
+  labs(x = "ZONATION", y = "Phylum Count", title = "Phylum Count across ZONATION") +
+  theme_minimal()
 
 ```
 
-# Another Viz
+# MARINe Site Comparison
+```{r}
+
+# Combine Site and Section to form the X-axis label
+marine$Site_Section <- paste(marine$SITE, marine$SECTION, sep = "-")
+
+# Define the custom order of Phylum categories
+custom_order <- c("Rhodophyta", "Ochrophyta", "Chlorophyta", "Mollusca", "Cnidaria",  "Arthropoda")
+
+# Match colors to phyla from last graph
+custom_colors <- c("indianred4", "salmon2", "mediumseagreen", "green2", "royalblue","red")
+
+# Reorder the Phylum variable based on the custom order
+marine$Phylum <- factor(marine$Phylum, levels = custom_order)
+
+# Plot the stacked bar graph
+ggplot(marine, aes(x = Site_Section, y = Percent_Cover, fill = Phylum)) +
+  geom_bar(stat = "identity", position = "stack") +
+  scale_fill_manual(values = custom_colors) +
+  labs(title = "Phylum Percent Cover across Site and Section",
+       x = "Site - Section",
+       y = "Percent Cover") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  guides(fill = guide_legend(reverse = TRUE))  # Reverse the order of the legend
+
+```
 ```{r}
 
 ```

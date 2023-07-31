@@ -18,7 +18,8 @@ wrap: 72
 
 ###READ ME We will use the following files to explore our data
 
-algae.csv - the algal presence/ absence by top layer and second layer percentCover.csv - the substrate and second layer information truncated.csv - this is a simplified version of species data
+algae.csv - the algal presence/ absence by top layer and second layer percentCover.csv - the substrate and second layer information  
+truncated.csv - this is a simplified version of species data
 
 Note: Add parameters block/ explanation of choices on render What I did - will chronicle as things work OLD csv: presence.csv - Presence/ Absence data of seaweeds (may collapse this further, but it is here as a relic) OLD csv: data.csv - Full data set without manipulation
 
@@ -990,4 +991,53 @@ ggplot(marine, aes(x = SITE, fill = Phylum)) +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))  # Rotate x-axis labels for better visibility
 
 ```
+# New stacked bar
+```{r}
 
+# Combine Site and Section to form the X-axis label
+marine$Site_Section <- paste(marine$SITE, marine$SECTION, sep = "-")
+
+# Define the custom order of Phylum categories
+custom_order <- c("Rhodophyta", "Ochrophyta", "Chlorophyta", "Mollusca", "Cnidaria",  "Arthropoda")
+
+# Match colors to phyla from last graph
+custom_colors <- c("indianred4", "salmon2", "mediumseagreen", "green2", "royalblue","red")
+
+# Reorder the Phylum variable based on the custom order
+marine$Phylum <- factor(marine$Phylum, levels = custom_order)
+
+# Plot the stacked bar graph
+ggplot(marine, aes(x = Site_Section, y = Percent_Cover, fill = Phylum)) +
+  geom_bar(stat = "identity", position = "stack") +
+  scale_fill_manual(values = custom_colors) +
+  labs(title = "Phylum Percent Cover across Site and Section",
+       x = "Site - Section",
+       y = "Percent Cover") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  guides(fill = guide_legend(reverse = TRUE))  # Reverse the order of the legend
+
+```
+
+
+# Chi-square to prove highest abundance per section
+```{r}
+
+
+# Chi-square test for each section
+section_chi_square_tests <- counts1 %>%
+  group_by(SECTION, Phylum) %>%
+  summarize(Count = sum(Count)) %>%
+  group_by(SECTION) %>%
+  do(chi_square_test = chisq.test(.$Count))
+print(section_chi_square_tests)
+
+# Chi-square test for each zonation
+zonation_chi_square_tests <- counts1 %>%
+  group_by(ZONATION, Phylum) %>%
+  summarize(Count = sum(Count)) %>%
+  group_by(ZONATION) %>%
+  do(chi_square_test = chisq.test(.$Count))
+
+
+```
