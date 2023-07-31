@@ -1,0 +1,108 @@
+---
+title: "LE Yellow Island Visualizations"
+author: "Chris"
+date: "2023-07-31"
+output: html_document
+output: 
+  html_document: 
+  theme: readable 
+  highlight: zenburn 
+    toc: true 
+    toc_float: true 
+    number_sections: true 
+    code_folding: show 
+    code_download: true 
+editor: 
+markdown: 
+wrap: 72 
+---
+
+###READ ME We will use the following files to explore our data
+
+algae.csv - the algal presence/ absence by top layer and second layer percentCover.csv - the substrate and second layer information 
+truncated.csv - this is a simplified version of species data
+combinedMarine.csv - this is the post point and manchester data from MARINe
+
+# Package Install and call
+```{r}
+
+# Installation is commented out, remove hashtag if you need to install
+#install.packages("kableExtra")
+#install.packages('gridExtra')
+
+```
+
+```{r}
+
+#Use library to call your installed packages for use
+library(data.table)
+library(dplyr)
+library('ggplot2')
+library("indicspecies")
+library(kableExtra)
+library(knitr)
+library(RColorBrewer)
+library(tidyr)
+library(tidyverse)
+library(vegan)
+
+```
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Know where you're working
+```{r}
+# make sure you know where you are working, remove the #if you need to make this work
+#getwd()
+#setwd()
+
+```
+
+# Load your data
+```{r}
+
+counts<- read.csv("truncated.csv", header= TRUE) #species counts per section
+algae<- read.csv("algae.csv", header= TRUE) #algal cover in first and second layer of each quadrat
+substrate<- read.csv("substrate.csv", header=TRUE) #substrate percent cover in first and second layer of each quadrat
+marine<- read.csv("combinedMarine.csv", header= TRUE)
+```
+
+# Inspect your data
+```{r}
+
+# remove the hashtag from each operator to use it for each of your data sets
+# check out row/ column counts to make sure you've got everything
+#dim(counts)
+
+#quick view of data frame structure to see character v factor and such
+#str()
+
+#look at the summary of your data to see what categorically exists
+#summary()
+
+```
+# Big Picture Viz
+# Manipulate counts data to make visualizations
+```{r}
+
+counts1 <- counts %>%
+  #gather(key = "Phylum", value = "Count", ANNELIDA:OSTEICHTHYES)
+```
+
+# Next Viz
+```{r}
+
+```
+
+# Another Viz
+```{r}
+
+```
+
+# One more viz for the road
+```{r}
+
+```
+

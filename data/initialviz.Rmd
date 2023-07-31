@@ -1,0 +1,993 @@
+---
+title: "Initial Data Visualization " 
+author: Chris 
+date: "`r format(Sys.time(), '%d %B, %Y')`"\
+output: 
+  html_document: 
+  theme: readable 
+  highlight: zenburn 
+    toc: true 
+    toc_float: true 
+    number_sections: true 
+    code_folding: show 
+    code_download: true 
+editor: 
+markdown: 
+wrap: 72 
+---
+
+###READ ME We will use the following files to explore our data
+
+algae.csv - the algal presence/ absence by top layer and second layer percentCover.csv - the substrate and second layer information truncated.csv - this is a simplified version of species data
+
+Note: Add parameters block/ explanation of choices on render What I did - will chronicle as things work OLD csv: presence.csv - Presence/ Absence data of seaweeds (may collapse this further, but it is here as a relic) OLD csv: data.csv - Full data set without manipulation
+
+# Package Install and call
+
+```{r}
+
+# Installation is commented out, remove hashtag if you need to install
+install.packages("kableExtra")
+install.packages('gridExtra')
+
+```
+
+```{r}
+
+#Use library to call your installed packages for use
+library(data.table)
+library(dplyr)
+library('ggplot2')
+library("indicspecies")
+library(kableExtra)
+library(knitr)
+library(RColorBrewer)
+library(tidyr)
+library(tidyverse)
+library(vegan)
+
+```
+
+# Working directory & data load
+
+```{r}
+
+getwd()
+
+```
+
+```{r}
+#You can also hover over the file on your 'files pane' and right click to import data
+#change this path/ place to you and your file path
+
+
+counts<- read.csv("truncated.csv", header= TRUE) #species counts per section
+algae<- read.csv("algae.csv", header= TRUE) #algal cover in first and second layer of each quadrat
+substrate<- read.csv("substrate.csv", header=TRUE) #substrate percent cover in first and second layer of each quadrat
+
+```
+
+# At-a-Glance data frame check
+
+# counts
+
+```{r}
+
+#shows the dimensions of your data frame, a quick check to make sure everything imported the way you like
+
+#counts <- truncated
+#algae <- algae
+#substrate <- substrate
+dim(counts)
+
+#quick view of data frame structure
+str(counts)
+
+#look at the summary of your data
+summary(counts)
+
+```
+
+# algae
+
+```{r}
+
+#repeat the process for the second dataframe. Make Note that our data here is characters and will have to change to a number so we can manipulate it.
+dim(algae)
+
+str(algae)
+
+summary(algae)
+
+```
+
+# substrate
+
+```{r}
+
+#repeat the process for the second dataframe. Make Note that our data here is characters and will have to change to a number so we can manipulate it.
+dim(substrate)
+
+str(substrate)
+
+summary(substrate)
+
+```
+
+# Change dataframe structures so we can work with the data
+
+## counts
+
+```{r}
+
+#trying to apply the section1 test code to create a stacked bar for species presence across the sections.
+counts1 <- counts %>%
+  gather(key = "Phylum", value = "Count", ANNELIDA:OSTEICHTHYES)
+
+```
+
+```{r}
+# this counts the categories from above so i can plot them
+counts2 <- counts1 %>%
+  group_by(SECTION, ZONATION, Phylum, Count) %>%
+  tally()
+```
+
+```{r}
+
+# plot the species counts
+ggplot(counts2, aes(x = Phylum, y = n, fill = Count)) +
+  geom_bar(stat = "identity") +
+  labs(title = "Phylum Count by Section",
+       x = "Phylum",
+       y = "Count",
+       fill = "Count") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  facet_wrap(~SECTION, ncol = 2)
+
+```
+
+# Species Richness
+
+## How many different species are present in different sections on YI?
+
+### Note 'species' is a misleading name because these aren't all species, some are phyla. This will be corrected
+
+```{r}
+# total island richness is 28 unique species present (non-algal) 
+phylum_richness <- length(unique(counts2$Phylum))
+
+print(phylum_richness)
+```
+
+# Clarifying species/ phyla by site and zonation
+
+```{r}
+
+# Filter out rows with NAs in the ZONATION or Phylum column
+counts2_filtered <- counts2 %>%
+  filter(!is.na(ZONATION), !is.na(Phylum))
+
+# Perform grouping and summarizing on the filtered data
+zonation <- counts2_filtered %>%
+  group_by(ZONATION, Phylum) %>%
+  summarize(Sum_Count = sum(Count))
+
+
+```
+```{r}
+zonation <- counts2_filtered %>%
+  group_by(ZONATION, Phylum) %>%
+  summarize(Sum_Count = sum(Count, na.rm = TRUE))
+
+# Remove rows with NAs in ZONATION and Phylum columns
+counts2_cleaned <- drop_na(counts2_filtered, ZONATION, Phylum)
+
+# Perform grouping and summarizing on the cleaned data
+zonation <- counts2_cleaned %>%
+  group_by(ZONATION, Phylum) %>%
+  summarize(Sum_Count = sum(Count))
+
+
+```
+
+```{r}
+
+#this is grouped by zone and section
+section_zone <- counts2 %>%
+  group_by(SECTION, ZONATION, Phylum) %>%
+  summarize(Sum_Count = sum(Count))
+
+```
+
+# Heatmap
+
+## counts
+
+```{r}
+
+# Convert ZONATION to a factor with ordered levels
+#section_zone$ZONATION <- factor(section_zone$ZONATION, levels = c("L", "M", "U"))
+
+# Create a new data frame with required columns for the heatmap
+#heatmap_data <- section_zone %>%
+  #select(Phylum, ZONATION, Sum_Count)
+
+# Plot the heatmap
+ggplot(data = zonation, aes(x = ZONATION, y = Phylum, fill = Sum_Count)) +
+  geom_tile() +
+  scale_fill_gradient(low = "white", high = "blue") +
+  labs(title = "Heatmap of Phylum Counts by Zonation",
+       x = "Zonation", y = "Phylum", fill = "Count") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+
+```
+
+# Stacked Bar plot
+
+## counts
+
+```{r}
+# we will have to choose zone over section or vice versa so we can clearly see the result. Maybe we adjust the way we manipulate it
+
+# Plot the stacked bar plot with sections on X-axis and species on Y-axis
+ggplot(data = section_zone, aes(x = factor(SECTION), y = Sum_Count, fill = Phylum)) +
+  geom_bar(stat = "identity", position = "stack") +
+  labs(title = "Phylum Counts by Section",
+       x = "Section", y = "Count") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+
+```
+
+# NMDS
+
+# Not going to use this plot type - I just wanted to try it out to see if it is helpful
+
+```{r}
+
+# Check for missing values in the entire data frame
+sum(is.na(counts))
+
+# Check for missing values in specific columns (e.g., the algal count columns)
+colSums(is.na(counts[, 3:13]))
+
+# Convert the species count data to a distance matrix
+distance_matrix <- vegdist(counts[, 3:13], method = "bray")
+
+# Impute missing values with the mean of non-missing values
+distance_matrix[is.na(distance_matrix)] <- mean(distance_matrix, na.rm = TRUE)
+
+# Perform NMDS
+nmds_result <- metaMDS(distance_matrix, k = 2)  # k = 2 for 2-dimensional NMDS, you can change it as needed
+
+# Plot NMDS
+plot(nmds_result, display = "sites", type = "n")  # Plot without points first
+points(nmds_result, display = "sites", pch = 16, col = counts$SECTION)  # Add points with different colors for sections
+legend("bottomright", legend = unique(counts$SECTION), col = unique(counts$SECTION), pch = 16, title = "Section")
+
+```
+
+# PERMANOVA - this is glitchy - use the ANOVA
+
+## counts
+
+```{r}
+
+# Convert the species count data to a distance matrix
+distance_matrix <- vegdist(counts[, 3:13], method = "bray")
+
+# Impute missing values with the mean of non-missing values
+distance_matrix[is.na(distance_matrix)] <- mean(distance_matrix, na.rm = TRUE)
+
+# Perform PERMANOVA
+permanova_result <- adonis(distance_matrix ~ SECTION, data = counts)
+
+# Print PERMANOVA results
+print(permanova_result)
+
+```
+
+# ANOVA - GLM
+
+# counts
+
+```{r}
+library(stats)
+
+# Combine the columns related to species counts into a single column
+species_data <- counts %>%
+  select(SECTION, ZONATION, starts_with("ANNELIDA"), starts_with("BRYOZOA"), starts_with("TUNICATA"),
+         starts_with("PORIFERA_DEMOSPONGIAE"), starts_with("CNIDAIRA_ANTHOZOA"),
+         starts_with("MOLLUSCA"), starts_with("ARTHROPODA_NC"), starts_with("ARTHROPODA_C"),
+         starts_with("ECHINODERMATA_A"), starts_with("ECHINODERMATA_O"), starts_with("OSTEICHTHYES"))
+
+# Gather the species count data into a long format
+species_data_long <- species_data %>%
+  pivot_longer(cols = starts_with("ANNELIDA"):starts_with("OSTEICHTHYES"),
+               names_to = "Species", values_to = "Count")
+
+# Calculate the total count of each species for each section and zone
+total_counts <- species_data_long %>%
+  group_by(SECTION, ZONATION, Species) %>%
+  summarise(Total_Count = sum(Count))
+
+# Create a Poisson GLM for section comparison
+section_glm <- glm(Total_Count ~ SECTION, data = total_counts, family = poisson)
+
+# Create a Poisson GLM for zone comparison
+zone_glm <- glm(Total_Count ~ ZONATION, data = total_counts, family = poisson)
+
+# Perform ANOVA on the Poisson GLMs
+section_anova <- anova(section_glm)
+zone_anova <- anova(zone_glm)
+
+# Print the ANOVA results
+print(section_anova)
+print(zone_anova)
+
+```
+
+### The explanation here is that SECTION has a small deviance and a low degree of freedom meaning the model is a good fit for this data and SECTION has a significant effect on species count. Additionally, the small degree of freedom for ZONATION also indicates a significant effect on species count - this we knew.
+
+# ANOVA
+
+## counts
+
+```{r}
+
+# Perform the ANOVA for section comparison
+section_anova <- aov(Total_Count ~ SECTION, data = total_counts)
+
+# Print the ANOVA table with p-values
+summary(section_anova)
+
+# Perform the ANOVA for zone comparison
+zone_anova <- aov(Total_Count ~ ZONATION, data = total_counts)
+
+# Print the ANOVA table with p-values
+summary(zone_anova)
+
+```
+
+This result shows that the better fit for Zonation yields a statistically significant result. The SECTION didn't fit because the data isn't normally distributed and a better fit for the GLM above
+
+# ANOVA - GLM
+
+## algae
+
+```{r}
+
+# Sum the counts for each species to get the total count per section and zone
+section_totals <- algae %>%
+  group_by(SECTION) %>%
+  summarise(total_count = sum(BROWN_FL, RED_FL, GREEN_FL, ENCRUSTING_FL, OTHER_FL,
+                              BROWN_SL, RED_SL, GREEN_SL, ENCRUSTING_SL, OTHER_SL))
+
+zone_totals <- algae %>%
+  group_by(ZONATION) %>%
+  summarise(total_count = sum(BROWN_FL, RED_FL, GREEN_FL, ENCRUSTING_FL, OTHER_FL,
+                              BROWN_SL, RED_SL, GREEN_SL, ENCRUSTING_SL, OTHER_SL))
+
+# Create a Poisson GLM for section comparison
+section_glm <- glm(total_count ~ SECTION, data = section_totals, family = poisson)
+
+# Create a Poisson GLM for zone comparison
+zone_glm <- glm(total_count ~ ZONATION, data = zone_totals, family = poisson)
+
+# Perform ANOVA on the Poisson GLM
+section_anova <- anova(section_glm)
+zone_anova <- anova(zone_glm)
+
+# Print the ANOVA results
+print(section_anova)
+print(zone_anova)
+
+```
+
+# ANOVA
+
+## algae
+
+```{r}
+
+# Combine the columns related to algae counts into a single column
+algae_data <- algae %>%
+  select(SECTION, ZONATION, starts_with("BROWN_FL"), starts_with("RED_FL"), starts_with("GREEN_FL"),
+         starts_with("ENCRUSTING_FL"), starts_with("OTHER_FL"),
+         starts_with("BROWN_SL"), starts_with("RED_SL"), starts_with("GREEN_SL"),
+         starts_with("ENCRUSTING_SL"), starts_with("OTHER_SL"))
+
+# Gather the algae count data into a long format
+algae_data_long <- algae_data %>%
+  pivot_longer(cols = starts_with("BROWN_FL"):starts_with("OTHER_SL"),
+               names_to = "Algal_Type", values_to = "Count")
+
+# Calculate the total count of each algal type for each section and zone
+total_counts_algae <- algae_data_long %>%
+  group_by(SECTION, ZONATION, Algal_Type) %>%
+  summarise(Total_Count = sum(Count))
+
+# Perform the ANOVA for section comparison
+section_anova_algae <- aov(Total_Count ~ SECTION, data = total_counts_algae)
+
+# Print the ANOVA table with p-values
+summary(section_anova_algae)
+
+# Perform the ANOVA for zone comparison
+zone_anova_algae <- aov(Total_Count ~ ZONATION, data = total_counts_algae)
+
+# Print the ANOVA table with p-values
+summary(zone_anova_algae)
+
+```
+
+Similar output to the counts information above - zonation vice section makes the most impact, section didn't seem to have any impact here at all.
+
+# Stacked bar
+
+## algae
+
+```{r}
+# this visualization is unhelpful - trying to break it down below
+# Create a new data frame with the right categories for viz
+
+# Remove rows with NAs in ZONATION and Count columns
+plot_data_cleaned <- drop_na(plot_data, ZONATION, Count)
+
+# Plot the stacked bar plot with cleaned data
+ggplot(data = plot_data_cleaned, aes(x = factor(SECTION), y = Count, fill = ZONATION)) +
+  geom_bar(stat = "identity", position = "stack") +
+  labs(title = "Algal Counts by Section, Algal Type, and Zone",
+       x = "Section", y = "Count", fill = "Zone") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+```
+
+# Algal profile by zone and section
+
+```{r}
+
+# Create a new data frame with the relevant columns for visualization
+plot_data_by_section <- algae %>%
+  gather(key = "Algal_Type", value = "Count", starts_with(c("BROWN_", "RED_", "GREEN_", "ENCRUSTING_", "OTHER_")), factor_key = TRUE) %>%
+  mutate(Algal_Type = gsub("_FL|_SL", "", Algal_Type))
+
+plot_data_by_zone <- algae %>%
+  gather(key = "Algal_Type", value = "Count", starts_with(c("BROWN_", "RED_", "GREEN_", "ENCRUSTING_", "OTHER_")), factor_key = TRUE) %>%
+  mutate(Algal_Type = gsub("_FL|_SL", "", Algal_Type),
+         ZONATION = factor(ZONATION, levels = c("L", "M", "U")))
+
+# Create two separate plots for each algal type
+# 1. Algal type by section
+plot_section <- ggplot(data = plot_data_by_section, aes(x = factor(SECTION), y = Count, fill = Algal_Type)) +
+  geom_bar(stat = "identity", position = "stack") +
+  labs(title = "Algal Type Distribution by Section",
+       x = "Section", y = "Count", fill = "Algal Type") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+# 2. Algal type by zone
+plot_zone <- ggplot(data = plot_data_by_zone, aes(x = Algal_Type, y = Count, fill = ZONATION)) +
+  geom_bar(stat = "identity", position = "stack") +
+  labs(title = "Algal Type Distribution by Zone",
+       x = "Algal Type", y = "Count", fill = "Zone") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+# Arrange the plots side by side using 'gridExtra' package
+library(gridExtra)
+
+# Arrange the two plots side by side
+grid.arrange(plot_section, plot_zone, ncol = 2)
+
+```
+# New way to count algae
+# trying to fix the presence absence plotting - this still gives NAs eventhough I'm trying to remove them
+```{r}
+
+algae<- read.csv("algae1.csv")
+# Convert the data frame to presence_absence format
+algae_presence <- algae %>%
+  mutate(across(c("BROWN", "RED", "GREEN", "ENCRUSTING", "OTHER"), 
+                ~ifelse(. == "P", "Present", "Absent"))) %>%
+  pivot_longer(cols = c(BROWN, RED, GREEN, ENCRUSTING, OTHER),
+               names_to = "Algal_Type", values_to = "Presence_Absence",
+               values_drop_na = TRUE) %>%
+  mutate(Algal_Type = gsub("_FL|_SL", "", Algal_Type),
+         ZONATION = factor(ZONATION, levels = c("L", "M", "U"))) 
+
+# Plot the bar plot with facets for each zonation
+ggplot(data = algae_presence, aes(x = factor(SECTION), fill = Presence_Absence)) +
+  geom_bar() +
+  labs(title = "Algae Presence-Absence by Section and Algal Type",
+       x = "Section", fill = "Presence / Absence") +
+  scale_fill_manual(values = c("Present" = "blue", "Absent" = "gray")) +  # Customize fill colors
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  facet_grid(. ~ ZONATION)  # Create separate facets for each zonation
+
+```
+# Asking chat gpt for different supports to plot type of algae per section per zone
+```{r}
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+
+# Assuming your data frame is named "algae_data"
+
+# Convert the data frame to presence_absence format
+algae_presence <- algae %>%
+  mutate(across(c("BROWN", "RED", "GREEN", "ENCRUSTING", "OTHER"), 
+                ~ifelse(. == "P", "Present", "Absent"))) %>%
+  pivot_longer(cols = c(BROWN, RED, GREEN, ENCRUSTING, OTHER),
+               names_to = "Algal_Type", values_to = "Presence_Absence",
+               values_drop_na = TRUE) %>%
+  drop_na(Presence_Absence)%>%
+  mutate(Algal_Type = gsub("_FL|_SL", "", Algal_Type),
+         ZONATION = factor(ZONATION, levels = c("L", "M", "U"))) 
+
+# Plot the stacked bar plot of types of algae present in each section by zone
+ggplot(data = algae_presence, aes(x = factor(SECTION), fill = Algal_Type)) +
+  geom_bar() +
+  labs(title = "Types of Algae Present in Each Section by Zone",
+       x = "Section", fill = "Algal Type") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  facet_grid(. ~ ZONATION)  # Create separate facets for each zonation
+
+```
+#pie charts for algae
+```{r}
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+
+
+# Plot the pie chart for each section
+ggplot(data = algae_presence, aes(x = "", fill = Algal_Type)) +
+  geom_bar(width = 1) +  # Use geom_bar() with width = 1 to create pie charts
+  coord_polar("y", start = 0) +  # Convert to polar coordinates for pie chart
+  labs(title = "Types of Algae Present in Each Section",
+       fill = "Algal Type") +
+  theme_void() +
+  facet_grid(~ SECTION + ZONATION)  # Create separate facets for each section and zonation
+
+```
+
+#try this one for pie charts
+```{r}
+algae_colors <- c(GREEN = "#00FF00", BROWN = "#A52A2A", RED = "#FF0000", ENCRUSTING = "#800080", OTHER = "#808080")
+
+algae_presence$ALGAL_COLOR <- algae_colors[algae_presence$Algal_Type]
+
+# Convert the ALGAL_TYPE factor levels to their respective colors
+algae_presence$ALGAL_COLOR <- factor(algae_presence$Algal_Type, levels = names(algae_colors),
+                                 labels = algae_colors)
+```
+#pie chart - time 2
+```{r}
+
+# Create a list to store the pie charts
+pie_charts_list <- list()
+
+# Loop through each unique SECTION
+for (section in unique(algae_presence$SECTION)) {
+  # Filter data for the current SECTION
+  section_data <- algae_presence %>% filter(SECTION == section)
+  
+  # Create the pie chart for the current SECTION
+  pie_chart <- ggplot(section_data, aes(x = "", fill = Algal_Type)) +
+    geom_bar(width = 1) +  # Removed "values = algal_proportions"
+    coord_polar("y") +
+    labs(title = paste("Algal Cover in SECTION", section),
+         fill = "Algal Type") +
+    scale_fill_manual(values = algae_colors) +
+    theme_minimal()
+  
+  # Append the pie chart to the list
+  pie_charts_list[[section]] <- pie_chart
+}
+
+# Arrange and print the pie charts
+gridExtra::grid.arrange(grobs = pie_charts_list, ncol = 2)
+
+```
+#single section pie chart attempt
+```{r}
+
+
+# Filter data for SECTION 1
+section_data <- algae_presence %>% filter(SECTION == 1)
+
+# Calculate the proportion of each algal type
+algal_counts <- table(section_data$Algal_Type)
+algal_proportions <- algal_counts / sum(algal_counts)
+
+# Create the pie chart for SECTION 1
+pie_chart <- ggplot(section_data, aes(x = "", fill = Algal_Type)) +
+  geom_bar(width = 1, aes(y = algal_proportions), stat = "identity") +
+  coord_polar("y") +
+  labs(title = "Algal Cover in SECTION 1",
+       fill = "Algal Type") +
+  scale_fill_manual(values = algae_colors) +
+  theme_minimal()
+# Display the pie chart for SECTION 1
+print(pie_chart)
+
+```
+
+# pie chart that doesn't like how we calculate values
+```{r}
+
+# Create a list to store the pie charts
+pie_charts_list <- list()
+
+# Loop through each unique SECTION
+for (section in unique(algae_presence$SECTION)) {
+  # Filter data for the current SECTION
+  section_data <- algae_presence %>% filter(SECTION == section)
+  
+  # Calculate the proportion of each algal type
+  algal_counts <- table(section_data$Algal_Type)
+  algal_proportions <- algal_counts / sum(algal_counts)
+  
+  # Create the pie chart for the current SECTION
+  pie_chart <- ggplot(section_data, aes(x = "", fill = Algal_Type, values = algal_proportions)) +
+    geom_bar(width = 1, stat = "identity") +
+    coord_polar("y") +
+    labs(title = paste("Algal Cover in SECTION", section),
+         fill = "Algal Type") +
+    scale_fill_manual(values = algae_colors) +
+    theme_minimal()
+  
+  # Append the pie chart to the list
+  pie_charts_list[[section]] <- pie_chart
+}
+
+# Arrange and print the pie charts
+gridExtra::grid.arrange(grobs = pie_charts_list, ncol = 2)
+
+```
+# this isn't working for the stacked bar - each stack is 25%, that is incorrect
+```{r}
+# stacked bar by zone
+# Calculate the counts of each algal type by ZONATION
+zonal_counts <- algae_presence %>%
+  group_by(ZONATION, Algal_Type) %>%
+  summarise(count = n()) %>%
+  mutate(algal_proportion = count / sum(count))
+
+# Create the stacked bar plot
+stacked_bar_plot <- ggplot(zonal_counts, aes(x = ZONATION, y = algal_proportion, fill = Algal_Type)) +
+  geom_bar(stat = "identity") +
+  labs(title = "Algal Cover Across Zonation",
+       x = "Zonation",
+       y = "Proportion",
+       fill = "Algal Type") +
+  scale_fill_manual(values = c(GREEN = "#00FF00", BROWN = "#A52A2A", RED = "#FF0000", ENCRUSTING = "#FFD700")) +
+  theme_minimal()
+
+# Display the stacked bar plot
+print(stacked_bar_plot)
+
+```
+
+
+```{r}
+library(ggplot2)
+
+# Assuming you have the "plot_data" data frame after using pivot_longer
+
+# Plot the bar plot with stacked bars to show types of algae present at each section
+ggplot(data = plot_data, aes(x = factor(SECTION), fill = Algal_Type)) +
+  geom_bar(position = "stack") +
+  labs(title = "Types of Algae Present at Each Section",
+       x = "Section", fill = "Algal Type") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  facet_grid(. ~ ZONATION)  # Create separate facets for each zonation
+
+```
+
+```{r}
+
+
+# Create a presence_absence column for each algae type
+algae_presence <- algae %>%
+  mutate(Presence_Absence_BROWN_FL = ifelse(BROWN_FL == "P", "Present", "Absent"),
+         Presence_Absence_RED_FL = ifelse(RED_FL == "P", "Present", "Absent"),
+         Presence_Absence_GREEN_FL = ifelse(GREEN_FL == "P", "Present", "Absent"),
+         Presence_Absence_ENCRUSTING_FL = ifelse(ENCRUSTING_FL == "P", "Present", "Absent"),
+         Presence_Absence_OTHER_FL = ifelse(OTHER_FL == "P", "Present", "Absent"),
+         Presence_Absence_BROWN_SL = ifelse(BROWN_SL == "P", "Present", "Absent"),
+         Presence_Absence_RED_SL = ifelse(RED_SL == "P", "Present", "Absent"),
+         Presence_Absence_GREEN_SL = ifelse(GREEN_SL == "P", "Present", "Absent"),
+         Presence_Absence_ENCRUSTING_SL = ifelse(ENCRUSTING_SL == "P", "Present", "Absent"),
+         Presence_Absence_OTHER_SL = ifelse(OTHER_SL == "P", "Present", "Absent"))
+
+# Use pivot_longer to gather the columns into rows
+plot_data <- algae_presence %>%
+  pivot_longer(cols = starts_with("Presence_Absence"), names_to = "Algal_Type", values_to = "Presence_Absence")
+
+# The plot_data data frame now contains three columns: SECTION, Algal_Type, and Presence_Absence
+# where Presence_Absence will have "Present" if algae is present (P) or "Absent" if algae is absent (A).
+
+```
+
+#plot data after the P/A mutation
+```{r}
+
+# Plot the bar plot
+ggplot(data = plot_data, aes(x = factor(SECTION), fill = Presence_Absence)) +
+  geom_bar() +
+  labs(title = "Algae Presence-Absence by Section and Algal Type",
+       x = "Section", fill = "Presence / Absence") +
+  scale_fill_manual(values = c("Present" = "blue", "Absent" = "gray")) +  # Customize fill colors
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+```
+#trying by zone and by section
+```{r}
+
+# Plot the bar plot with facets by zone and section
+ggplot(data = plot_data, aes(x = factor(SECTION), fill = Presence_Absence)) +
+  geom_bar() +
+  labs(title = "Algae Presence-Absence by Section and Algal Type",
+       x = "Section", fill = "Presence / Absence") +
+  scale_fill_manual(values = c("Present" = "blue", "Absent" = "gray")) +  # Customize fill colors
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  facet_grid(ZONATION ~ .)  # Create facets by zone and section
+
+```
+#more options for algae plotting
+```{r}
+# Plot the bar plot with wrapped facets by zone and section
+ggplot(data = plot_data, aes(x = factor(SECTION), fill = Presence_Absence)) +
+  geom_bar() +
+  labs(title = "Algae Presence-Absence by Section and Algal Type",
+       x = "Section", fill = "Presence / Absence") +
+  scale_fill_manual(values = c("Present" = "blue", "Absent" = "gray")) +  # Customize fill colors
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  facet_wrap(~ ZONATION)  # Create wrapped facets by zone
+
+```
+#type of algae by zone maybe
+```{r}
+library(ggplot2)
+
+# Assuming you have the "plot_data" data frame after using pivot_longer
+
+# Plot the bar plot with stacked bars to show types of algae present at each section
+ggplot(data = plot_data, aes(x = factor(SECTION), fill = Algal_Type)) +
+  geom_bar(position = "stack") +
+  labs(title = "Types of Algae Present at Each Section",
+       x = "Section", fill = "Algal Type") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  facet_grid(. ~ ZONATION)  # Create separate facets for each zonation
+
+```
+
+#trying to plot by zone
+```{r}
+
+# Plot the bar plot with facets for each zonation
+ggplot(data = plot_data, aes(x = factor(SECTION), fill = Presence_Absence)) +
+  geom_bar() +
+  labs(title = "Algae Presence-Absence by Section and Algal Type",
+       x = "Section", fill = "Presence / Absence") +
+  scale_fill_manual(values = c("Present" = "blue", "Absent" = "gray")) +  # Customize fill colors
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  facet_grid(. ~ ZONATION)  # Create separate facets for each zonation
+
+```
+#plotting by section and zone
+```{r}
+# Plot the bar plot with different colors for presence and absence of algal covers
+ggplot(data = plot_data, aes(x = factor(SECTION), fill = Presence_Absence)) +
+  geom_bar(position = "stack") +
+  labs(title = "Algae Presence-Absence by Section and Algal Type",
+       x = "Section", fill = "Presence / Absence") +
+  scale_fill_manual(values = c("Present" = "blue", "Absent" = "gray")) +  # Customize fill colors
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+```
+
+
+#not connected to the earlier stuff
+```{r}
+#use algae 1 for this
+algae <- read.csv("algae1.csv")
+
+algae_presence <- algae %>%
+  mutate(presence_absence = ifelse(rowSums(select(., starts_with("BROWN_"))) > 0, "Present", "Absent"))
+
+# Now, use pivot_longer to gather the BROWN_* columns into one column
+plot_data <- algae_presence %>%
+  pivot_longer(cols = starts_with("BROWN_"), names_to = "Algal_Type", values_to = "Presence_Absence") %>%
+  mutate(Algal_Type = gsub("_FL|_SL", "", Algal_Type))
+
+# plot_data now has three columns: SECTION, Algal_Type, and Presence_Absence
+# SECTION: The section data
+# Algal_Type: The type of algae (without _FL and _SL)
+# Presence_Absence: "Present" if algae is present (1), "Absent" if algae is absent (0)
+
+```
+
+```{r}
+# Assuming you have raw data in the "algae" data frame with a column "Presence_Absence"
+# and you want to create the "plot_data" with presence-absence converted to binary
+
+
+# Convert presence-absence to binary (1 for presence, 0 for absence)
+algae_binary <- algae %>%
+  mutate(Count = ifelse(Presence_Absence == "Present", 1, 0))
+
+# Create the plot_data with binary data
+plot_data <- algae_binary %>%
+  gather(key = "Algal_Type", value = "Count", starts_with("BROWN_"), factor_key = TRUE) %>%
+  mutate(Algal_Type = gsub("_FL|_SL", "", Algal_Type),
+         ZONATION = factor(ZONATION, levels = c("L", "M", "U")))
+
+```
+
+
+
+
+
+
+# Trying a PCA
+
+```{r}
+# This is a plot that shows 3 dimensions of data in 2 dimensions
+# Create a species abundance matrix
+
+species_matrix <- t(table(counts1$species, counts1$SECTION))
+
+# Run PCA
+
+pca_result <- rda(species_matrix)
+
+# Create a PCA plot in base R - do this first and then do it in ggplot
+
+plot(pca_result, type = "points", display = "species", cex = 1.5)
+
+# Load required libraries
+
+# install.packages("ggplot2") # If not installed previously library(ggplot2)
+
+# Extract PCA scores for each species
+
+pca_scores <- scores(pca_result, display = "species")
+
+# Convert PCA scores to a data frame
+
+pca_data <- as.data.frame(pca_scores$species)
+
+# Add Species names as a column
+
+pca_data$Species <- rownames(pca_data)
+
+# Create a PCA plot using ggplot2
+
+ggplot(pca_data, aes(x = PC1, y = PC2, label = Species)) + geom_point() + geom_text(size = 3, hjust = 0, vjust = 0) + xlab("Principal Component 1") + ylab("Principal Component 2") + ggtitle("PCA Plot of Intertidal Species") + theme_minimal()
+```
+
+# Trying Presence/ Absence Data Manipulation
+
+```{r}
+
+#different data pivot; using the full sheet
+
+data_long <- data %>%
+  gather(key = "Seaweed", value = "Presence", FL_ROCKWEED:FL_OTHER)
+
+```
+
+```{r}
+
+seaweed_counts <- data_long %>%
+  group_by(SECTION, Seaweed, Presence) %>%
+  tally()
+
+```
+
+```{r}
+
+ggplot(seaweed_counts, aes(x = Seaweed, y = n, fill = Presence)) +
+  geom_bar(stat = "identity") +
+  labs(title = "Presence/Absence of Seaweeds",
+       x = "Seaweed Species",
+       y = "Count",
+       fill = "Presence") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  facet_wrap(~SECTION, ncol = 2)
+
+```
+
+```{R}
+#section1 test data to show zonation v substrate - have to alter this to make that happen
+
+test_long <- data %>%
+  pivot_longer(cols = c(BARNACLE, ROCK, ALGAE),
+               names_to = "substrate",
+               values_to = "percent")
+
+# Printing the first few rows of the resulting data frame
+print(data_long)
+```
+
+# Percent Cover of Phylum Count for MARINe Data Sites- Manchester & Post
+using
+postpercent.csv
+manpercent.csv
+
+```{r}
+#phylum cover
+
+
+# Plot the stacked bar plot with sections on X-axis and species on Y-axis
+ggplot(data = section_zone, aes(x = factor(SECTION), y = Sum_Count, fill = Phylum)) +
+  geom_bar(stat = "identity", position = "stack") +
+  labs(title = "Phylum Counts by Section",
+       x = "Section", y = "Count") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+```
+
+# Percent cover for stacked bar
+```{r}
+marine<- read.csv("combinedMarine.csv")
+# Load necessary libraries
+library(ggplot2)
+
+
+# Create the stacked bar plot
+ggplot(marine, aes(x = SITE, y = Percent_Cover, fill = Phylum)) +
+  geom_bar(stat = "identity", position = "stack") +
+  facet_wrap(~SECTION, scales = "free", ncol = 1) +
+  labs(title = "Phylum Percent Cover across Site and Section",
+       x = "Site",
+       y = "Percent Cover") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))  # Rotate x-axis labels for better visibility
+
+```
+```{r}
+ggplot(marine, aes(x = Phylum, y = Percent_Cover, fill = Phylum)) +
+  geom_bar(stat = "identity", position = "stack") +
+  facet_grid(SITE ~ SECTION, scales = "free", space = "free", switch = "y") +
+  labs(title = "Phylum Percent Cover across Site and Section",
+       x = "Phylum",
+       y = "Percent Cover") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))  # Rotate x-axis labels for better visibility
+```
+```{r}
+# Load necessary libraries
+library(ggplot2)
+
+# Create the stacked bar plot with facet_grid
+ggplot(marine, aes(x = SITE, fill = Phylum)) +
+  geom_bar(position = "dodge") +
+  labs(title = "Phylum Counts across Site and Section",
+       x = "Site",
+       y = "Count") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))  # Rotate x-axis labels for better visibility
+
+```
+
