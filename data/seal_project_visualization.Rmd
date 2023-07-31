@@ -26,8 +26,8 @@ library(vegan)
 ```
 
 # Files Used
-seal.csv - Histogram of seal behavior
 
+seal.csv - Histogram of seal behavior
 
 ```{r}
 
@@ -55,9 +55,10 @@ ggplot(total_behavior_frequency, aes(x = DATE.OF.OBSERVATION, y = OCCURENCE)) +
 
 ```
 
-
 # Grouped Bar
+
 I don't like the histogram of frequency, so I wanted to try this instead
+
 ```{r}
 
 # Convert the DATE OF OBSERVATION column to Date format
@@ -89,5 +90,3 @@ ggplot(data, aes(x = Life_Stage, fill = Play)) +
   scale_fill_discrete(name = "Behavior")
 
 ```
-
-
