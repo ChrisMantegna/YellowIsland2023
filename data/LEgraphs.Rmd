@@ -86,7 +86,7 @@ marine<- read.csv("combinedMarine.csv", header= TRUE)
 
 ```
 # Big Picture Viz
-# Manipulate counts data to make visualizations
+## Manipulate counts data to make visualizations
 ```{r}
 
 counts1 <- counts %>%
@@ -135,16 +135,19 @@ ggplot(section_phylum_counts, aes(x = SECTION, y = Total_Count, fill = Phylum)) 
     plot.background = element_rect(fill = "white"),  # Set plot background color
     panel.grid = element_blank(),  # Remove grid lines
     axis.line = element_line(size = 0.5),  # Customize axis line width
-    legend.position = "right"  # Move the legend to the right
-  ) +
+    legend.position = "right" ) +
   coord_cartesian(ylim = c(0, max(section_phylum_counts$Total_Count) * 1.1))  # Adjust Y-axis limits# Plot the stacked bar graph for counts by SECTION with phyla as fill and custom colors
-ggplot(section_phylum_counts, aes(x = SECTION, y = Total_Count, fill = Phylum)) +
+all_sections <- 1:8
+
+# Plot the stacked bar graph for counts by SECTION with phyla as fill and custom colors
+ggplot(section_phylum_counts, aes(x = factor(SECTION, levels = all_sections), y = Total_Count, fill = Phylum)) +
   geom_bar(stat = "identity") +
   scale_fill_manual(values = custom_colors) +  # Set custom colors for the phyla
   labs(x = "SECTION", y = "Count", title = "Phyla Count by Section") +
   theme_minimal() +
-  theme(axis.text.x = element_text(angle = 15, hjust = 1, vjust = 0.5, face = "bold"))
-
+  theme(plot.title = element_text(hjust = 0.5)) +
+  theme(axis.text.x = element_text(angle = 0, hjust = 1, vjust = 0.5, face = "bold")) +
+  scale_x_discrete(limits = all_sections)  # Set X-axis labels to include all sections from 1 to 8
 
 ```
 
@@ -157,11 +160,15 @@ zonation_phylum_counts <- counts1 %>%
   group_by(ZONATION, Phylum) %>%
   summarize(Total_Count = sum(Count))
 
-# Plot the bar graph for PHYLUM counts across ZONATION
+custom_colors <- c("sienna", "red", "yellow", "royalblue", "purple","seagreen", "black", "orange", "lightgrey")
+
+
 ggplot(zonation_phylum_counts, aes(x = ZONATION, y = Total_Count, fill = Phylum)) +
   geom_bar(stat = "identity") +
-  labs(x = "ZONATION", y = "Phylum Count", title = "Phylum Count across ZONATION") +
-  theme_minimal()
+  scale_fill_manual(values = custom_colors) +
+  labs(x = "Zonation", y = "Phyla Count", title = "Phyla Count across Zonation") +
+  theme_minimal() +
+  theme(plot.title = element_text(hjust = 0.5))
 
 ```
 
@@ -184,15 +191,43 @@ marine$Phylum <- factor(marine$Phylum, levels = custom_order)
 ggplot(marine, aes(x = Site_Section, y = Percent_Cover, fill = Phylum)) +
   geom_bar(stat = "identity", position = "stack") +
   scale_fill_manual(values = custom_colors) +
-  labs(title = "Phylum Percent Cover across Site and Section",
+  labs(title = "Phyla Percent Cover across Site and Section",
        x = "Site - Section",
        y = "Percent Cover") +
   theme_minimal() +
+  theme(plot.title = element_text(hjust = 0.5)) +
   theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
   guides(fill = guide_legend(reverse = TRUE))  # Reverse the order of the legend
 
 ```
+# Algae Data Visualization
 ```{r}
+
+
+# Assuming you already have the 'algae' dataframe, create a new dataframe with the desired format
+algae_counts <- algae %>%
+  pivot_longer(cols = c(BROWN, RED, GREEN, ENCRUSTING, OTHER), names_to = "Algal_Type", values_to = "Presence") %>%
+  group_by(SECTION, Algal_Type) %>%
+  summarize(Count = sum(ifelse(Presence == "P", 1, 0)))
+
+# Define the custom order for the legend
+custom_order <- c("OTHER", "ENCRUSTING","RED", "GREEN", "BROWN")
+algae_counts$Algal_Type <- factor(algae_counts$Algal_Type, levels = custom_order)
+
+# Plot the stacked bar chart
+ggplot(algae_counts, aes(x = as.factor(SECTION), y = Count, fill = Algal_Type)) +
+  geom_bar(stat = "identity") +
+  scale_fill_manual(values = c("BROWN" = "brown", "RED" = "red", "GREEN" = "seagreen4", "ENCRUSTING" = "purple", "OTHER" = "gray"),
+                    labels = c("BROWN" = "Brown", "RED" = "Red", "GREEN" = "Green", "ENCRUSTING" = "Encrusting", "OTHER" = "Other")) +
+  labs(x = "Section", y = "Count", fill = "Algal Type", title = "Algal Cover by Section") +
+  theme_minimal() +
+  theme(legend.position = "right",
+        plot.title = element_text(hjust= 0.5)) +
+  guides(fill = guide_legend(reverse = TRUE))  # To customize the order of names in the legend
+
+# Save the plot as an image (optional)
+ggsave("stacked_bar_plot.png", width = 10, height = 6)
+
 
 ```
 

@@ -90,3 +90,45 @@ ggplot(data, aes(x = Life_Stage, fill = Play)) +
   scale_fill_discrete(name = "Behavior")
 
 ```
+# Behavior Pie Chart
+```{r}
+
+seal<- read.csv("seal2.csv")
+
+# Change the legend order of the categories
+#custom_order <- c("Other", "Human Disturbance", "Land + Water", "Water", "Land")
+
+# Define custom colors for each category
+custom_colors <- c("Land" = "seagreen", 
+                   "Water" = "royalblue", 
+                   "Other" = "lightgray", 
+                   "Human Disturbance" = "coral", 
+                   "Land + Water" = "purple3")
+
+behavior_summary <- aggregate(Occurrence ~ Category, data = seal, sum)
+
+# Reorder the Category levels to match your desired order
+behavior_summary$Category <- factor(behavior_summary$Category, levels = c("Land", "Water", "Land + Water", "Human Disturbance", "Other"))
+
+# Calculate the percentage for each category
+behavior_summary$Percentage <- behavior_summary$Occurrence / sum(behavior_summary$Occurrence) * 100
+
+# Create the pie chart with custom colors and percentages at the end of pie slices
+ggplot(behavior_summary, aes(x = "", y = Occurrence, fill = Category)) +
+  geom_bar(stat = "identity", width = 1) +
+  coord_polar("y") +
+   geom_text(aes(x = 1.15, label = paste0(round(Percentage), "%")), 
+            position = position_stack(vjust = 0.5), 
+            size = 3, 
+            fontface = "bold",
+            color = "black",
+            show.legend = FALSE) + # Percentage at the end of pie slices
+  scale_fill_manual(values = custom_colors) +  # Use custom colors
+  theme_void() +
+  labs(title = "Proportion of Seal Behaviors by Category",
+       fill = "Category") +
+  theme(legend.position = "right")
+
+
+```
+

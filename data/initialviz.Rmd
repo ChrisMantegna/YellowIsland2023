@@ -209,7 +209,7 @@ section_zone <- counts2 %>%
 ```{r}
 
 # Convert ZONATION to a factor with ordered levels
-#section_zone$ZONATION <- factor(section_zone$ZONATION, levels = c("L", "M", "U"))
+section_zone$ZONATION <- factor(section_zone$ZONATION, levels = c("L", "M", "U"))
 
 # Create a new data frame with required columns for the heatmap
 #heatmap_data <- section_zone %>%
@@ -574,29 +574,45 @@ algae_presence$ALGAL_COLOR <- factor(algae_presence$Algal_Type, levels = names(a
 #pie chart - time 2
 ```{r}
 
-# Create a list to store the pie charts
-pie_charts_list <- list()
+# Summarize data by ZONATION and Algal_Type
+zone_summary <- algae_presence %>%
+  group_by(ZONATION, Algal_Type) %>%
+  summarise(count = sum(ifelse(Presence_Absence == "Present", 1, 0)))
 
-# Loop through each unique SECTION
-for (section in unique(algae_presence$SECTION)) {
-  # Filter data for the current SECTION
-  section_data <- algae_presence %>% filter(SECTION == section)
-  
-  # Create the pie chart for the current SECTION
-  pie_chart <- ggplot(section_data, aes(x = "", fill = Algal_Type)) +
-    geom_bar(width = 1) +  # Removed "values = algal_proportions"
-    coord_polar("y") +
-    labs(title = paste("Algal Cover in SECTION", section),
-         fill = "Algal Type") +
-    scale_fill_manual(values = algae_colors) +
-    theme_minimal()
-  
-  # Append the pie chart to the list
-  pie_charts_list[[section]] <- pie_chart
+# Summarize data by SECTION and Algal_Type
+section_summary <- algae_presence %>%
+  group_by(SECTION, Algal_Type) %>%
+  summarise(count = sum(ifelse(Presence_Absence == "Present", 1, 0)))
+
+# Function to create a pie chart with percent labels at the ends of slices
+create_pie_chart <- function(data, title, group_var) {
+  ggplot(data, aes(x = "", y = count, fill = Algal_Type)) +
+    geom_bar(stat = "identity", width = 1) +
+    coord_polar("y", start = 0) +
+    labs(title = title) +
+    theme_void() +
+    theme(legend.title = element_blank(),
+          legend.position = "right") +
+    stat("count", aes(label = scales::percent(..prop..), group = !!sym(group_var)),
+         position = position_stack(vjust = 0.5))
 }
 
-# Arrange and print the pie charts
-gridExtra::grid.arrange(grobs = pie_charts_list, ncol = 2)
+
+#theme(plot.title = element_text(hjust = 0.5)) +
+  
+custom_colors <- c("sienna", "purple", "darkgreen", "#F0E442", "red")
+
+# Create pie chart for the presence of algal types in each zone
+#pie_chart_zone <- create_pie_chart(zone_summary, "Presence of Algal Types in Each Zone") +
+ # scale_fill_manual(values = custom_colors)
+
+# Create pie chart for the presence of algal types in each section
+pie_chart_section <- create_pie_chart(section_summary, "Presence of Algal Types in Each Section") +
+  scale_fill_manual(values = custom_colors)
+
+# Display the pie charts
+#print(pie_chart_zone)
+print(pie_chart_section)
 
 ```
 #single section pie chart attempt
@@ -1010,11 +1026,11 @@ marine$Phylum <- factor(marine$Phylum, levels = custom_order)
 ggplot(marine, aes(x = Site_Section, y = Percent_Cover, fill = Phylum)) +
   geom_bar(stat = "identity", position = "stack") +
   scale_fill_manual(values = custom_colors) +
-  labs(title = "Phylum Percent Cover across Site and Section",
+  labs(title = "Phyla Percent Cover across Site and Section",
        x = "Site - Section",
        y = "Percent Cover") +
   theme_minimal() +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  theme(axis.text.x = element_text(angle = 30, hjust = 1)) +
   guides(fill = guide_legend(reverse = TRUE))  # Reverse the order of the legend
 
 ```
@@ -1022,7 +1038,6 @@ ggplot(marine, aes(x = Site_Section, y = Percent_Cover, fill = Phylum)) +
 
 # Chi-square to prove highest abundance per section
 ```{r}
-
 
 # Chi-square test for each section
 section_chi_square_tests <- counts1 %>%
@@ -1039,5 +1054,23 @@ zonation_chi_square_tests <- counts1 %>%
   group_by(ZONATION) %>%
   do(chi_square_test = chisq.test(.$Count))
 
+```
+
+```{r}
+
+# Frequency analysis for ranking phyla across zonation
+phylum_counts_by_zonation <- counts1 %>%
+  group_by(Phylum, ZONATION) %>%
+  summarize(Count = sum(Count)) %>%
+  group_by(Phylum) %>%
+  summarize(Total_Count = sum(Count)) %>%
+  arrange(desc(Total_Count))
+
+# Frequency analysis for ranking phyla across all sections combined
+phylum_counts_combined <- counts1 %>%
+  group_by(Phylum) %>%
+  summarize(Total_Count = sum(Count)) %>%
+  arrange(desc(Total_Count))
 
 ```
+
