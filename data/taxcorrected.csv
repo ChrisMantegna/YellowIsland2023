@@ -1,0 +1,266 @@
+species_code,kingdom,phylum,class,order,family,genus,species
+ACAPUN,Animalia,Mollusca,Gastropoda,Neogastropoda,Muricidae,Acanthina,Acanthina punctulata
+ACASPI,Animalia,Mollusca,Gastropoda,Neogastropoda,Muricidae,Acanthina,Acanthina spirata
+ACASPP,Animalia,Mollusca,Gastropoda,Neogastropoda,Muricidae,Acanthinucella,NULL
+ACRSPP,Plantae, Chlorophyta,Ulvophyceae,NULL,NULL,NULL,NULL
+AHNLIN,Plantae, Rhodophyta,Florideophyceae,Gigartinales,Phyllophoraceae,Ahnfeltiopsis,Ahnfeltiopsis linearis
+ALAMAR,Chromista,Ochrophyta,Phaeophyceae,Laminariales,Alariaceae,Alaria,Alaria marginata
+ALISPP,Animalia,Mollusca,Gastropoda,Neogastropoda,Columbellidae,Alia,NULL
+ALLCRU,Plantae,NULL,NULL,NULL,NULL,NULL,NULL
+AMPSPP,Animalia,Mollusca,Gastropoda,Neogastropoda,Columbellidae,Amphissa,NULL
+ANAJAP,Chromista,Ochrophyta,Phaeophyceae,Ralfsiales,Ralfsiaceae,Analipus,Analipus japonicus
+ANTELE,Animalia,Cnidaria,Anthozoa,Actiniaria,Actiniidae,Anthopleura,NULL
+ANTSOL,Animalia,Cnidaria,Anthozoa,Actiniaria,Actiniidae,Anthopleura,Anthopleura sola
+ANTXAN,Animalia,Cnidaria,Anthozoa,Actiniaria,Actiniidae,Anthopleura,Anthopleura xanthogrammica
+APLCAL,Animalia,Mollusca,Gastropoda,Aplysiida,Aplysiidae,Aplysia,Aplysia californica
+ARTCOR,Plantae, Rhodophyta,Florideophyceae,Corallinales,Corallinaceae,NULL,NULL
+ASTSER,Animalia,Echinodermata,Asteroidea,Forcipulatida,Asteriidae,Astrometis,Astrometis sertulifera
+BALCRE,Animalia,Arthropoda,Thecostraca,Balanomorpha,Balanidae,Balanus,Balanus crenatus
+BALGLA,Animalia,Arthropoda,Thecostraca,Balanomorpha,Balanidae,Balanus,Balanus glandula
+BALSEM,Animalia,Arthropoda,Thecostraca,Sessilia,NULL,NULL,NULL
+BANSPP,Plantae, Rhodophyta,Bangiophyceae,Bangiales,Bangiaceae,Bangia,NULL
+BARNAC,Animalia,Arthropoda,Thecostraca,Sessilia,NULL,NULL,NULL
+BARSUB,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+BITSPP,Animalia,Mollusca,Gastropoda,[unassigned] Caenogastropoda,Cerithiidae,Lirobittium,Lirobittium munitum
+BLUGRE,Bacteria,Cyanobacteria,NULL,NULL,NULL,NULL,NULL
+BRYOZO,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+BRYSPP,Plantae, Chlorophyta,Ulvophyceae,Bryopsidales,Bryopsidaceae,Bryopsis,NULL
+CALLIG,Animalia,Mollusca,Gastropoda,Trochida,Calliostomatidae,Calliostoma,Calliostoma ligatum
+CALPIK,Plantae, Rhodophyta,Florideophyceae,Ceramiales,Callithamniaceae,Callithamnion,Callithamnion pikeanum
+CALSPP,Animalia,Mollusca,Gastropoda,Trochida,Calliostomatidae,Calliostoma,NULL
+CAUUST,Plantae, Rhodophyta,Florideophyceae,Gigartinales,Caulacanthaceae,Caulacanthus,Caulacanthus ustulatus
+CENCLA,Plantae, Rhodophyta,Florideophyceae,Ceramiales,Ceramiaceae,Centroceras,Centroceras clavulatum
+CERFLA,Plantae, Rhodophyta,Florideophyceae,Ceramiales,Ceramiaceae,Ceramium,Ceramium flaccidum
+CERNUT,Animalia,Mollusca,Gastropoda,Neogastropoda,Muricidae,Ceratostoma,Ceratostoma nuttalli
+CERSPP,Plantae, Rhodophyta,Florideophyceae,Ceramiales,Ceramiaceae,Ceramium,NULL
+CHASPP,Plantae, Chlorophyta,Ulvophyceae,Cladophorales,Cladophoraceae,Chaetomorpha,NULL
+CHITON,Animalia,Mollusca,Polyplacophora,NULL,NULL,NULL,NULL
+CHOCAN,Plantae, Rhodophyta,Florideophyceae,Gigartinales,Gigartinaceae,Chondracanthus,Chondracanthus canaliculatus
+CHOSPI,Plantae, Rhodophyta,Florideophyceae,Gigartinales,Gigartinaceae,Chondracanthus,Chondracanthus spinosus
+CHOSPP,Plantae, Rhodophyta,Florideophyceae,Ceramiales,Rhodomelaceae,Chondria,NULL
+CHTBAL,Animalia,Arthropoda,Thecostraca,Sessilia,NULL,NULL,NULL
+CHTDAL,Animalia,Arthropoda,Thecostraca,Balanomorpha,Chthamalidae,Chthamalus,NULL
+CLACOL,Plantae, Chlorophyta,Ulvophyceae,Cladophorales,Cladophoraceae,Cladophora,Cladophora columbiana
+CODSET,Plantae, Chlorophyta,Ulvophyceae,Bryopsidales,Codiaceae,Codium,Codium setchellii
+COLLEA,Chromista,Ochrophyta,Phaeophyceae,Ectocarpales,NULL,NULL,NULL
+COLPER,Chromista,Ochrophyta,Phaeophyceae,Ectocarpales,Scytosiphonaceae,Colpomenia,Colpomenia peregrina
+COLPOM,Chromista,Ochrophyta,Phaeophyceae,Ectocarpales,Scytosiphonaceae,Colpomenia,Colpomenia tuberculata
+CONCAL,Animalia,Mollusca,Gastropoda,Neogastropoda,Conidae,Californiconus,Californiconus californicus
+CORVAN,Plantae, Rhodophyta,Florideophyceae,Corallinales,Corallinaceae,Corallina,NULL
+CRAGIG,Animalia,Mollusca,Bivalvia,Ostreida,Ostreidae,Crassostrea,Crassostrea gigas
+CRESPP,Animalia,Mollusca,Gastropoda,Littorinimorpha,Calyptraeidae,Crepidula,NULL
+CRUCOR,Plantae, Rhodophyta,Florideophyceae,Corallinales,Corallinaceae,NULL,NULL
+CRYHYM,Plantae, Rhodophyta,Florideophyceae,Ceramiales,Delesseriaceae,NULL,NULL
+CRYSTE,Animalia,Mollusca,Polyplacophora,Chitonida,Acanthochitonidae,Cryptochiton,Cryptochiton stelleri
+CRYWOO,Plantae, Rhodophyta,Florideophyceae,Gigartinales,Dumontiaceae,Cryptosiphonia,Cryptosiphonia woodii
+CUMAND,Plantae, Rhodophyta,Florideophyceae,Nemaliales,Liagoraceae,Cumagloia,Cumagloia andersonii
+DEABAL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+DEACHT,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+DEACRA,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+DEADCB,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+DEAINV,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+DEAMCA,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+DEAMTR,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+DEASBB,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+DEASEM,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+DEATET,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+DERIMB,Animalia,Echinodermata,Asteroidea,Valvatida,Asteropseidae,Dermasterias,Dermasterias imbricata
+DIATOM,Chromista,Bacillariophyta,Bacillariophyceae,NULL,NULL,NULL,NULL
+DICSPP,Chromista,Ochrophyta,Phaeophyceae,Dictyotales,Dictyotaceae,Dictyota,NULL
+DIDVEX,Animalia,Chordata,Ascidiacea,Aplousobranchia,Didemnidae,Didemnum,Didemnum vexillum
+DILCAL,Plantae, Rhodophyta,Florideophyceae,Gigartinales,Dumontiaceae,Dilsea,Dilsea californica
+EGRMEN,Chromista,Ochrophyta,Phaeophyceae,Laminariales,Lessoniaceae,Egregia,Egregia menziesii
+EGRPHY,Chromista,Ochrophyta,Phaeophyceae,Laminariales,Lessoniaceae,Egregia,Egregia menziesii
+EISARB,Chromista,Ochrophyta,Phaeophyceae,Laminariales,Lessoniaceae,Eisenia,Eisenia arborea
+ENDMUR,Plantae, Rhodophyta,Florideophyceae,Gigartinales,Endocladiaceae,Endocladia,Endocladia muricata
+ENPEPH,Chromista,Ochrophyta,Phaeophyceae,NULL,NULL,NULL,NULL
+EPITIN,Animalia,Mollusca,Gastropoda,[unassigned] Caenogastropoda,Epitoniidae,Epitonium,Epitonium tinctum
+ERYDEL,Plantae, Rhodophyta,Florideophyceae,Gigartinales,Kallymeniaceae,Erythrophyllum,Erythrophyllum delesserioides
+EVATRO,Animalia,Echinodermata,Asteroidea,Forcipulatida,Asteriidae,Evasterias,Evasterias troschelii
+FARMOL,Plantae, Rhodophyta,Florideophyceae,Gigartinales,Dumontiaceae,Farlowia,Farlowia mollis
+FILRED,Plantae, Rhodophyta,NULL,NULL,NULL,NULL,NULL
+FISVOL,Animalia,Mollusca,Gastropoda,Lepetellida,Fissurellidae,Fissurella,Fissurella volcano
+FLATWO,Animalia,Platyhelminthes,NULL,NULL,NULL,NULL,NULL
+FUCGAR,Chromista,Ochrophyta,Phaeophyceae,Fucales,Fucaceae,Fucus,Fucus distichus
+GASSUB,Plantae, Rhodophyta,Florideophyceae,Rhodymeniales,Champiaceae,Neogastroclonium,Neogastroclonium subarticulatum
+GELPTE,Plantae, Rhodophyta,Florideophyceae,Gelidiales,NULL,NULL,NULL
+GELSPP,Plantae, Rhodophyta,Florideophyceae,Gelidiales,Gelidiaceae,Gelidium,NULL
+GLOFUR,Plantae, Rhodophyta,Florideophyceae,Gigartinales,Endocladiaceae,Gloiopeltis,Gloiopeltis furcata
+GRAGRA,Plantae, Rhodophyta,Florideophyceae,Gracilariales,Gracilariaceae,NULL,NULL
+HALCIN,Animalia,Porifera,Demospongiae,Haplosclerida,Chalinidae,Haliclona,Haliclona (Reniera)
+HALCOR,Animalia,Mollusca,Gastropoda,Lepetellida,Haliotidae,Haliotis,Haliotis corrugata
+HALCRA,Animalia,Mollusca,Gastropoda,Lepetellida,Haliotidae,Haliotis,Haliotis cracherodii
+HALFUL,Animalia,Mollusca,Gastropoda,Lepetellida,Haliotidae,Haliotis,Haliotis fulgens
+HALGLA,Plantae, Rhodophyta,Florideophyceae,Palmariales,Palmariaceae,Halosaccion,Halosaccion glandiforme
+HALICL,Animalia,Porifera,Demospongiae,Haplosclerida,Chalinidae,Haliclona,NULL
+HALPAN,Animalia,Porifera,Demospongiae,Suberitida,Halichondriidae,Halichondria,Halichondria (Halichondria)
+HALRUF,Animalia,Mollusca,Gastropoda,Lepetellida,Haliotidae,Haliotis,Haliotis rufescens
+HALSTE,Chromista,Ochrophyta,Phaeophyceae,Fucales,Sargassaceae,Stephanocystis,NULL
+HEDSES,Chromista,Ochrophyta,Phaeophyceae,Laminariales,Laminariaceae,Hedophyllum,Hedophyllum sessile
+HEMNUD,Animalia,Arthropoda,Malacostraca,Decapoda,Varunidae,Hemigrapsus,Hemigrapsus nudus
+HEMORE,Animalia,Arthropoda,Malacostraca,Decapoda,Varunidae,Hemigrapsus,Hemigrapsus oregonensis
+HEMPAC,Animalia,Arthropoda,Malacostraca,Decapoda,NULL,NULL,NULL
+HENSPP,Animalia,Echinodermata,Asteroidea,Spinulosida,Echinasteridae,Henricia,NULL
+HERMIT,Animalia,Arthropoda,Malacostraca,Decapoda,NULL,NULL,NULL
+HESCAL,Chromista,Ochrophyta,Phaeophyceae,Fucales,Fucaceae,Hesperophycus,Hesperophycus californicus
+HOMSPP,Animalia,Mollusca,Gastropoda,Trochida,Colloniidae,Homalopoma,NULL
+IDOSPP,Animalia,Arthropoda,Malacostraca,Isopoda,Idoteidae,Idotea,NULL
+JUVBRI,Animalia,Echinodermata,Ophiuroidea,NULL,NULL,NULL,NULL
+JUVSEA,Animalia,Echinodermata,Ophiuroidea,NULL,NULL,NULL,NULL
+KATTUN,Animalia,Mollusca,Polyplacophora,Chitonida,Mopaliidae,Katharina,Katharina tunicata
+KELKEL,Animalia,Mollusca,Gastropoda,Neogastropoda,Austrosiphonidae,Kelletia,Kelletia kelletii
+LACSPP,Animalia,Mollusca,Gastropoda,Littorinimorpha,Littorinidae,Lacuna,NULL
+LAMSET,Chromista,Ochrophyta,Phaeophyceae,Laminariales,Laminariaceae,Laminaria,Laminaria setchellii
+LAMSPP,Chromista,Ochrophyta,Phaeophyceae,Laminariales,Laminariaceae,Laminaria,NULL
+LAUSPP,Plantae, Rhodophyta,Florideophyceae,Ceramiales,Rhodomelaceae,Laurencia,NULL
+LEPDEN,Animalia,Mollusca,Polyplacophora,Chitonida,Tonicellidae,Lepidochitona,Lepidochitona dentiens
+LEPHAR,Animalia,Mollusca,Polyplacophora,Chitonida,Tonicellidae,Cyanoplax,Cyanoplax hartwegii
+LEPIDO,Animalia,Mollusca,Polyplacophora,Chitonida,Ischnochitonidae,Lepidozona,NULL
+LEPSPP,Animalia,Mollusca,Polyplacophora,Chitonida,Tonicellidae,Cyanoplax,NULL
+LEPTAS,Animalia,Echinodermata,Asteroidea,Forcipulatida,Asteriidae,Leptasterias,NULL
+LICHEN,Fungi, Ascomycota,Lecanoromycetes,Lecanorales,Parmeliaceae,NULL,NULL
+LIGOCC,Animalia,Arthropoda,Malacostraca,Isopoda,Ligiidae,Ligia,NULL
+LIMPET,Animalia,Mollusca,Gastropoda,NULL,NULL,NULL,NULL
+LIMPLG,Animalia,Mollusca,Gastropoda,NULL,NULL,NULL,NULL
+LIMUNS,Animalia,Mollusca,Gastropoda,NULL,NULL,NULL,NULL
+LIRDIR,Animalia,Mollusca,Gastropoda,Neogastropoda,Tudiclidae,Lirabuccinum,Lirabuccinum dirum
+LITSPP,Animalia,Mollusca,Gastropoda,Littorinimorpha,Littorinidae,Littorina,NULL
+LITUND,Animalia,Mollusca,Gastropoda,Trochida,Turbinidae,Lithopoma,Lithopoma undosum
+LMDALL,Animalia,Mollusca,Gastropoda,NULL,NULL,NULL,NULL
+LMDMUS,Animalia,Mollusca,Gastropoda,NULL,NULL,NULL,NULL
+LMDROC,Animalia,Mollusca,Gastropoda,NULL,NULL,NULL,NULL
+LOMHAK,Plantae, Rhodophyta,Florideophyceae,Rhodymeniales,Lomentariaceae,Lomentaria,Lomentaria hakodatensis
+LOTGIG,Animalia,Mollusca,Gastropoda,NULL,Lottiidae,Lottia,Lottia gigantea
+LOTSCA,Animalia,Mollusca,Gastropoda,NULL,Lottiidae,Lottia,NULL
+LOTSPP,Animalia,Mollusca,Gastropoda,NULL,Lottiidae,Lottia,NULL
+LSMALL,Animalia,Mollusca,Gastropoda,NULL,NULL,NULL,NULL
+LSMMUS,Animalia,Mollusca,Gastropoda,NULL,NULL,NULL,NULL
+LSMROC,Animalia,Mollusca,Gastropoda,NULL,NULL,NULL,NULL
+MACLIV,Animalia,Mollusca,Gastropoda,Neogastropoda,[unassigned] Buccinoidea,Macron,Macron lividus
+MACSPP,Chromista,Ochrophyta,Phaeophyceae,Laminariales,Laminariaceae,Macrocystis,Macrocystis pyrifera
+MASSPP,Plantae, Rhodophyta,Florideophyceae,Gigartinales,Phyllophoraceae,Mastocarpus,NULL
+MAZAFF,Plantae, Rhodophyta,Florideophyceae,Gigartinales,Gigartinaceae,Mazzaella,Mazzaella affinis
+MAZLEP,Plantae, Rhodophyta,Florideophyceae,Gigartinales,Gigartinaceae,Mazzaella,Mazzaella leptorhynchos
+MAZPAR,Plantae, Rhodophyta,Florideophyceae,Gigartinales,Gigartinaceae,Mazzaella,Mazzaella parksii
+MAZSPP,Plantae, Rhodophyta,Florideophyceae,Gigartinales,Gigartinaceae,Mazzaella,NULL
+MEXLUG,Animalia,Mollusca,Gastropoda,Neogastropoda,Muricidae,Mexacanthina,Mexacanthina lugubris
+MICBOR,Plantae, Rhodophyta,Florideophyceae,Ceramiales,Ceramiaceae,Microcladia,Microcladia borealis
+MOPSPP,Animalia,Mollusca,Polyplacophora,Chitonida,Mopaliidae,Mopalia,NULL
+MYTCAL,Animalia,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,Mytilus californianus
+MYTPOL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+MYTTRO,Animalia,Mollusca,Bivalvia,Mytilida,Mytilidae,Mytilus,NULL
+NEMHEL,Plantae, Rhodophyta,Florideophyceae,Nemaliales,Nemaliaceae,Nemalion,Nemalion elminthoides
+NEOLAR,Plantae, Rhodophyta,Florideophyceae,Ceramiales,Rhodomelaceae,Neorhodomela,Neorhodomela larix
+NEOODO,Plantae, Rhodophyta,Florideophyceae,Ceramiales,Rhodomelaceae,NULL,NULL
+NERLUE,Chromista,Ochrophyta,Phaeophyceae,Laminariales,Laminariaceae,Nereocystis,Nereocystis luetkeana
+NONCRU,Plantae,NULL,NULL,NULL,NULL,NULL,NULL
+NONE,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NORNOR,Animalia,Mollusca,Gastropoda,Trochida,Tegulidae,Norrisia,Norrisia norrisii
+NUCCAN,Animalia,Mollusca,Gastropoda,Neogastropoda,Muricidae,Nucella,Nucella canaliculata
+NUCEMA,Animalia,Mollusca,Gastropoda,Neogastropoda,Muricidae,Nucella,NULL
+NUCLAM,Animalia,Mollusca,Gastropoda,Neogastropoda,Muricidae,Nucella,Nucella lamellosa
+NUCLIM,Animalia,Mollusca,Gastropoda,Neogastropoda,Muricidae,Nucella,Nucella lima
+NUCSPP,Animalia,Mollusca,Gastropoda,Neogastropoda,Muricidae,Nucella,NULL
+NUTSPP,Animalia,Mollusca,Polyplacophora,Chitonida,Tonicellidae,Nuttallina,NULL
+OCECIR,Animalia,Mollusca,Gastropoda,Neogastropoda,Muricidae,Ocenebra,Ocenebra circumtexta
+OCEINT,Animalia,Mollusca,Gastropoda,Neogastropoda,Muricidae,Ocinebrina,Ocinebrina interfossa
+OCELUR,Animalia,Mollusca,Gastropoda,Neogastropoda,Muricidae,Ocinebrina,Ocinebrina lurida
+OCEPOU,Animalia,Mollusca,Gastropoda,Neogastropoda,Muricidae,Roperia,Roperia poulsoni
+OCESPP,Animalia,Mollusca,Gastropoda,Neogastropoda,Muricidae,Ocenebra,NULL
+ODOFLO,Plantae, Rhodophyta,Florideophyceae,Ceramiales,Rhodomelaceae,Odonthalia,Odonthalia floccosa
+OKEROS,Animalia,Mollusca,Gastropoda,Nudibranchia,Goniodorididae,Okenia,Okenia rosacea
+ONCBIL,Animalia,Mollusca,Gastropoda,Nudibranchia,Onchidorididae,Onchidoris,Onchidoris bilamellata
+ONCBOR,Animalia,Mollusca,Gastropoda,Systellommatophora,Onchidiidae,Onchidella,Onchidella borealis
+OPAREC,Animalia,Chordata,Teleostei,Centrarchiformes,Kyphosidae,Girella,Girella nigricans
+OPASPP,Animalia,Mollusca,Gastropoda,[unassigned] Caenogastropoda,Epitoniidae,Opalia,NULL
+OPHSPP,Animalia,Porifera,Demospongiae,Poecilosclerida,Microcionidae,Ophlitaspongia,NULL
+ORTKOE,Animalia,Echinodermata,Asteroidea,Forcipulatida,Asteriidae,Orthasterias,Orthasterias koehleri
+OSMLAU,Plantae, Rhodophyta,Florideophyceae,Ceramiales,Rhodomelaceae,NULL,NULL
+OSMSPP,Plantae, Rhodophyta,Florideophyceae,Ceramiales,Rhodomelaceae,Osmundea,NULL
+OTHALG,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+OTHBAR,Animalia,Arthropoda,Thecostraca,NULL,NULL,NULL,NULL
+OTHBRO,Chromista,NULL,NULL,NULL,NULL,NULL,NULL
+OTHER,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+OTHGRE,Plantae, Chlorophyta,NULL,NULL,NULL,NULL,NULL
+OTHINV,Animalia,NULL,NULL,NULL,NULL,NULL,NULL
+OTHMOL,Animalia,Mollusca,NULL,NULL,NULL,NULL,NULL
+OTHRED,Plantae, Rhodophyta,NULL,NULL,NULL,NULL,NULL
+OTHSEA,Animalia,Echinodermata,Asteroidea,NULL,NULL,NULL,NULL
+OTHSPO,Animalia,Porifera,NULL,NULL,NULL,NULL,NULL
+OTHSUB,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+PACCRA,Animalia,Arthropoda,Malacostraca,Decapoda,Grapsidae,Pachygrapsus,Pachygrapsus crassipes
+PACSPP,Animalia,Arthropoda,Malacostraca,Decapoda,Porcellanidae,Pachycheles,NULL
+PAGBER,Animalia,Arthropoda,Malacostraca,Decapoda,Paguridae,Pagurus,Pagurus beringanus
+PAGGRA,Animalia,Arthropoda,Malacostraca,Decapoda,Paguridae,Pagurus,Pagurus granosimanus
+PAGHIR,Animalia,Arthropoda,Malacostraca,Decapoda,Paguridae,Pagurus,Pagurus hirsutiusculus
+PAGSAM,Animalia,Arthropoda,Malacostraca,Decapoda,Paguridae,Pagurus,Pagurus samuelis
+PAGSPP,Animalia,Arthropoda,Malacostraca,Decapoda,Paguridae,Pagurus,NULL
+PATMIN,Animalia,Echinodermata,Asteroidea,Valvatida,Asterinidae,Patiria,Patiria miniata
+PELHYB,Chromista,Ochrophyta,Phaeophyceae,Fucales,Fucaceae,Pelvetiopsis,NULL
+PELLIM,Chromista,Ochrophyta,Phaeophyceae,Fucales,Fucaceae,Pelvetiopsis,Pelvetiopsis limitata
+PETROC,Plantae, Rhodophyta,Florideophyceae,Gigartinales,Phyllophoraceae,Mastocarpus,NULL
+PETRUG,Chromista,Ochrophyta,Phaeophyceae,Ectocarpales,Petrospongiaceae,Petrospongium,Petrospongium rugosum
+PETSPP,Animalia,Arthropoda,Malacostraca,Decapoda,Porcellanidae,Petrolisthes,NULL
+PHRSAB,Animalia,Annelida,Polychaeta,NULL,Sabellariidae,NULL,NULL
+PHYEGR,Plantae, Tracheophyta,Magnoliopsida,Alismatales,Zosteraceae,Phyllospadix,NULL
+PHYSCO,Plantae, Tracheophyta,Magnoliopsida,Alismatales,Zosteraceae,Phyllospadix,Phyllospadix scouleri
+PHYSCP,Plantae, Tracheophyta,Magnoliopsida,Alismatales,Zosteraceae,Phyllospadix,Phyllospadix scouleri
+PHYSPP,Plantae, Tracheophyta,Magnoliopsida,Alismatales,Zosteraceae,Phyllospadix,NULL
+PHYTOP,Plantae, Tracheophyta,Magnoliopsida,Alismatales,Zosteraceae,Phyllospadix,Phyllospadix torreyi
+PHYTOR,Plantae, Tracheophyta,Magnoliopsida,Alismatales,Zosteraceae,Phyllospadix,Phyllospadix torreyi
+PHYUND,Plantae, Tracheophyta,Magnoliopsida,Alismatales,Zosteraceae,Phyllospadix,NULL
+PISBRE,Animalia,Echinodermata,Asteroidea,Forcipulatida,Asteriidae,Pisaster,Pisaster brevispinus
+PISGIG,Animalia,Echinodermata,Asteroidea,Forcipulatida,Asteriidae,Pisaster,Pisaster giganteus
+PISOCH,Animalia,Echinodermata,Asteroidea,Forcipulatida,Asteriidae,Pisaster,Pisaster ochraceus
+PLOCAR,Plantae, Rhodophyta,Florideophyceae,Plocamiales,Plocamiaceae,Plocamium,Plocamium cartilagineum
+PLOSPP,Plantae, Rhodophyta,Florideophyceae,Plocamiales,Plocamiaceae,Plocamium,NULL
+PLOVIO,Plantae, Rhodophyta,Florideophyceae,Plocamiales,Plocamiaceae,Plocamium,Plocamium violaceum
+POLPOL,Animalia,Arthropoda,Thecostraca,Pollicipedomorpha,Pollicipedidae,Pollicipes,Pollicipes polymerus
+POLSPP,Plantae, Rhodophyta,Florideophyceae,Ceramiales,Rhodomelaceae,Polysiphonia,NULL
+PORSPP,Plantae, Rhodophyta,Bangiophyceae,Bangiales,Bangiaceae,Pyropia,NULL
+POSPAL,Chromista,Ochrophyta,Phaeophyceae,Laminariales,Laminariaceae,Postelsia,Postelsia palmaeformis
+PRISPP,Plantae, Rhodophyta,Florideophyceae,Halymeniales,Grateloupiaceae,Grateloupia,NULL
+PSERRU,Plantae, Tracheophyta,Magnoliopsida,Alismatales,Zosteraceae,Phyllospadix,Phyllospadix serrulatus
+PTEROS,Plantae, Rhodophyta,Florideophyceae,Ceramiales,Rhodomelaceae,Pterosiphonia,NULL
+PTESPP,Plantae, Rhodophyta,Florideophyceae,Gelidiales,Pterocladiaceae,Pterocladiella,NULL
+PUGSPP,Animalia,Arthropoda,Malacostraca,Decapoda,Epialtidae,Pugettia,NULL
+PYCHEL,Animalia,Echinodermata,Asteroidea,Forcipulatida,Asteriidae,Pycnopodia,Pycnopodia helianthoides
+RECOVE,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+ROCK,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+SAND,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+SARAGA,Chromista,Ochrophyta,Phaeophyceae,Fucales,Sargassaceae,Sargassum,Sargassum agardhianum
+SARHOR,Chromista,Ochrophyta,Phaeophyceae,Fucales,Sargassaceae,Sargassum,Sargassum horneri
+SARMUT,Chromista,Ochrophyta,Phaeophyceae,Fucales,Sargassaceae,Sargassum,Sargassum muticum
+SCULPI,Animalia,Chordata,Teleostei,Perciformes,NULL,NULL,NULL
+SCYSPP,Chromista,Ochrophyta,Phaeophyceae,NULL,NULL,NULL,NULL
+SEMBAL,Animalia,Arthropoda,Thecostraca,Balanomorpha,NULL,NULL,NULL
+SEMCAR,Animalia,Arthropoda,Thecostraca,Balanomorpha,Balanidae,Semibalanus,Semibalanus cariosus
+SEPBIF,Animalia,Mollusca,Bivalvia,Mytilida,Mytilidae,Septifer,Septifer bifurcatus
+SEPBRA,Animalia,Mollusca,Bivalvia,Mytilida,Mytilidae,NULL,NULL
+SILCOM,Chromista,Ochrophyta,Phaeophyceae,Fucales,Fucaceae,Silvetia,Silvetia compressa
+SILHES,Chromista,Ochrophyta,Phaeophyceae,Fucales,Fucaceae,NULL,NULL
+SPISPP,Animalia,Annelida,Polychaeta,Sabellida,Serpulidae,Spirorbis,NULL
+STRDRO,Animalia,Echinodermata,Echinoidea,Camarodonta,Strongylocentrotidae,Strongylocentrotus,Strongylocentrotus droebachiensis
+STRFRA,Animalia,Echinodermata,Echinoidea,Camarodonta,Strongylocentrotidae,Mesocentrotus,Mesocentrotus franciscanus
+STRPUR,Animalia,Echinodermata,Echinoidea,Camarodonta,Strongylocentrotidae,Strongylocentrotus,Strongylocentrotus purpuratus
+TAOLEN,Chromista,Ochrophyta,Phaeophyceae,Dictyotales,Dictyotaceae,Taonia,Taonia lennebackerae
+TAR,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+TEGAUR,Animalia,Mollusca,Gastropoda,Trochida,Tegulidae,Tegula,Tegula aureotincta
+TEGBRU,Animalia,Mollusca,Gastropoda,Trochida,Tegulidae,Tegula,Tegula brunnea
+TEGEIS,Animalia,Mollusca,Gastropoda,Trochida,Tegulidae,Tegula,Tegula eiseni
+TEGFUG,Animalia,Mollusca,Gastropoda,Trochida,Tegulidae,Tegula,NULL
+TEGFUN,Animalia,Mollusca,Gastropoda,Trochida,Tegulidae,Tegula,Tegula funebralis
+TEGGAL,Animalia,Mollusca,Gastropoda,Trochida,Tegulidae,Tegula,Tegula gallina
+TEGSPP,Animalia,Mollusca,Gastropoda,Trochida,Tegulidae,Tegula,NULL
+TETRUB,Animalia,Arthropoda,Thecostraca,Balanomorpha,Tetraclitidae,Tetraclita,Tetraclita squamosa
+TONSPP,Animalia,Mollusca,Polyplacophora,Chitonida,Tonicellidae,Tonicella,NULL
+TRISPP,Animalia,Mollusca,Gastropoda,Ellobiida,Trimusculidae,Trimusculus,NULL
+TUNICA,Animalia,Chordata,NULL,NULL,NULL,NULL,NULL
+ULOSPP,Plantae, Chlorophyta,Ulvophyceae,Ulotrichales,Ulotrichaceae,Ulothrix,NULL
+ULVENT,Plantae, Chlorophyta,Ulvophyceae,NULL,NULL,NULL,NULL
+UNDPIN,Chromista,Ochrophyta,Phaeophyceae,Laminariales,Alariaceae,Undaria,Undaria pinnatifida
+UNIDEN,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+WATSUB,Animalia,Bryozoa,Gymnolaemata,Cheilostomatida,Watersiporidae,Watersipora,Watersipora subtorquata
+ZONFAR,Chromista,Ochrophyta,Phaeophyceae,Dictyotales,Dictyotaceae,Zonaria,Zonaria farlowii
+ZOSMAR,Plantae, Tracheophyta,Magnoliopsida,Alismatales,Zosteraceae,Zostera,Zostera marina
+ZOSUND,Plantae, Tracheophyta,Magnoliopsida,Alismatales,Zosteraceae,Zostera,Zostera marina
