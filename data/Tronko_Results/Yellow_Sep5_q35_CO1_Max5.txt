@@ -1,0 +1,373 @@
+CO1_Metazoa_seq_number	CO1_Metazoa_Yell-July18-Site1U-S114	CO1_Metazoa_Yell-July18-Site1g-S93	CO1_Metazoa_Yell-July18-Site5n-S115	CO1_Metazoa_Yell-July18-Site1h-S94	CO1_Metazoa_Yell-July18-Site1a-S83	CO1_Metazoa_Yell-July18-Site5cc-S134	CO1_Metazoa_Yell-July18-Site1d-S86	CO1_Metazoa_Yell-July18-Site1q-S106	CO1_Metazoa_Yell-July18-Site1t-S113	CO1_Metazoa_Yell-July18-Site5L-S109	CO1_Metazoa_Yell-July18-Site1p-S105	CO1_Metazoa_Yell-July18-Site5o-S116	CO1_Metazoa_Yell-July18-Site1w-S118	CO1_Metazoa_Yell-July18-Site5r-S123	CO1_Metazoa_Yell-July18-Site5h-S98	CO1_Metazoa_Yell-July18-Site5a-S87	CO1_Metazoa_Yell-July18-Site1dd-S141	CO1_Metazoa_Yell-July18-Site1c-S85	CO1_Metazoa_Yell-July18-Site5k-S108	CO1_Metazoa_Yell-July18-Site1s-S112	CO1_Metazoa_Yell-July18-Site5z-S131	CO1_Metazoa_Yell-July18-Site5aa-S132	CO1_Metazoa_Yell-July18-Site1o-S104	CO1_Metazoa_Yell-July18-Site5c-S89	CO1_Metazoa_Yell-July18-Site5bb-S133	CO1_Metazoa_Yell-July18-Site5b-S88	CO1_Metazoa_Yell-July18-Site1cc-S140	CO1_Metazoa_Yell-July18-Site1e-S91	CO1_Metazoa_Yell-July18-Site5q-S122	CO1_Metazoa_Yell-July18-Site1y-S120	CO1_Metazoa_Yell-July18-Site5m-S110	CO1_Metazoa_Yell-July18-Site1b-S84	CO1_Metazoa_Yell-July18-Site1v-S117	CO1_Metazoa_Yell-July18-Site1L-S101	CO1_Metazoa_Yell-July18-Site1J-S99	CO1_Metazoa_Yell-July18-Site5s-S124	CO1_Metazoa_Yell-July18-Site1ee-S142	CO1_Metazoa_Yell-July18-Site5g-S97	CO1_Metazoa_Yell-July18-Site5w-S128	CO1_Metazoa_Yell-July18-Site1k-S100	CO1_Metazoa_Yell-July18-Site1bb-S139	CO1_Metazoa_Yell-July18-Site5f-S96	CO1_Metazoa_Yell-July18-Site1m-S102	CO1_Metazoa_Yell-July18-Site1r-S111	CO1_Metazoa_Yell-July18-Site5ee-S136	CO1_Metazoa_Yell-July18-Site5t-S125	CO1_Metazoa_Yell-July18-Site5p-S121	CO1_Metazoa_Yell-July18-Site1f-S92	CO1_Metazoa_Yell-July18-Site5u-S126	CO1_Metazoa_Yell-July18-Site1z-S129	CO1_Metazoa_Yell-July18-Site5J-S107	CO1_Metazoa_Yell-July18-Site5e-S95	CO1_Metazoa_Yell-July18-Site1n-S103	CO1_Metazoa_Yell-July18-Site5v-S127	CO1_Metazoa_Yell-July18-Site5ff-S137
+Eukaryota;Chlorophyta;Mamiellophyceae;Mamiellales;Bathycoccaceae;Bathycoccus;Bathycoccus prasinos	391	586	398	446	1068	3092	1937	130	1521	1441	9603	196	2126	156	1	1310	3052	1461	737	4103	3302	585	2966	276	1116	1339	4035	218	1122	1140	1013	2274	1210	893	98	737	3455	1104	0	1909	291	76	2447	3193	702	731	548	75	1358	822	1	480	3092	35	2061
+Unassigned	3144	2741	1458	983	1443	6825	3240	1020	2735	3498	13963	1513	2031	1850	368	630	4772	2029	1430	5467	14385	4390	4742	966	6649	2088	4403	546	8497	2429	2043	6758	5606	853	481	2110	6691	5016	0	2486	691	142	3883	2689	1923	5524	2075	213	1651	1136	1	765	4448	529	7108
+Eukaryota;Chlorophyta;Mamiellophyceae;Mamiellales;Mamiellaceae;Micromonas;Micromonas pusilla	434	519	590	412	1539	4788	3330	185	1968	2138	12996	420	2808	179	3	747	4085	1995	1318	4926	6286	802	3628	449	1762	1917	4764	256	2059	1398	1364	3149	1719	754	238	959	5397	1820	0	3084	380	149	2519	3041	780	1083	1040	87	1828	1082	0	634	3153	38	3697
+Eukaryota;NA;Raphidophyceae;Chattonellales;Chattonellaceae;Heterosigma;Heterosigma akashiwo	10	10	0	3	26	1	50	4	33	1	70	0	20	0	0	2	56	13	4	24	37	1	102	1	0	2	29	3	13	18	0	82	22	10	14	3	182	1	1	75	6	0	39	19	0	2	1	0	39	14	0	0	65	1	4
+Eukaryota;Annelida;Polychaeta;Phyllodocida;Glyceridae;Glycera;Glycera robusta	11	3042	0	1431	0	0	8	7	173	4	2089	0	67	0	0	0	475	12	0	120	0	8	101	5	0	0	174	811	0	172	3	1	24	65	16	0	71	0	0	136	9	0	402	111	0	0	0	311	51	13	0	0	68	3	2087
+Eukaryota;NA;Dinophyceae;Gonyaulacales;Gonyaulacaceae;Gonyaulax	3	0	0	0	0	0	2	1	1	0	0	0	8	0	0	0	1	0	0	1	2	1	10	0	1	0	3	0	2	2	0	8	1	1	1	0	10	0	0	1	2	0	0	2	0	0	0	0	2	3	0	0	3	0	0
+Eukaryota;NA;Dictyochophyceae;Florenciellales;NA;Pseudochattonella;Pseudochattonella verruculosa	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Bryozoa;Gymnolaemata;Cheilostomatida;Membraniporidae;Membranipora;Membranipora membranacea	126	105	132	55	64	2	148	11	462	45	665	12	88	1	0	1	33	83	2	58	29	28	244	1	24	2	50	32	11	143	11	145	91	138	8	3	34	25	0	28	3	0	75	9	60	46	37	5	11	38	0	0	174	1	5
+Eukaryota;Bacillariophyta;Coscinodiscophyceae;Thalassiosirales;Skeletonemataceae;Skeletonema	3	4	0	2	3	48	10	1	17	4	100	0	5	0	0	0	9	1	7	14	8	4	23	0	4	6	18	0	2	0	3	10	10	5	3	0	12	5	0	8	0	3	14	9	1	2	0	0	10	0	0	6	7	0	11
+Eukaryota;Arthropoda;Insecta;Diptera;Chironomidae;NA;Chironomidae sp. BOLD-2016	5	12	0	3	9	0	16	2	8	0	149	0	0	0	0	0	5	6	0	3	1	0	65	0	0	0	1	0	0	3	0	21	5	2	1	0	4	0	0	5	0	0	4	3	0	0	8	1	4	5	0	0	29	0	0
+Eukaryota;Mollusca;Bivalvia;Veneroida;Tellinidae;Macoma;Macoma nasuta	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	2	0	0	0	0	8	0	0	0	0	0	1	0	0	5	0	0	18	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;NA;Dinophyceae	1	0	0	0	1	2	4	0	1	0	1	1	4	0	0	0	2	3	0	9	5	1	5	0	0	0	2	0	1	1	0	13	6	0	1	0	17	0	0	4	2	0	1	1	0	0	0	0	3	2	0	0	15	0	0
+Eukaryota;NA;Dinophyceae;Peridiniales;Heterocapsaceae;Heterocapsa;Heterocapsa rotundata	2	2	4	1	9	90	6	1	4	27	12	2	14	1	0	5	7	8	10	12	100	5	15	2	15	22	19	1	53	1	17	19	13	2	3	30	17	18	0	18	8	1	14	28	7	12	4	0	13	2	0	6	14	0	19
+Eukaryota;NA;Florideophyceae;Gigartinales;Gigartinaceae;Mazzaella;Mazzaella sp. GWS-2013b	4	33	0	6	5	1	8	1	2	0	6	0	2	1	0	0	4	6	0	10	5	1	1	0	0	2	2	3	15	5	0	13	6	3	9	1	4	0	0	1	0	0	2	3	1	0	0	1	1	4	0	0	11	0	2
+Bacteria;Bacteroidetes;Flavobacteriia;Flavobacteriales;Flavobacteriaceae;Polaribacter;Polaribacter sp. Hel1_33_78	0	0	4	0	1	0	0	1	2	0	7	0	0	0	0	1	0	2	1	1	27	0	1	0	6	1	3	0	10	0	5	0	0	0	1	0	1	5	0	0	0	0	0	1	0	3	3	0	0	0	0	0	3	0	4
+Eukaryota;Cnidaria;Staurozoa;Stauromedusae;Haliclystidae;Haliclystus;Haliclystus tenuis	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0
+Eukaryota;Arthropoda;Maxillopoda;Calanoida;Paracalanidae;Paracalanus;Paracalanus sp. C AC-2013	3	1	5	0	0	10	33	3	19	291	4	2	5	14	0	0	18	0	0	27	37	4	2	2	0	16	10	3	9	2	22	12	18	2	4	0	8	17	0	65	0	0	3	56	26	146	4	0	1	4	0	6	10	0	24
+Eukaryota;NA;Dinophyceae;Gymnodiniales;Kareniaceae;Karlodinium;Karlodinium sp. RS-24	3	0	0	0	1	5	4	1	2	1	0	0	1	1	0	1	5	0	1	4	3	1	5	0	0	1	2	1	2	0	0	1	2	1	1	0	7	1	0	1	2	0	1	4	0	0	1	0	3	0	0	0	7	0	2
+Eukaryota;Arthropoda;Maxillopoda;Sessilia	25	9	4	29	12	9	18	30	161	100	3528	7	7	1	0	8	110	429	15	10	67	8	620	24	13	18	35	19	103	12	35	161	2	3	1	33	17	21	0	9	2	6	5	3	10	54	125	5	81	53	0	4	613	1	223
+Eukaryota;NA;NA;Himatismenida;NA;Parvamoeba;Parvamoeba rugata	14	23	25	2	13	18	17	2	65	39	116	5	3	6	0	3	11	18	8	15	53	19	27	3	15	0	6	2	31	12	19	52	6	3	2	11	11	22	0	8	0	0	13	5	10	35	20	2	2	6	0	0	27	0	44
+Eukaryota;NA;Florideophyceae;Gigartinales;Gigartinaceae;Chondracanthus;Chondracanthus exasperatus	10	26	73	10	24	62	21	1	51	27	0	43	12	83	0	2	26	19	8	25	236	124	28	7	138	23	10	15	59	28	19	48	11	2	1	7	19	32	0	7	0	5	14	39	17	26	25	0	1	11	0	25	49	4	58
+Eukaryota;NA;Florideophyceae;Gigartinales;Gigartinaceae;Mazzaella;Mazzaella splendens	0	21	0	3	12	0	7	0	19	12	0	0	11	2	0	0	13	3	0	11	13	10	18	0	1	1	3	1	0	59	1	9	5	1	1	2	6	5	0	4	0	0	1	9	3	13	0	2	10	9	0	0	19	0	26
+Eukaryota;NA;Florideophyceae;Gigartinales;Gigartinaceae;Mazzaella	2	2	0	1	14	0	5	4	15	9	0	0	2	2	0	0	11	6	0	0	12	8	15	0	6	0	6	0	3	19	0	24	1	0	1	0	3	0	0	15	0	0	8	6	1	5	0	1	2	4	0	0	24	0	9
+Eukaryota;Nemertea;Anopla;Heteronemertea;Lineidae;Maculaura;Maculaura oregonensis	2	5	13	3	7	0	84	0	17	2	0	3	3	0	0	0	59	4	1	30	14	8	45	0	3	0	34	0	1	4	11	59	24	15	1	1	23	16	0	0	1	0	66	7	19	15	0	0	13	23	0	0	29	0	4
+Eukaryota;NA;Florideophyceae;Gigartinales;Kallymeniaceae;Callophyllis;Callophyllis edentata	0	0	1	0	3	0	4	1	29	1	0	1	4	1	0	0	3	5	0	7	4	0	18	1	0	0	4	1	10	3	1	6	0	1	2	1	2	3	0	3	1	0	6	10	1	1	5	0	2	1	0	1	17	0	4
+Eukaryota;NA;Bangiophyceae;Bangiales;Bangiaceae;Pyropia;Pyropia haitanensis	1	0	0	0	1	3	0	0	1	1	3	0	0	1	0	0	2	0	2	1	9	0	0	1	0	0	2	0	4	0	3	1	0	1	1	1	0	3	0	0	0	0	7	0	1	1	0	0	0	0	0	0	2	0	4
+Eukaryota;Arthropoda;Maxillopoda;Calanoida;Acartiidae;Acartia;Acartia californiensis	181	370	1332	110	0	13447	17	2	2492	2456	632	687	1229	294	3	620	721	517	724	667	4198	261	49	1277	8131	7923	1646	134	1800	318	3479	24	955	301	0	2905	1490	1305	0	441	108	153	1351	1935	5725	10542	2523	6	27	458	0	202	3688	538	12074
+Eukaryota;Mollusca;Polyplacophora;Neoloricata;Mopaliidae;Mopalia;Mopalia muscosa	0	0	40	0	1	0	0	0	0	312	0	3	0	118	0	0	6	0	0	2	2	0	0	0	0	0	4	0	0	0	0	3	2	50	0	0	15	0	0	0	0	0	0	1	2	0	19	0	4	1	0	0	1	1	1
+Eukaryota;Echinodermata;Echinoidea;Echinoida;Strongylocentrotidae;Strongylocentrotus;Strongylocentrotus droebachiensis	1	1	0	11	5	0	0	0	0	0	0	0	0	0	0	0	2	0	0	6	3	0	6	0	0	0	2	0	0	6	0	0	3	2	0	0	2	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	5	0	1
+Eukaryota;Bacillariophyta;Coscinodiscophyceae;Thalassiosirales;Skeletonemataceae;Skeletonema;Skeletonema japonicum	0	0	0	1	0	13	0	1	4	1	5	0	1	0	0	0	3	0	2	1	1	0	3	0	1	3	3	0	2	0	0	1	0	1	0	0	2	0	0	1	1	0	1	0	0	0	0	0	0	0	0	0	3	0	2
+Eukaryota;Arthropoda;Maxillopoda;Calanoida;Centropagidae;Centropages;Centropages abdominalis	45	35	0	0	0	0	0	0	135	0	485	0	0	0	0	0	0	0	0	0	0	0	1	240	0	0	0	0	0	70	0	1	0	141	0	0	0	33	0	0	0	0	0	0	57	3	0	0	0	0	0	0	0	0	0
+Eukaryota;Mollusca;Gastropoda;NA;Lacunidae;Lacuna;Lacuna vincta	0	157	6	18	0	0	4	0	107	0	13	0	5	2	0	0	4	0	0	3	0	96	166	1	0	0	1	2	13	3	0	2	0	50	0	0	2	0	0	0	1	0	7	0	0	3	0	0	103	7	0	0	117	2	0
+Eukaryota;Bacillariophyta;Coscinodiscophyceae;Chaetocerotales;Chaetocerotaceae;Chaetoceros;Chaetoceros socialis	0	1	9	0	5	191	6	0	1	174	0	4	0	2	0	14	5	1	29	3	111	17	4	18	48	41	3	2	34	2	93	5	6	7	0	15	2	44	0	2	0	1	21	27	30	12	6	0	9	1	0	4	15	0	49
+Bacteria;Bacteroidetes;Flavobacteriia;Flavobacteriales;Flavobacteriaceae;Formosa;Formosa sp. Hel3_A1_48	12	1	0	0	2	0	4	3	0	1	6	0	8	3	0	0	8	4	1	8	20	0	5	0	2	1	4	0	5	0	1	1	0	1	0	0	21	1	0	2	0	0	3	0	0	0	0	0	0	1	0	0	2	0	2
+Eukaryota;Mollusca;Gastropoda;NA;Margaritidae;Margarites;Margarites pupillus	71	10	0	5	2	0	15	7	50	60	3	0	23	0	0	0	602	16	0	24	2	0	17	0	1	5	4662	0	0	727	0	23	16	3	0	1	38	0	0	9	3	0	47	17	0	0	0	0	5	8	0	0	18	0	3
+Eukaryota;Bacillariophyta;Mediophyceae;Cymatosirales;Cymatosiraceae;Minutocellus;Minutocellus polymorphus	3	6	0	2	2	0	12	0	2	0	0	1	10	0	0	0	44	8	0	52	8	1	10	0	0	0	9	0	0	13	1	0	8	6	0	0	61	1	0	0	1	0	9	6	0	3	0	0	1	8	0	0	1	0	0
+Eukaryota;Annelida;Polychaeta;Phyllodocida;Hesionidae;Oxydromus;Oxydromus pugettensis	0	0	0	0	0	0	0	1	3	2	0	2	0	1	0	0	0	0	1	0	0	1	0	1	0	0	2	0	99	0	0	0	0	4	0	0	0	3	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	1
+Eukaryota;Annelida;Polychaeta;Phyllodocida;Nereididae;Platynereis;Platynereis bicanaliculata	9	19	0	2	1	0	15	1	9	0	137	4	7	4	0	0	1	2	1	7	42	7	77	0	24	0	6	2	38	8	2	5	1	3	0	0	2	3	0	19	0	0	23	4	1	6	0	0	0	13	0	2	50	3	17
+Eukaryota;NA;Florideophyceae;Ceramiales;Delesseriaceae;Polyneura;Polyneura latissima	12	6	20	1	3	7	18	0	92	16	26	3	11	4	0	0	23	25	1	13	5	14	65	1	17	3	17	6	121	12	7	19	15	4	1	20	22	9	0	14	1	1	11	19	8	22	66	2	6	1	0	6	45	0	38
+Eukaryota;NA;Florideophyceae;Ceramiales;Rhodomelaceae;Pterosiphonia;Pterosiphonia bipinnata	0	4	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	1	0	0	4	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3
+Eukaryota;Mollusca;Bivalvia;Mytiloida;Mytilidae;Mytilus	2	0	0	0	5	0	2	0	2	1	8	0	0	0	0	0	2	0	0	0	0	0	5	0	0	0	2	0	0	4	0	1	17	7	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	10	0	0
+Eukaryota;Annelida;Polychaeta;Eunicida;Onuphidae;Diopatra;Diopatra cf. ornata JZ-2010	0	0	0	0	0	0	4	0	0	0	0	0	4	0	0	0	20	2	0	14	0	0	1	0	0	0	6	0	9	1	0	5	5	1	0	0	9	0	0	9	0	0	0	24	0	1	0	0	2	4	0	0	6	0	1
+Eukaryota;Cnidaria;Hydrozoa;Leptothecata;Campanulariidae;Clytia	0	0	0	1	1	0	1	0	1	2	4	0	0	0	0	1	3	2	0	1	4	0	13	0	1	5	0	0	0	2	0	4	0	2	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	1	11	0	1
+Eukaryota;Arthropoda;Maxillopoda;Sessilia;Balanidae;Balanus	0	0	0	0	0	0	9	0	2	0	0	0	0	0	0	0	0	6	0	0	0	0	4	0	0	0	0	0	1	1	0	2	0	1	0	0	7	0	0	0	2	0	0	3	0	0	0	0	1	3	0	0	2	0	0
+Eukaryota;Annelida;Polychaeta;Eunicida;Dorvilleidae;Protodorvillea;Protodorvillea gracilis	0	36	0	62	3	0	0	0	0	0	0	0	0	0	0	0	5	0	0	5	7	7	10	0	2	0	0	16	0	7	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	6	0	4	0	0	3	0	4
+Eukaryota;Arthropoda;Maxillopoda;Sessilia;Balanidae	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1
+Eukaryota;NA;Dictyochophyceae;Florenciellales;NA;Pseudochattonella;Pseudochattonella farcimen	0	5	1	0	3	0	14	1	5	1	137	0	7	0	0	0	16	2	2	11	6	2	5	1	9	0	10	0	5	0	2	11	16	1	0	0	11	1	0	9	0	0	11	8	1	2	0	0	5	1	0	0	7	0	3
+Eukaryota;Arthropoda;Maxillopoda;Calanoida;Clausocalanidae;Pseudocalanus;Pseudocalanus newmani	3	60	420	72	365	13899	7	5	2406	3858	41	102	1	114	2	1936	794	4	2607	958	3233	579	224	938	467	4168	57	0	1698	3	1083	2	28	47	17	3751	526	356	0	354	45	94	79	587	1524	6240	1811	36	409	42	0	60	300	5	2325
+Eukaryota;Annelida;Polychaeta;Spionida;Spionidae;Scolelepis;Scolelepis squamata	1	7	1	1	6	1	4	0	18	0	7	0	1	3	0	0	4	2	0	8	1	1	15	1	1	0	2	0	0	4	1	8	8	1	0	0	0	1	0	5	0	0	0	1	0	0	0	0	0	1	0	3	20	2	0
+Eukaryota;NA;Dinophyceae;Peridiniales;Pfiesteriaceae;NA	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Bacillariophyta;Fragilariophyceae;Fragilariales;Fragilariaceae;Grammonema;Grammonema striatula	13	5	1	0	1	0	4	1	0	2	0	4	6	11	0	1	3	6	0	4	4	8	1	1	6	0	2	0	10	5	3	0	1	0	0	1	2	11	0	0	0	0	1	1	1	13	1	0	0	4	0	0	0	0	7
+Eukaryota;Phaeophyceae;NA;Fucales;Fucaceae;Fucus;Fucus distichus	3	5	1	1	2	0	6	0	3	2	37	2	2	0	0	0	6	0	0	0	4	2	8	0	7	0	9	3	1	8	1	5	1	0	0	0	0	0	0	7	0	0	1	0	1	9	4	1	1	1	0	0	3	2	6
+Eukaryota;Phaeophyceae;NA;Fucales	7	2	0	0	0	0	0	0	1	0	0	0	0	1	0	0	1	1	0	0	2	1	0	1	3	0	0	0	1	2	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	1	0	3
+Eukaryota;Phaeophyceae;NA;Ectocarpales;Chordariaceae;Leathesia;Leathesia marina	1	1	0	0	2	7	0	1	2	1	6	0	0	1	0	0	0	0	0	0	7	0	1	2	2	1	0	0	3	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;NA;Dinophyceae;Gymnodiniales;Gymnodiniaceae;Gymnodinium;Gymnodinium sp. NVA/RUS/2008	1	0	1	0	0	0	0	0	2	0	0	0	1	0	0	0	0	0	0	0	2	0	0	0	1	0	0	0	3	0	2	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0	0	1
+Eukaryota;Mollusca;Gastropoda;NA;Lottiidae;Lottia;Lottia paradigitalis	1	1	0	0	0	27	2	1	5	9	0	0	2	2	0	0	5	4	2	1	17	3	20	0	4	0	1	0	0	0	8	4	3	0	0	6	4	18	0	1	0	0	0	0	3	2	0	1	3	4	0	3	15	0	21
+Eukaryota;Cnidaria;Staurozoa;Stauromedusae;Haliclystidae;Haliclystus;Haliclystus sanjuanensis	1	0	0	0	7	0	2	1	3	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	2	0	0	0	0	0	0	0	0	0	0	2	0	2	0	0	0	0	0	0	0	0	0	1	0	0	7	0	0
+Eukaryota;Cnidaria;Hydrozoa;Anthoathecata;Corynidae;Sarsia;Sarsia sp. SL-2013	2	1	0	0	2	0	0	1	4	0	57	0	0	0	0	0	0	0	0	0	1	1	11	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	27	0	0
+Eukaryota;NA;Florideophyceae;Ceramiales;Ceramiaceae;Corallophila;Corallophila eatoniana	2	0	0	0	0	0	3	0	11	0	196	0	0	0	0	0	1	1	0	2	0	1	2	0	0	0	1	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	3	0	0	1	0	0	1	0	0	0	0	0	0
+Eukaryota;Bacillariophyta;Coscinodiscophyceae;Melosirales;Hyalodiscaceae;Podosira;Podosira stelligera	2	4	3	0	0	4	4	1	3	8	0	9	5	6	0	2	10	4	5	4	33	18	3	4	24	5	8	2	23	5	4	2	1	0	0	7	0	33	0	1	0	0	0	1	6	19	12	0	0	2	0	0	6	2	40
+Eukaryota;Phaeophyceae;NA;Ectocarpales;Ectocarpaceae	2	0	0	0	0	0	0	1	0	2	10	0	0	5	0	0	0	0	0	0	5	1	3	1	2	0	0	0	2	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1
+Eukaryota;Chlorophyta;NA;NA;Pycnococcaceae	3	14	0	0	0	0	10	1	0	5	0	20	42	21	0	0	97	4	8	102	220	93	29	9	114	0	27	0	0	33	6	2	8	0	0	1	84	2	0	0	2	0	0	10	24	18	0	0	0	24	0	0	2	4	53
+Eukaryota;Phaeophyceae;NA;Ectocarpales;Scytosiphonaceae;Petalonia;Petalonia fascia	1	4	0	1	1	1	1	0	1	0	0	0	1	1	0	0	3	0	1	4	4	2	2	0	1	2	1	1	0	2	0	1	0	0	0	0	1	0	0	0	0	0	1	0	1	1	0	0	0	1	0	1	0	0	4
+Eukaryota;NA;Florideophyceae;Ceramiales;Rhodomelaceae	2	1	0	1	5	0	11	0	5	0	125	3	1	5	0	0	2	2	1	3	29	0	70	0	16	0	5	0	18	0	0	9	0	0	0	0	2	11	0	1	0	0	12	2	1	1	0	0	0	13	0	8	49	26	0
+Eukaryota;NA;Florideophyceae;Ceramiales;Rhodomelaceae;Neorhodomela;Neorhodomela larix	1	0	0	0	0	0	2	3	5	0	23	0	0	0	0	0	0	1	0	0	0	0	24	0	0	0	0	0	0	2	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	14	0	0
+Eukaryota;Cnidaria;Hydrozoa;Anthoathecata;Bougainvilliidae;Bougainvillia;Bougainvillia muscus	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0
+Eukaryota;NA;Florideophyceae;Halymeniales;Halymeniaceae;Prionitis;Prionitis sternbergii	4	1	0	2	0	0	16	0	3	2	5	0	8	3	0	0	28	7	1	15	3	3	15	0	2	0	21	2	4	7	1	14	11	0	0	0	12	5	0	2	0	0	5	1	0	0	0	0	12	2	0	0	9	0	0
+Bacteria;Bacteroidetes;Flavobacteriia;Flavobacteriales;Flavobacteriaceae;Polaribacter;Polaribacter sp. KT 15	1	0	1	0	0	0	0	0	0	1	2	0	0	0	0	0	0	0	0	0	4	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	1
+Eukaryota;Mollusca;Gastropoda;NA;Lottiidae;Lottia	1	0	0	0	1	0	0	0	1	0	89	0	1	0	0	0	0	0	0	0	0	0	5	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	4	0	0	1	0	0	0	0	0	0	1	0	0	6	0	0
+Eukaryota;NA;Florideophyceae;Ceramiales	4	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2
+Eukaryota;Porifera;Demospongiae;Suberitida;Halichondriidae;Halichondria;Halichondria panicea	1	1	0	0	0	0	0	1	2	0	15	0	1	4	0	0	0	0	0	2	5	1	15	0	1	0	0	1	27	1	1	0	0	0	0	2	0	2	0	0	0	1	0	0	0	0	0	0	0	1	0	0	17	1	0
+Eukaryota;NA;Florideophyceae;Gigartinales;Gigartinaceae;Mazzaella;Mazzaella oregona	1	0	0	0	0	0	0	0	2	0	0	0	0	1	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	1	1	0	0	0	0	0	4	0	0	0	0	0	0	17	2	1	0	0	0	0	0	0	0	0	1
+Eukaryota;Arthropoda;Maxillopoda;Sessilia;Chthamalidae;NA;Chthamalidae sp. 144752A	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	1
+Eukaryota;Annelida;Polychaeta;Eunicida;Dorvilleidae;Schistomeringos;Schistomeringos longicornis	1	15	0	31	0	88	0	0	104	6	0	0	0	0	0	0	2	1	3	0	0	1	0	5	3	34	0	6	0	0	14	0	14	0	0	0	4	585	0	0	0	0	0	0	15	17	0	0	14	8	0	0	0	1	44
+Eukaryota;Bryozoa;Gymnolaemata;Cheilostomatida;Bugulidae;Bugula;Bugula pacifica	1	1	0	0	0	0	1	0	1	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1
+Eukaryota;Phaeophyceae;NA;Ectocarpales;Chordariaceae;Laminariocolax	1	0	0	0	1	3	0	1	0	2	0	0	0	0	0	0	0	0	0	0	3	0	1	0	1	0	0	0	1	0	1	0	1	0	0	0	0	1	0	0	0	0	0	0	0	3	0	0	1	0	0	0	1	0	1
+Eukaryota;Chordata;Actinopteri;Perciformes;Stichaeidae;Xiphister;Xiphister atropurpureus	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Phaeophyceae;NA;Ralfsiales;Ralfsiaceae;NA;Ralfsioid sp. 4GWS	1	0	0	0	0	12	1	0	0	0	0	1	0	0	0	1	0	2	0	0	0	0	2	0	0	3	0	0	0	0	0	1	0	0	0	0	0	2	0	0	0	0	0	1	1	1	0	0	0	0	0	0	0	0	0
+Eukaryota;Chordata;Mammalia;Primates;Hominidae;Homo;Homo sapiens	0	0	1	0	51	0	0	1	7	0	0	0	1	0	0	0	0	0	0	0	0	0	8	0	0	0	0	0	0	2	0	0	0	0	0	0	0	1	0	0	0	1	1	0	0	0	0	0	1	0	0	0	0	0	1
+Eukaryota;Bacillariophyta;Coscinodiscophyceae;Thalassiosirales;Thalassiosiraceae;Thalassiosira;Thalassiosira nordenskioeldii	0	9	7	1	6	56	6	1	6	3	62	1	5	0	0	1	18	11	16	46	29	2	32	1	9	15	12	0	10	4	6	9	19	0	0	43	12	9	0	12	0	0	26	20	1	3	7	0	9	3	0	2	17	0	10
+Eukaryota;Nemertea;Enopla;Monostilifera;Tetrastemmatidae;Tetrastemma;Tetrastemma sp. 1 TCH-2015	0	1	0	1	1	1	0	0	3	0	40	0	0	1	0	0	0	0	0	1	12	8	9	0	4	1	0	0	0	1	1	1	0	0	0	0	0	2	0	0	0	0	0	0	0	3	0	0	0	1	0	1	4	0	0
+Eukaryota;Mollusca;Gastropoda;NA;Littorinidae;Littorina	0	0	0	0	7	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	2	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0
+Eukaryota;Arthropoda;Malacostraca;Decapoda;Atelecyclidae;Telmessus;Telmessus cheiragonus	0	0	0	0	6	0	0	0	22	2	0	3	0	0	0	0	0	0	5	0	7	0	0	1	1	0	0	0	0	18	1	0	0	0	0	24	0	0	0	0	0	0	0	0	7	4	0	0	1	0	0	3	1	0	9
+Eukaryota;Chlorophyta;NA;NA;Pycnococcaceae;Pseudoscourfieldia;Pseudoscourfieldia marina	0	0	0	0	3	0	1	0	0	0	0	0	0	0	0	0	0	1	0	4	0	0	1	0	0	0	4	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	6	0	0	0	0	2	2	0	0	4	0	0
+Eukaryota	0	0	0	0	11	0	0	0	3	0	0	0	0	0	0	0	0	1	0	0	1	0	2	0	0	0	0	1	0	0	0	1	0	0	0	0	3	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	1
+Eukaryota;NA;Florideophyceae;Gigartinales;Gigartinaceae;Chondracanthus;Chondracanthus corymbiferus	0	2	0	0	4	0	1	0	0	0	0	1	0	0	0	0	0	3	0	0	2	0	1	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	2	0	0
+Eukaryota;Arthropoda;Maxillopoda;Sessilia;Balanidae;Balanus;Balanus glandula	0	0	0	0	1	0	1	0	8	0	0	0	1	0	0	0	0	0	0	0	1	0	7	1	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	4	0	0	0	0	0
+Eukaryota;Bryozoa;Gymnolaemata;Cheilostomatida;Membraniporidae;Membranipora	0	5	0	1	4	0	3	0	7	0	2	0	0	0	0	0	1	4	0	7	4	0	15	5	0	0	2	0	0	6	0	6	32	0	0	0	1	0	0	2	0	0	3	1	0	0	0	0	0	1	0	1	4	0	1
+Eukaryota;Chordata;Mammalia;NA;Suidae;Sus;Sus scrofa	0	0	0	0	10	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Annelida;Polychaeta;NA;Orbiniidae;Leitoscoloplos;Leitoscoloplos pugettensis CMC01	0	0	23	0	8	26	4	0	0	28	0	33	0	30	0	8	0	0	8	0	509	117	0	12	202	19	0	0	178	0	10	0	0	0	0	3	0	59	0	0	0	15	0	0	7	14	4	0	0	0	0	49	0	3	8422
+Eukaryota;Chordata;Actinopteri;Perciformes;Stichaeidae;Xiphister;Xiphister mucosus	0	1	2	1	2	0	0	0	3	0	0	1	17	0	0	3	8	2	0	1	8	1	3	1	10	12	6	0	0	5	7	2	0	0	0	0	17	0	0	1	2	0	4	0	1	4	0	0	0	4	0	3	3	0	1
+Eukaryota;Arthropoda;Insecta;Diptera;Chironomidae;NA;Orthocladiinae sp. BOLD-2016	0	1	0	0	3	0	2	0	0	1	0	0	2	0	2	0	1	0	0	2	0	0	4	0	2	0	0	0	0	0	0	1	9	0	0	0	2	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0
+Eukaryota;Chordata	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Cnidaria;Hydrozoa	0	2	0	0	1	18	3	0	1	2	0	0	0	0	0	0	3	1	1	3	25	3	9	0	3	0	2	0	1	0	1	8	0	0	0	2	2	0	0	0	0	0	2	0	0	0	0	0	2	0	0	2	12	0	3
+Eukaryota;NA;Florideophyceae;Ceramiales;Ceramiaceae;Callithamnion;Callithamnion pikeanum	0	0	0	0	2	0	0	0	1	1	0	0	0	0	0	0	0	4	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;NA;Florideophyceae;Ceramiales;Rhodomelaceae;Neorhodomela;Neorhodomela oregona	0	0	0	0	1	0	1	0	3	0	0	0	0	0	0	0	1	1	0	2	0	0	2	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	0	0
+Eukaryota;NA;Florideophyceae;Plocamiales;Plocamiaceae;Plocamium	0	2	0	0	2	0	3	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	1	0	0	0	0	0	0	1	0	2	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1	1	0	0	0	0	1
+Eukaryota;NA;Florideophyceae;Palmariales;Palmariaceae;Halosaccion;Halosaccion glandiforme	0	0	0	0	1	0	0	0	0	0	25	0	0	0	0	0	0	0	0	0	1	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Phaeophyceae;NA;Ectocarpales;Chordariaceae	0	0	0	0	1	7	0	0	2	1	0	0	0	1	0	0	0	0	1	1	1	0	1	1	0	0	2	0	3	0	0	1	0	0	0	2	0	1	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+Eukaryota;Chordata;Mammalia;NA;Suidae;Sus	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;NA;Florideophyceae;Ceramiales;Delesseriaceae;Cryptopleura;Cryptopleura ruprechtiana	0	3	0	0	2	0	1	1	7	0	9	0	2	0	0	0	5	1	0	2	2	0	9	0	1	0	0	0	0	1	0	7	3	0	0	0	0	0	0	0	0	0	3	2	0	0	0	0	0	1	0	0	16	0	0
+Eukaryota;Nemertea;Anopla;Heteronemertea;Lineidae;Micrura;Micrura verrilli	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Mollusca;Bivalvia;Veneroida;Veneridae;Saxidomus;Saxidomus gigantea	0	0	1	0	0	0	0	0	0	22	0	0	0	1	0	0	2	0	0	0	18	0	1	0	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0
+Eukaryota;Arthropoda;Maxillopoda;Calanoida;Acartiidae;Acartia	0	0	0	0	0	11	0	0	1	0	0	0	0	2	0	1	1	1	0	0	4	0	0	2	6	3	1	0	1	0	3	1	2	0	0	2	3	0	0	0	0	0	2	0	2	5	4	0	0	0	0	0	4	0	10
+Eukaryota;Chordata;Actinopteri;Perciformes;Stichaeidae;Anoplarchus	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	3	1	1	0	3	0	0	0	0	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	0
+Eukaryota;NA;Florideophyceae;Gigartinales;Solieriaceae;Sarcodiotheca;Sarcodiotheca sp. 2gaudichaudii	0	1	2	0	0	6	4	0	3	9	0	2	5	7	0	1	3	3	1	0	34	3	2	0	9	0	2	0	11	1	6	4	0	0	0	0	0	4	0	1	0	0	4	2	5	1	0	0	0	0	0	4	0	0	2
+Eukaryota;Echinodermata;Holothuroidea;Aspidochirotida;Stichopodidae;Parastichopus;Parastichopus californicus	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	1	0	0	3	0	0	1	0	0	0	1	0	0	3	0	2	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;NA;Oomycetes;Pythiales;Pythiaceae;Pythium	0	3	2	0	0	0	0	0	0	1	3	1	1	0	0	1	0	1	1	0	12	0	2	0	3	4	2	0	7	1	0	1	0	0	0	7	0	2	0	0	0	1	0	0	0	1	2	0	0	0	0	2	1	2	1
+Eukaryota;NA;Florideophyceae;Gigartinales;Dumontiaceae;Cryptosiphonia;Cryptosiphonia woodii	0	1	0	0	0	0	0	1	0	2	0	0	0	0	0	0	0	0	0	0	1	1	1	0	0	0	0	0	6	1	1	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0
+Eukaryota;NA;Florideophyceae;Acrochaetiales;Acrochaetiaceae;Acrochaetium;Acrochaetium plumosum	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	1	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;NA;Florideophyceae;Palmariales;Palmariaceae;Devaleraea;Devaleraea mollis	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0	2	0	0	0	0	0	0	2	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+Eukaryota;Arthropoda;Malacostraca;Euphausiacea;Euphausiidae;Euphausia;Euphausia pacifica	0	0	0	0	0	0	0	0	0	0	3725	0	0	0	0	0	2	0	1	1	1	1	5	0	1	554	0	0	0	1	0	1	0	0	0	0	5	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Cnidaria;Hydrozoa;NA;NA;NA;Hydrozoa sp. prey of Macellomenia sp. KMK-2014	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Annelida;Polychaeta;Phyllodocida;Nereididae;Platynereis;Platynereis sp. CMC02	0	86	58	1	0	12	2	0	2	5	0	2	1	3	0	1	0	0	5	0	906	4	12	1	8	5	0	0	29	1	3	1	0	0	0	1	0	6	0	0	0	0	2	5	4	6	0	0	0	0	0	0	1	0	20
+Eukaryota;Mollusca;Gastropoda;NA;Littorinidae;Littorina;Littorina scutulata	0	0	0	0	0	0	0	0	0	891	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	110	1	0	0	0	285	0	0	0	0	0	1	0	0	0	0	0	0	0	502	0	257	0	0	0
+Eukaryota;Bacillariophyta;Coscinodiscophyceae;Thalassiosirales;Thalassiosiraceae;Thalassiosira;Thalassiosira pseudonana	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	3	1	0	3	0	0	4	0	0	0	3	0	0	1	0	1	2	0	0	0	0	0	0	3	0	0	2	1	0	0	0	0	0	2	0	0	0	0	0
+Eukaryota;NA;Bangiophyceae;Bangiales;Bangiaceae;Pyropia;Pyropia perforata	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Mollusca;Gastropoda;NA;Trochidae;Lirularia;Lirularia succincta	0	0	0	0	0	0	0	0	0	0	0	2	0	1	0	0	1	0	3	0	1	0	0	1	2	0	0	0	0	0	1	3	0	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1
+Eukaryota;NA;Florideophyceae;Ceramiales;Ceramiaceae;Microcladia	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	3	0	5	0	0	0	0	0	0	0	0	0	1	0	2	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	4	0	0
+Eukaryota;NA;Florideophyceae;Gigartinales;Phyllophoraceae;Mastocarpus	0	1	0	2	0	0	3	1	0	0	12	1	0	0	0	0	2	1	0	1	0	0	9	0	0	0	4	1	1	1	0	2	1	0	0	0	0	1	0	1	0	0	3	0	0	0	1	0	0	1	0	0	8	3	2
+Eukaryota;NA;NA;Isochrysidales;Noelaerhabdaceae;Emiliania;Emiliania huxleyi	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Nemertea;Anopla;Heteronemertea;Lineidae;Maculaura;Maculaura alaskensis	0	17	1	0	0	0	105	0	0	11	0	2	0	8	0	0	68	51	32	282	16	6	1	63	4	3	61	3	4	31	10	7	0	0	0	39	1	19	0	0	0	0	3	0	74	169	11	0	0	0	0	2	1	0	44
+Eukaryota;NA;Dinophyceae;Gymnodiniales;Gymnodiniaceae;Nusuttodinium	0	0	3	1	0	3	6	0	4	20	0	0	1	4	0	1	2	5	1	1	13	2	2	2	0	7	5	1	22	0	8	2	0	0	0	3	0	6	0	0	1	0	3	1	2	7	16	0	4	1	0	1	2	0	13
+Eukaryota;Echinodermata;Asteroidea;Forcipulatida;Asteriidae	0	0	1	0	0	0	1	0	0	2	0	0	0	1	0	0	0	0	0	0	1	2	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0
+Eukaryota;Nemertea;Palaeonemertea;NA;Carinomidae;Carinoma;Carinoma sp. 5 TCH-2015	0	6	0	2	0	0	0	0	0	2	0	0	0	0	0	0	270	0	0	3	4	0	0	0	1	0	87	3	0	36	0	1	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	1	0	4	0	0	2	0	0
+Eukaryota;NA;Florideophyceae;Ceramiales;Rhodomelaceae;Osmundea;Osmundea spectabilis	0	2	0	0	0	0	1	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0	9	0	0	0	1	0	0	2	0	1	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+Eukaryota;NA;Florideophyceae;Gigartinales;Solieriaceae;Sarcodiotheca;Sarcodiotheca furcata	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	3	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Mollusca;Polyplacophora;Neoloricata;Lepidochitonidae;Cyanoplax;Cyanoplax dentiens	0	0	0	0	0	0	3	0	0	2	0	0	0	0	0	1	0	0	1	0	4	0	2	0	2	5	0	0	4	0	0	1	1	0	0	34	0	1	0	0	0	0	0	0	0	7	1	0	0	1	0	0	3	0	1
+Eukaryota;NA;Florideophyceae;Ceramiales;Rhodomelaceae;Polysiphonia;Polysiphonia pacifica	0	0	0	0	0	0	1	0	0	0	89	0	0	0	0	0	0	1	0	1	2	0	2	0	2	0	2	0	2	0	0	1	1	0	0	0	0	1	0	0	0	0	2	0	0	2	0	0	2	0	0	1	9	0	0
+Eukaryota;Annelida;Polychaeta;Sabellida;Sabellidae;Chone;Chone magna CMC02	0	0	0	1	0	0	0	0	18	0	72	0	0	1	0	0	3	0	0	0	2	3	34	0	7	0	1	0	14	2	1	1	0	0	0	0	0	51	0	689	0	2	0	0	1	24	254	0	6	15	0	11	14	0	3
+Eukaryota;Bacillariophyta;Mediophyceae;Lithodesmiales;Lithodesmiaceae;Ditylum;Ditylum brightwellii	0	0	0	0	0	0	3	0	1	6	0	0	0	0	0	0	5	0	0	6	1	0	1	0	0	0	3	0	1	0	7	1	0	0	0	0	6	2	0	6	0	0	1	4	2	12	0	0	10	0	0	0	2	0	4
+Eukaryota;Annelida;Polychaeta;Sabellida;Sabellidae;Schizobranchia;Schizobranchia insignis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	3	0	0	2	0	0	0	0	0	0	2	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Annelida;Polychaeta;Terebellida;Terebellidae;Neoamphitrite;Neoamphitrite robusta CMC01	0	6	1	1	0	77	0	0	0	11	231	12	0	2	0	8	0	1	8	3	57	12	3	4	38	0	0	4	0	0	12	0	6	0	0	2	4	9	0	0	2	0	0	0	1310	20	6	0	0	0	0	7	3	2	135
+Eukaryota;Chordata;Actinopteri;Clupeiformes;Clupeidae	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;NA;Dinophyceae;Prorocentrales;Prorocentraceae;Prorocentrum	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	2	0	1	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Echinodermata;Asteroidea;Forcipulatida;Asteriidae;Evasterias;Evasterias troschelii	0	0	0	0	0	3	0	0	0	2	0	0	0	0	0	0	1	1	0	0	6	2	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	1	0	0	0	0	0	1
+Eukaryota;NA;Dinophyceae;Peridiniales;Protoperidiniaceae;Protoperidinium;Protoperidinium cf. depressum	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	1	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	2	1	0	0	1	0	0	0
+Eukaryota;NA;Dinophyceae;Lophodiniales;Lophodiniaceae;Woloszynskia	0	0	0	0	0	2	0	1	0	0	0	0	0	0	0	0	0	1	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	2	0	0
+Eukaryota;Bacillariophyta;Fragilariophyceae;Thalassionemales;Thalassionemataceae;Thalassionema;Thalassionema nitzschioides	0	0	0	0	0	0	0	0	0	2	0	0	1	0	0	1	1	1	1	2	1	0	2	0	0	0	1	0	4	0	0	0	2	0	0	6	0	1	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	1
+Eukaryota;Bryozoa;Gymnolaemata;Cheilostomatida;Calloporidae;Cauloramphus;Cauloramphus multiavicularia	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Chlorophyta	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Bacillariophyta;Coscinodiscophyceae;Melosirales;Stephanopyxidaceae;Stephanopyxis;Stephanopyxis turris	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1	1	0	0	0	4	0	2	1	0	0	0	1	10	5	0	0	0	0	6	0	1	0	0	0	0	0	0	0	0	5	0	0	0	0	0	0	0	0
+Eukaryota;Annelida;Polychaeta;Terebellida;Terebellidae;Pista;Pista wui	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	2	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0
+Eukaryota;Echinodermata;Ophiuroidea;Ophiurida;Amphiuridae;Amphiodia;Amphiodia cf. occidentalis EAC-2010	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	5	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Annelida;Polychaeta;Terebellida;Terebellidae;Eupolymnia;Eupolymnia heterobranchia	0	1	0	0	0	0	1	0	4	0	0	0	0	0	0	0	0	2	0	4	4	0	3	1	4	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1
+Eukaryota;NA;Florideophyceae;Palmariales;Rhodophysemataceae;Rhodophysema;Rhodophysema minus	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Mollusca;Bivalvia;Mytiloida;Mytilidae;Mytilus;Mytilus trossulus	0	0	0	0	0	0	0	0	1	0	4	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	1	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0
+Eukaryota;Annelida;Polychaeta;Phyllodocida;Polynoidae;Halosydna;Halosydna brevisetosa	0	0	11	0	0	328	0	0	0	15	0	4	0	4	0	0	0	0	12	0	82	11	0	3	44	3	10	1	289	2	60	0	0	0	0	8	0	278	0	0	0	1	0	0	9	115	210	0	0	2	0	15	0	18	353
+Eukaryota;Chordata;Ascidiacea;Stolidobranchia;Styelidae;Styela;Styela gibbsii	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	11	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	4	0	0	0	0	0
+Eukaryota;Chordata;Actinopteri;Perciformes;Cottidae;Oligocottus;Oligocottus maculosus	0	0	0	0	0	0	0	0	0	1	0	0	0	1	0	0	2	0	1	2	11	1	0	0	3	0	1	0	20	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	1	0	0	0	0	0	1	1
+Eukaryota;NA;Florideophyceae;Gigartinales;Caulacanthaceae;Caulacanthus;Caulacanthus ustulatus	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0
+Eukaryota;NA;Oomycetes;Olpidiopsidales;Olpidiopsidaceae;Olpidiopsis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+Eukaryota;Bacillariophyta;Fragilariophyceae;Fragilariales;Fragilariaceae;Asterionellopsis;Asterionellopsis lenisilicea	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Annelida;Polychaeta;Terebellida;Pectinariidae;Pectinaria;Pectinaria granulata CMC01	0	25	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	9	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	0	0	0	0	0	0	1
+Eukaryota;NA;Florideophyceae;Gracilariales;Gracilariaceae;Gracilaria;Gracilaria pacifica	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	4	0	0	1	0	1	1	0	3	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1
+Bacteria;Proteobacteria;Alphaproteobacteria;Pelagibacterales;Pelagibacteraceae;NA;alpha proteobacterium HIMB59	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0
+Eukaryota;Mollusca;Bivalvia;Ostreoida;Ostreidae;Crassostrea;Crassostrea gigas	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Echinodermata;Holothuroidea;Dendrochirotida;Cucumariidae;Cucumaria;Cucumaria miniata	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	0	2	0	1	0	1	0	0	1	0	0	0	0	0	0	0	3	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0
+Eukaryota;Bacillariophyta;Bacillariophyceae;Bacillariales;Bacillariaceae;Pseudo-nitzschia;Pseudo-nitzschia hasleana	0	0	1	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	3	0	0	0	1	0	0	0	0	0	0	6	0	2	0	0	0	2	0	3	0	0	0	0	0	1	0	0	3
+Eukaryota;Arthropoda;Malacostraca;Amphipoda;Melitidae;Megamoera;Megamoera subtener	0	0	0	0	0	0	1	0	4	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	2	0	0
+Eukaryota;NA;NA;Phaeocystales;Phaeocystaceae;Phaeocystis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;NA;Florideophyceae;Gelidiales;Gelidiaceae;Gelidium	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	3	0	0	0	0	0
+Eukaryota;Cnidaria;Hydrozoa;Anthoathecata;Corynidae;Stauridiosarsia;Stauridiosarsia producta	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Phaeophyceae;NA;Ectocarpales;Scytosiphonaceae;Scytosiphon;Scytosiphon lomentaria	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Ascomycota;Dothideomycetes;Capnodiales;Cladosporiaceae;Cladosporium;Cladosporium tenuissimum	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Arthropoda;Insecta;Diptera;Cecidomyiidae;NA	0	0	0	0	0	0	10	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Arthropoda;Maxillopoda;Sessilia;Chthamalidae	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Ascomycota;Eurotiomycetes;Eurotiales;Aspergillaceae;Penicillium;Penicillium sclerotiorum	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	4	3	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Chordata;Actinopteri;Perciformes;Cottidae;Artedius;Artedius harringtoni I	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Arthropoda;Insecta;Coleoptera;Dermestidae;Anthrenus;Anthrenus verbasci	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	227	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Phaeophyceae;NA;Ectocarpales;Chordariaceae;Punctaria;Punctaria latifolia	0	0	0	0	0	0	3	0	0	0	125	0	0	0	0	0	3	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Mollusca;Gastropoda;NA;Limapontiidae;Stiliger;Stiliger fuscovittatus	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Nemertea;Palaeonemertea;NA;Tubulanidae;Tubulanus	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Mollusca;Gastropoda;Nudibranchia;Dorididae;Rostanga;Rostanga pulchra	0	0	0	0	0	0	1	0	0	0	0	98	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Annelida;Polychaeta;Phyllodocida;Hesionidae;Micropodarke;Micropodarke dubia	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	88	14	5	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	2	0	0	0	0	3	0	0	0	0	0	0
+Eukaryota;Arthropoda;Maxillopoda;Sessilia;Archaeobalanidae;Semibalanus;Semibalanus cariosus	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;NA;Florideophyceae	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Arthropoda;Malacostraca;Amphipoda;Pontogeneiidae;Pontogeneia;Pontogeneia rostrata	0	0	24	0	0	0	0	0	0	0	0	0	0	3	0	1	2	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+Eukaryota;Annelida;Polychaeta;Phyllodocida;Polynoidae;Harmothoe;Harmothoe imbricata CMC01	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	22	0	0	0	0	0
+Eukaryota;Phaeophyceae;NA;Fucales;Fucaceae;Fucus	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Nemertea;Palaeonemertea;NA;Cephalothricidae;Cephalothrix;Cephalothrix spiralis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Chordata;Actinopteri;Perciformes;Cottidae;Artedius;Artedius fenestralis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	1	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2
+Eukaryota;NA;Florideophyceae;Gigartinales;Gigartinaceae;Chondracanthus	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1
+Eukaryota;NA;Dictyochophyceae;Florenciellales;NA;Pseudochattonella	0	0	0	0	1	0	2	0	0	0	6	0	0	0	0	0	1	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	1
+Eukaryota;Chordata;Actinopteri	0	0	0	0	0	0	0	0	0	0	0	0	5	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+Eukaryota;Arthropoda;Malacostraca;Decapoda;Cancridae;Metacarcinus;Metacarcinus gracilis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Bacillariophyta;Bacillariophyceae;Bacillariales;Bacillariaceae;Cylindrotheca;Cylindrotheca closterium	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	1	0	1	0	13	3	0	0	4	1	0	0	2	0	2	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0
+Eukaryota;Cnidaria;Hydrozoa;Leptothecata;Plumulariidae;Plumularia;Plumularia lagenifera	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Cnidaria;Hydrozoa;Anthoathecata;Proboscidactylidae;Proboscidactyla;Proboscidactyla flavicirrata	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	2
+Eukaryota;Bacillariophyta;Mediophyceae;Triceratiales;Triceratiaceae;Trieres;Trieres chinensis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Phaeophyceae;NA;Ectocarpales;Chordariaceae;Microspongium;Microspongium tenuissimum	0	0	0	0	0	54	1	0	7	2	0	0	0	2	0	0	1	0	1	1	6	2	0	0	2	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	1	0	0	0	0	0	0	2	0	1
+Eukaryota;NA;Florideophyceae;Acrochaetiales;Acrochaetiaceae;Acrochaetium;Acrochaetium moniliforme	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Porifera;Demospongiae;Poecilosclerida	0	22	1	7	0	0	0	3	1	1	88	0	0	0	0	0	0	0	0	1	1	0	21	0	0	1	0	7	1	0	1	0	0	0	0	7	0	0	0	0	0	0	0	0	0	0	0	4	0	1	0	0	23	0	0
+Eukaryota;Annelida;Polychaeta;Phyllodocida;Pholoidae;Pholoides;Pholoides asperus	0	30	0	4	0	0	0	0	0	1	0	1	150	0	0	0	0	0	0	0	0	0	0	1	0	2	0	7	0	0	1	0	3	0	0	0	0	60	0	0	0	0	0	0	0	1	0	0	1	66	0	0	0	0	0
+Eukaryota;Nemertea;Enopla;Monostilifera;Amphiporidae;Zygonemertes;Zygonemertes sp. 1 TCH-2015	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0	0	0	1	0	0	0	1	0	1	0	0	1	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Echinodermata;Holothuroidea;Apodida;Synaptidae;Leptosynapta;Leptosynapta clarki	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+Eukaryota;NA;Dinophyceae;Dinophysiales;Dinophysiaceae;Dinophysis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Bacillariophyta;Coscinodiscophyceae;Thalassiosirales;Stephanodiscaceae;Cyclostephanos;Cyclostephanos sp. WTC16	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;NA;Florideophyceae;Rhodymeniales;Rhodymeniaceae;Sparlingia;Sparlingia pertusa	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;NA;Dinophyceae;Peridiniales;Heterocapsaceae;Heterocapsa;Heterocapsa triquetra	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	1	0	5	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1
+Eukaryota;NA;Dinophyceae;Gonyaulacales	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	1	0	0	0	0	0	1	0	0	0	1	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Ascomycota;Saccharomycetes;Saccharomycetales;Dipodascaceae;Galactomyces;Galactomyces candidum	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Chordata;Actinopteri;Clupeiformes;Clupeidae;Clupea;Clupea pallasii	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Arthropoda;Maxillopoda;Calanoida;Calanidae;Calanus;Calanus pacificus	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	1	3	0	0	0	1	67	0	0	31	0	0	0	0	0	0	1	4	0
+Eukaryota;Arthropoda;Malacostraca;Decapoda;Cancridae	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Chordata;Actinopteri;Gadiformes;Gadidae;Gadus;Gadus chalcogrammus	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Mollusca;Gastropoda;NA;Columbellidae;Alia;Alia carinata	0	1	0	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Annelida;Polychaeta;Phyllodocida;Syllidae;Syllis;Syllis alternata CMC02	0	1	0	0	0	0	0	0	0	0	43	0	0	0	0	0	0	0	0	0	0	0	6	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Eukaryota;Echinodermata;Asteroidea;Spinulosida;Echinasteridae;Henricia;Henricia sp. EAC01	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0
+Eukaryota;Mollusca;Gastropoda;Nudibranchia	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	0	0	4	0	0	0	0	0	8	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Mollusca;Gastropoda;NA;Littorinidae;Littorina;Littorina plena	0	21	21	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	815	0	0	0	0	0	0	0	78	0
+Eukaryota;NA;Florideophyceae;Gigartinales;Gigartinaceae;Mazzaella;Mazzaella phyllocarpa	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Phaeophyceae;NA;Ectocarpales;Acinetosporaceae;Pylaiella	0	5	0	4	0	9	1	0	0	3	0	0	0	1	0	1	0	0	0	0	2	1	0	0	2	3	0	0	0	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	3
+Eukaryota;Mollusca;Gastropoda;NA;Limapontiidae;Aplysiopsis;Aplysiopsis enteromorphae	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0
+Eukaryota;Echinodermata;Ophiuroidea;Ophiurida;Ophiactidae;Ophiopholis	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0
+Eukaryota;Mollusca;Gastropoda;NA;Muricidae;Nucella;Nucella lamellosa	0	1	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Kinorhyncha;NA;Cyclorhagida;Echinoderidae;Echinoderes;Echinoderes kozloffi	0	0	63	5	0	0	0	0	0	0	8	5	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;NA;Florideophyceae;Ceramiales;Rhodomelaceae;Pterosiphonia	0	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Annelida;Polychaeta;Phyllodocida;Glyceridae;Glycera;Glycera nana	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	1	0	0	5	0	0
+Eukaryota;NA;Florideophyceae;Gigartinales;Kallymeniaceae;Callophyllis;Callophyllis schneideri	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	2	0	0	0	0	1	0
+Eukaryota;NA;Florideophyceae;Ceramiales;Rhodomelaceae;Odonthalia;Odonthalia floccosa	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0
+Eukaryota;Annelida;Polychaeta;Phascolosomatiformes;Phascolosomatidae;Phascolosoma;Phascolosoma agassizii	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Mollusca;Gastropoda;NA;Haminoeidae;Haminoea	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	18	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Arthropoda;Maxillopoda;Calanoida;Clausocalanidae;Pseudocalanus	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	10	0	0	199	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Arthropoda;Malacostraca;Decapoda;Panopeidae;Lophopanopeus;Lophopanopeus bellus	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	2	1	0	0	2	0	0	0	5	0	1	0	0	0	0	0	0	1	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Chordata;Actinopteri;Perciformes;Cottidae;Myoxocephalus;Myoxocephalus polyacanthocephalus	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Cnidaria;Hydrozoa;Anthoathecata;Tubulariidae;Hybocodon;Hybocodon prolifer	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;NA;Florideophyceae;Ceramiales;Delesseriaceae;Cumathamnion;Cumathamnion decipiens	0	0	0	0	0	0	0	0	2	0	42	0	0	0	0	0	0	0	0	2	0	0	16	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	0
+Eukaryota;Annelida;Polychaeta;Phyllodocida;Polynoidae;Malmgreniella;Malmgreniella nigralba	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+Eukaryota;Mollusca;Polyplacophora;Neoloricata;Mopaliidae;Mopalia;Mopalia cirrata	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	11	0	0
+Eukaryota;Cnidaria;Hydrozoa;Anthoathecata;Corynidae;Sarsia	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	3	0	0	0	7	0	0	0	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	5
+Eukaryota;NA;Bangiophyceae;Bangiales;Bangiaceae;Porphyra;Porphyra mumfordii	0	0	0	0	0	0	0	0	0	0	33	0	0	0	0	0	0	0	0	0	0	0	7	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	11	0	0
+Eukaryota;Mollusca;Gastropoda;NA;Hermaeidae;Hermaea;Hermaea oliviae	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+Eukaryota;NA;Florideophyceae;Nemastomatales;Schizymeniaceae;Schizymenia;Schizymenia pacifica	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	2	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	2
+Eukaryota;NA;Florideophyceae;Gigartinales;Phyllophoraceae;Mastocarpus;Mastocarpus papillatus BOLD:AAA5480	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	2	0	0
+Eukaryota;NA;Dinophyceae;Syndiniales;Syndiniaceae;Hematodinium;Hematodinium sp.	0	0	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	2	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+Eukaryota;Mollusca;Polyplacophora;Neoloricata;Mopaliidae;Mopalia;Mopalia imporcata	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+Eukaryota;Porifera;Homoscleromorpha;Homosclerophorida;Plakinidae;Oscarella;Oscarella pearsei	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0
+Eukaryota;NA;Florideophyceae;Gracilariales;Gracilariaceae;Gracilariopsis	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	4	3	0	0	1	2	0	0	6	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0	0
+Eukaryota;NA;Florideophyceae;Ceramiales;Rhodomelaceae;Herposiphonia;Herposiphonia plumula	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+Eukaryota;Porifera;Demospongiae;Haplosclerida;Chalinidae;Haliclona;Haliclona sp. E GPM-2011	0	0	0	0	0	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+Bacteria;Bacteroidetes;Flavobacteriia;Flavobacteriales;Flavobacteriaceae;Cellulophaga;Cellulophaga baltica	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+Eukaryota;Cnidaria;Anthozoa;Actiniaria;Actiniidae;Urticina	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Mollusca;Bivalvia;Myoida;Myidae;Mya;Mya arenaria	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	12	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;NA;Florideophyceae;Ceramiales;Dasyaceae;Rhodoptilum;Rhodoptilum plumosum	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Annelida;Polychaeta;Phyllodocida;Syllidae;Proceraea;Proceraea okadai	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Arthropoda;Maxillopoda;Sessilia;Chthamalidae;NA;Chthamalidae sp. 142299A	0	0	0	0	0	0	0	0	0	0	12	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Chordata;Mammalia;Primates;Hominidae;Homo	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria;Bacteroidetes;Flavobacteriia;Flavobacteriales;Flavobacteriaceae;Polaribacter	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1
+Eukaryota;NA;Florideophyceae;Acrochaetiales;Acrochaetiaceae;Acrochaetium;Acrochaetium arcuatum	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Arthropoda;Malacostraca;Decapoda;Pinnotheridae;Pinnixa;Pinnixa faba	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;NA;Florideophyceae;Acrochaetiales;Acrochaetiaceae;Rhodochorton;Rhodochorton sp. 2BC	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Arthropoda;Maxillopoda;Sessilia;Balanidae;Amphibalanus;Amphibalanus sp. AFG-2015	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3
+Eukaryota;NA;Dinophyceae;Gymnodiniales;Gymnodiniaceae;Akashiwo	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Arthropoda;Arachnida;Araneae;Salticidae	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Chlorophyta;Trebouxiophyceae;Microthamniales;NA;Trebouxia;Trebouxia aggregata	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;NA;Florideophyceae;Gigartinales;Gigartinaceae;Mazzaella;Mazzaella rosea	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	2	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	0	0	0	1	0	0	0	0	0
+Eukaryota;Annelida;Polychaeta;Phyllodocida;Phyllodocidae;Eulalia;Eulalia levicornuta	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Echinodermata;Echinoidea;Echinoida;Strongylocentrotidae;Mesocentrotus;Mesocentrotus franciscanus	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Ascomycota;Eurotiomycetes;Eurotiales;Aspergillaceae;Penicillium;Penicillium verrucosum	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Annelida;Polychaeta;Spionida;Cirratulidae;Cirratulus	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	2	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Arthropoda;Malacostraca;Decapoda;Pisidae;Scyra;Scyra acutifrons	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Cnidaria;Scyphozoa;Semaeostomeae;Ulmaridae;Aurelia;Aurelia labiata	0	0	13	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;NA;NA;NA;Paramoebidae;Paramoeba;Paramoeba pemaquidensis	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;NA;Florideophyceae;Corallinales;Corallinaceae	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Nemertea;Anopla;Heteronemertea;Lineidae;Micrura;Micrura sp. albocephala	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Arthropoda;Malacostraca;Decapoda;Varunidae;Hemigrapsus;Hemigrapsus oregonensis	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;NA;Dinophyceae;Gonyaulacales;Gonyaulacaceae;Alexandrium;Alexandrium tamarense	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Echinodermata;Ophiuroidea;Ophiurida;Amphiuridae;Amphipholis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	35	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Arthropoda;Maxillopoda;Calanoida	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Arthropoda;Maxillopoda;Calanoida;Diaptomidae;Skistodiaptomus;Skistodiaptomus pallidus	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Annelida;Polychaeta;Phyllodocida;Nereididae;Alitta;Alitta sp. CMC01	0	0	0	0	0	17	0	0	0	21	0	0	5	0	0	5	0	0	9	0	0	5	0	152	4	9	0	0	0	0	8	0	1	0	0	0	0	0	0	0	0	0	0	0	1373	4650	0	0	0	0	0	0	0	0	53
+Eukaryota;Nemertea;Anopla;Heteronemertea;Lineidae;Lineus;Lineus sp. 1 TCH-2015	0	0	0	0	0	0	0	0	0	4	0	2	1	0	0	0	0	0	0	0	5	1	0	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	20	0	0	0	0	0	0	0	0
+Eukaryota;Arthropoda;Insecta;Psocoptera;NA;NA;Psocoptera sp. BOLD:ACB9376	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Chordata;Actinopteri;Perciformes;Pholidae;Pholis;Pholis ornata	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	15	3	0	0	2	0	0	0	0	1	1	0	0	0	0	0	0	1	0	0	0	0	0	0	2	1	0	0	0	0	0	0	0	0	0
+Eukaryota;Arthropoda;Malacostraca;Decapoda;Epialtidae;Pugettia;Pugettia gracilis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Echinodermata;Ophiuroidea;Ophiurida;Amphiuridae;Amphipholis;Amphipholis sp. AAU6176	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+Eukaryota;Eustigmatophyceae;NA	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+Eukaryota;Nemertea;Anopla;Heteronemertea;Lineidae;Maculaura;Maculaura magna	0	0	0	0	0	15	0	0	0	22	0	0	0	0	0	0	0	0	0	0	9	1	0	1	0	0	0	0	3	0	8	0	0	0	0	7	0	6	0	0	0	0	0	0	2	24	26	0	0	0	0	0	0	1	48
+Eukaryota;Phaeophyceae;NA;Ectocarpales;Chordariaceae;Myrionema;Myrionema balticum	0	0	0	0	0	4	0	0	0	4	0	1	0	3	0	0	0	0	4	0	5	1	0	0	1	9	0	0	0	0	3	0	0	0	0	0	0	2	0	0	0	0	0	0	1	3	6	0	0	0	0	1	0	0	5
+Eukaryota;Echinodermata;Asteroidea;Forcipulatida;Asteriidae;Leptasterias	0	0	0	0	0	8	0	0	0	7	0	0	0	3	0	0	0	0	0	0	33	6	0	1	8	4	0	0	25	0	2	0	0	0	0	9	0	2	0	0	0	0	0	0	0	13	0	0	0	0	0	0	0	0	4
+Eukaryota;Arthropoda;Malacostraca;Amphipoda;Ampithoidae;Ampithoe;Ampithoe lacertosa	0	0	0	0	0	0	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Annelida;Polychaeta;Terebellida;Terebellidae;Thelepus;Thelepus crispus	0	0	0	0	0	50	0	0	0	2	0	0	0	0	0	0	0	0	0	0	9	0	0	0	2	0	0	0	12	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	5	2	6	0	0	0	0	0	0	1	9
+Eukaryota;Bacillariophyta;Coscinodiscophyceae;Thalassiosirales;Thalassiosiraceae;Thalassiosira;Thalassiosira punctigera	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	2	2	0	0	2	0	0	0	0	0	1	0	0	0	0	0	0	3	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0
+Eukaryota;NA;Compsopogonophyceae;Erythropeltidales;Erythropeltidaceae;Smithora;Smithora naiadum	0	0	4	0	0	1	0	0	0	4	0	3	0	1	0	1	0	0	2	0	30	2	0	0	3	2	0	0	16	0	3	0	0	0	0	0	0	4	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	1	6
+Eukaryota;Chordata;Mammalia;Carnivora;Phocidae;Phoca;Phoca vitulina	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	5	1	0	0	1	0	0	0	7	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1	0	0	2
+Eukaryota;Chordata;Actinopteri;Salmoniformes;Salmonidae;Oncorhynchus	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Phaeophyceae;NA;Ectocarpales;Chordariaceae;Dictyosiphon;Dictyosiphon sp. 3GWS	0	0	0	0	0	3	0	0	0	1	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	1	0	0	0	0	0	0	0	0	2
+Eukaryota;Arthropoda;Maxillopoda;Calanoida;Clausocalanidae;Pseudocalanus;Pseudocalanus moultoni	0	0	0	0	0	21	0	0	1	7	0	0	0	0	0	3	0	0	8	0	0	1	0	2	0	2	0	0	3	0	7	0	0	0	0	6	0	0	0	0	0	0	0	1	3	5	2	0	0	0	0	0	0	0	3
+Eukaryota;NA;Dinophyceae;Gymnodiniales;Kareniaceae;Karlodinium;Karlodinium veneficum	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Porifera;Demospongiae;Clionaida;Clionaidae;Cliona;Cliona chilensis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2
+Eukaryota;Annelida;Polychaeta;Capitellida;Maldanidae;Axiothella;Axiothella rubrocincta	0	0	0	0	0	0	0	0	0	0	0	2	0	4	0	0	0	0	0	0	14	2	0	0	8	0	0	0	15	0	0	0	0	0	0	0	0	27	0	0	0	0	0	0	0	0	0	0	0	0	0	7	0	1	0
+Eukaryota;Chordata;Actinopteri;Perciformes;Cottidae;Enophrys;Enophrys bison	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Nemertea;Palaeonemertea;NA;Cephalothricidae;Cephalothrix;Cephalothrix major	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	56	6	0	0	8	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Chordata;Actinopteri;Perciformes;Stichaeidae;Anoplarchus;Anoplarchus purpurescens	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	3	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Annelida;Polychaeta;Phyllodocida;Polynoidae;Lepidonotus;Lepidonotus squamatus CMC01	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	2	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1
+Eukaryota;Phaeophyceae;NA;Ectocarpales;Chordariaceae;Myrionema;Myrionema strangulans	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1
+Eukaryota;Mollusca;Gastropoda;Nudibranchia;Fionidae;Cuthona;Cuthona sp. 7 CCS-2010	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Arthropoda;Maxillopoda;Sessilia;Balanidae;Balanus;Balanus sp. BOLD:AAA5336	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Arthropoda;Maxillopoda;Calanoida;Clausocalanidae;Pseudocalanus;Pseudocalanus mimus	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	17	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;NA;Florideophyceae;Gigartinales;Dumontiaceae;Weeksia;Weeksia coccinea	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Arthropoda;Malacostraca;Decapoda;Pandalidae;Pandalus;Pandalus danae	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	8	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Annelida;Polychaeta;Phyllodocida;Nereididae;Nereis;Nereis vexillosa	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Chordata;Actinopteri;Perciformes;Hexagrammidae;Ophiodon;Ophiodon elongatus	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Nemertea;Palaeonemertea;NA;Tubulanidae;Tubulanus;Tubulanus sexlineatus	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Echinodermata;Holothuroidea;Dendrochirotida;Phyllophoridae;Pentamera;Pentamera lissoplaca	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;NA;Florideophyceae;Gigartinales;Solieriaceae;Sarcodiotheca	0	0	0	0	0	2	0	0	0	0	0	0	1	0	0	0	0	0	0	0	2	0	0	0	2	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;NA;Oomycetes	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Annelida;Polychaeta;Eunicida;Lumbrineridae;Lumbrineris;Lumbrineris japonica	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	2	0	0	0	1	0	0	0	0	0	0	0	0	0	4	0	0	0
+Eukaryota;Phaeophyceae;NA;Ectocarpales;Acinetosporaceae;Hincksia;Hincksia granulosa	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Mollusca;Bivalvia;Veneroida;Cardiidae;Clinocardium;Clinocardium nuttallii	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3
+Eukaryota;Chordata;Actinopteri;Perciformes;Cottidae;Leptocottus;Leptocottus armatus	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1
+Eukaryota;NA;Bangiophyceae;Bangiales;Bangiaceae	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	9	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1
+Eukaryota;Ascomycota;Eurotiomycetes;Eurotiales;Aspergillaceae;Penicillium;Penicillium citrinum	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1
+Eukaryota;Annelida;Polychaeta;NA;Orbiniidae	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7
+Eukaryota;Phaeophyceae;NA;Ectocarpales;Ectocarpaceae;Ectocarpus	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1
+Eukaryota;Phaeophyceae;NA;Laminariales;Laminariaceae;Nereocystis;Nereocystis luetkeana	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1
+Eukaryota;Nemertea;Anopla;Heteronemertea;Cerebratulidae;Cerebratulus;Cerebratulus sp. spade head	0	0	6	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1
+Eukaryota;Porifera;Demospongiae	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;NA;Bangiophyceae;Bangiales;Bangiaceae;Pyropia;Pyropia fucicola	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;NA;Florideophyceae;Ceramiales;Ceramiaceae;Scagelia;Scagelia occidentale	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0
+Eukaryota;Phaeophyceae;NA;Ectocarpales;Ectocarpaceae;Ectocarpus;Ectocarpus siliculosus	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Echinodermata;Echinoidea;Clypeasteroida;Dendrasteridae;Dendraster;Dendraster excentricus	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;NA;Oomycetes;Pythiales;Pythiaceae;Pythium;Pythium glomeratum	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Annelida;Polychaeta;Sabellida;Sabellidae;NA;Sabellidae sp. CMC01	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;NA;Dinophyceae;Peridiniales;Pfiesteriaceae	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Nemertea;Enopla;Monostilifera;Emplectonematidae;Paranemertes	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	1	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Nemertea;Anopla;Heteronemertea;Cerebratulidae;Cerebratulus;Cerebratulus cf. marginatus TCH-2015	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Arthropoda;Malacostraca;Decapoda;Paguridae;Pagurus;Pagurus hirsutiusculus	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Arthropoda;Arachnida;Trombidiformes;Unionicolidae;Unionicola	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;NA;Florideophyceae;Gigartinales;Dumontiaceae;Neodilsea;Neodilsea borealis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Cnidaria;Anthozoa;Actiniaria;Metridiidae;Metridium;Metridium senile	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Mollusca;Gastropoda;Nudibranchia;Dorididae;Doris;Doris montereyensis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	9	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;NA;Florideophyceae;Acrochaetiales;Acrochaetiaceae;Acrochaetium;Acrochaetium secundatum	0	0	0	0	0	0	0	0	0	0	0	0	0	6	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Phaeophyceae;NA;Ectocarpales;Ectocarpaceae;Ectocarpus;Ectocarpus sp.	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;NA;Florideophyceae;Acrochaetiales;Acrochaetiaceae;Acrochaetium;Acrochaetium humile	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Arthropoda;Maxillopoda;Calanoida;Metridinidae;Metridia;Metridia pacifica	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	117	0	0	0	0	0	0	0	0	0
+Eukaryota;Chordata;Chondrichthyes;Rajiformes;Rajidae;Raja;Raja rhina	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0
+Eukaryota;NA;Florideophyceae;Gigartinales;Kallymeniaceae;Callophyllis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0
+Eukaryota;NA;Dinophyceae;Gonyaulacales;Gonyaulacaceae;Alexandrium	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0
+Eukaryota;Phaeophyceae;NA;Ectocarpales;Scytosiphonaceae;Scytosiphon;Scytosiphon sp. 6lomentaria	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0
+Eukaryota;NA;Florideophyceae;Hildenbrandiales;Hildenbrandiaceae;Hildenbrandia;Hildenbrandia sp. 2GWS	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0
+Eukaryota;Cnidaria;Hydrozoa;Leptothecata;Campanulariidae;Obelia	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	1	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0
+Eukaryota;Chordata;Actinopteri;NA;Embiotocidae;Embiotoca;Embiotoca lateralis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;NA;Dictyochophyceae;Dictyochales;NA;Dictyocha;Dictyocha speculum	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Arthropoda;Malacostraca;Decapoda;Cancridae;Cancer;Cancer productus	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Mollusca;Gastropoda;NA;Lymnaeidae;Radix	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Annelida;Polychaeta;NA;Orbiniidae;Naineris;Naineris dendritica CMC02	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Echinodermata;Asteroidea;Spinulosida;Echinasteridae;Henricia	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria;Proteobacteria;Alphaproteobacteria;Pelagibacterales;Pelagibacteraceae;Candidatus Pelagibacter;Candidatus Pelagibacter ubique	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Bacillariophyta;Coscinodiscophyceae;Chaetocerotales;Attheyaceae;Attheya;Attheya longicornis	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2
+Eukaryota;NA;Oomycetes;Pythiales;Pythiaceae;Pythium;Pythium helicandrum	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Bacillariophyta	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Arthropoda;Maxillopoda;Calanoida;Paracalanidae;Paracalanus;Paracalanus parvus	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	1	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	1	3	0	0	0	0	0	0	0	0	0
+Eukaryota;Mollusca;Gastropoda;NA;Margaritidae;Margarites	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Annelida;Polychaeta;Phyllodocida;Polynoidae;Harmothoe;Harmothoe imbricata CMC04	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Bacillariophyta;Bacillariophyceae;Bacillariales;Bacillariaceae;Nitzschia;Nitzschia longissima	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Arthropoda;Maxillopoda;Calanoida;Calanidae;Calanus;Calanus marshallae	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	2	0	0	2	0	0
+Eukaryota;Arthropoda;Maxillopoda;Calanoida;Calanidae;Calanus;Calanus glacialis	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria;Bacteroidetes;Flavobacteriia;Flavobacteriales;Flavobacteriaceae	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Phaeophyceae;NA;Ectocarpales;Chordariaceae;Leathesia	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Chordata;Actinopteri;Characiformes;Characidae;Tetragonopterus;Tetragonopterus rarus	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Bacteria;Bacteroidetes;Flavobacteriia;Flavobacteriales;Flavobacteriaceae;Formosa;Formosa sp. Hel1_33_131	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;NA;Florideophyceae;Ceramiales;Rhodomelaceae;Polysiphonia;Polysiphonia hendryi	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1
+Eukaryota;Bacillariophyta;Bacillariophyceae;Bacillariales;Bacillariaceae;Pseudo-nitzschia;Pseudo-nitzschia delicatissima	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Nemertea;Anopla;Heteronemertea;NA;NA;Heteronemertea sp. NemBar0904	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Arthropoda;Maxillopoda;Calanoida;Clausocalanidae;Pseudocalanus;Pseudocalanus acuspes	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Arthropoda;Insecta;Lepidoptera	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Ascomycota;Dothideomycetes;Capnodiales;Cladosporiaceae;Cladosporium	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Bacillariophyta;Bacillariophyceae;Bacillariales;Bacillariaceae;Nitzschia;Nitzschia cf. promare	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Cnidaria;Hydrozoa;NA;NA;NA;Hydrozoa sp. BH-2003	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Eukaryota;Phaeophyceae;NA;Ectocarpales	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
