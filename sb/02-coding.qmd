@@ -1,2 +1,0 @@
-# Using RStudio and GitHub  
-These platforms together allow you to see if you linked the websites together correctly 
