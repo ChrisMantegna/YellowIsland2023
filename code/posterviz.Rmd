@@ -40,6 +40,39 @@ head(algae)
 ```{r}
 #pie charts for algae
 #clean up the data first
+```
+
+```{r}
+df <- algae[1:482, ] %>% select(-NUMBER, -ASSIGNED_NUMBER)
+
+rockweed_section1_L <- df %>%
+  filter(SECTION == 1, ZONATION == 'L') %>%
+  summarise(rockweed_sum = sum(ROCKWEED, na.rm = TRUE)) 
+
+rockweed_section1_L
+```
+
+```{r}
+result <- algae %>%
+  group_by(SECTION) %>%
+  summarise(across(5:19, sum, na.rm = TRUE))
+
+
+
+
+
+
+
+
+# remove number and assigned number columns & stop the data at line 482
+df <- df[, !(names(df) %in% c("number", "assigned_number"))]
+df <- df[1:482, ]
+
+# can you sum the number of times "ulva" appears across each section and zonation?
+df_ulva_sum <- df %>%
+  group_by(section, zonation) %>%
+  summarise(ulva_sum = sum(ulva, na.rm = TRUE), .groups = 'drop')
+
 
 # Convert data types and handle missing values if any
 algae <- algae %>%
