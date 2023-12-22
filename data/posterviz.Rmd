@@ -1,0 +1,61 @@
+---
+title: "Poster Visualizations"
+author: "Chris"
+date: "2023-12-18"
+output: html_document
+output: 
+  html_document: 
+  theme: readable 
+  highlight: zenburn 
+    toc: true 
+    toc_float: true 
+    number_sections: true 
+    code_folding: show 
+    code_download: true 
+editor: 
+markdown: 
+wrap: 72 
+---
+
+```{r}
+#load packages
+library(data.table)
+library(dplyr)
+library('ggplot2')
+library("indicspecies")
+library(kableExtra)
+library(knitr)
+library(RColorBrewer)
+library(tidyr)
+library(tidyverse)
+library(vegan)
+```
+
+```{r}
+#load data
+algae<- read.csv("algaefull.csv")
+head(algae)
+```
+
+```{r}
+#pie charts for algae
+#clean up the data first
+
+# Convert data types and handle missing values if any
+algae <- algae %>%
+  mutate(across(everything(), as.factor)) %>%
+  replace(is.na(.), 0)  # Replace NA values with 0 (assuming NA means absence)
+
+# Summarize data for each SECTION and ZONATION
+summary_data <- ALGAE %>%
+  group_by(SECTION, ZONATION) %>%
+  summarize_all(sum) %>%
+  gather(key = "ALGAE_TYPE", value = "COUNT", -SECTION, -NUMBER, -ASSIGNED_NUMBER, -ZONATION)
+
+
+```
+
+```{r}
+#species richness and diversity
+```
+
