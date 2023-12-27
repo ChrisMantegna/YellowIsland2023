@@ -90,5 +90,299 @@ summary_data <- ALGAE %>%
 
 ```{r}
 #species richness and diversity
+# Calculate species richness per section
+#make sure you loaded the corrected data sets
+
+
+
+
+
+df$species_richness <- apply(df, 1, function(x) sum(x > 0))
+
+# Calculate overall species richness
+overall_species_richness <- sum(apply(df, 2, function(x) sum(x > 0)) > 0)
+
+# Calculate Shannon diversity index per section
+df$shannon_diversity <- diversity(df)
+
+# Calculate overall Shannon diversity index
+overall_shannon_diversity <- diversity(colSums(df))
+
+# Calculate abundance per section
+df$abundance <- rowSums(df)
+
+# Calculate overall abundance
+overall_abundance <- sum(df$abundance)
+
+# Output the results
+df_richness_diversity_abundance <- df[, c("species_richness", "shannon_diversity", "abundance")]
+overall_results <- data.frame(
+  overall_species_richness = overall_species_richness,
+  overall_shannon_diversity = overall_shannon_diversity,
+  overall_abundance = overall_abundance
+)
+
+df_richness_diversity_abundance
+overall_results
+```
+
+```{r}
+library(vegan)
+
+# Calculate species richness per section
+df$species_richness <- apply(df, 1, function(x) sum(x > 0))
+
+# Calculate Shannon diversity index per section
+df$shannon_diversity <- diversity(df, index = "shannon")
+
+# Calculate abundance per section
+df$abundance <- rowSums(df)
+
+# Calculate overall species richness
+overall_species_richness <- sum(apply(df, 2, function(x) sum(x > 0)) > 0)
+
+# Calculate overall Shannon diversity index
+overall_shannon_diversity <- diversity(colSums(df), index = "shannon")
+
+# Calculate overall abundance
+overall_abundance <- sum(df$abundance)
+
+# Output the results
+df_richness_diversity_abundance <- df[, c("species_richness", "shannon_diversity", "abundance")]
+overall_results <- data.frame(
+  overall_species_richness = overall_species_richness,
+  overall_shannon_diversity = overall_shannon_diversity,
+  overall_abundance = overall_abundance
+)
+
+list(
+  per_section = df_richness_diversity_abundance,
+  overall = overall_results
+)
+```
+
+```{r}
+library(ggplot2)
+library(dplyr)
+
+# Calculate species richness, diversity, and abundance per section
+df_stats <- df %>%
+  mutate(species_richness = rowSums(. > 0),
+         shannon_diversity = diversity(., index = "shannon"),
+         abundance = rowSums(.))
+
+# Calculate overall species richness, diversity, and abundance
+overall_species_richness <- sum(colSums(df > 0) > 0)
+overall_shannon_diversity <- diversity(colSums(df), index = "shannon")
+overall_abundance <- sum(df_stats$abundance)
+
+# Prepare data for pie chart of all the porifera counts
+porifera_counts <- df %>%
+  select(contains("porifera")) %>%
+  colSums()
+
+# Plot pie chart of all the porifera counts
+porifera_data <- data.frame(species = names(porifera_counts), count = porifera_counts)
+ggplot(porifera_data, aes(x = "", y = count, fill = species)) +
+  geom_bar(width = 1, stat = "identity") +
+  coord_polar(theta = "y") +
+  theme_void() +
+  labs(fill = "Porifera Species")
+
+```
+
+```{r}
+#repeat porifera with cnidaria
+library(ggplot2)
+library(dplyr)
+
+# Calculate species richness, diversity, and abundance per section
+df_stats <- df %>%
+  mutate(species_richness = rowSums(. > 0),
+         shannon_diversity = diversity(., index = "shannon"),
+         abundance = rowSums(.))
+
+# Calculate overall species richness, diversity, and abundance
+overall_species_richness <- sum(colSums(df > 0) > 0)
+overall_shannon_diversity <- diversity(colSums(df), index = "shannon")
+overall_abundance <- sum(df_stats$abundance)
+
+# Prepare data for pie chart of the cnidaria counts
+cnidaria_counts <- df %>%
+  select(contains("cnidaria")) %>%
+  colSums()
+
+# Plot pie chart of the cnidaria counts
+cnidaria_data <- data.frame(species = names(cnidaria_counts), count = cnidaria_counts)
+ggplot(cnidaria_data, aes(x = "", y = count, fill = species)) +
+  geom_bar(width = 1, stat = "identity") +
+  coord_polar(theta = "y") +
+  theme_void() +
+  labs(fill = "Cnidaria Species")
+
+
+```
+
+```{r}
+library(ggplot2)
+library(dplyr)
+
+# Calculate species richness, diversity, and abundance per section
+df_stats <- df %>%
+  mutate(species_richness = rowSums(. > 0),
+         shannon_diversity = diversity(., index = "shannon"),
+         abundance = rowSums(.))
+
+# Calculate overall species richness, diversity, and abundance
+overall_species_richness <- sum(colSums(df > 0) > 0)
+overall_shannon_diversity <- diversity(colSums(df), index = "shannon")
+overall_abundance <- sum(df_stats$abundance)
+
+# Prepare data for pie chart of the species counts
+species_counts <- colSums(df)
+
+# Plot pie chart of the species counts
+species_data <- data.frame(species = names(species_counts), count = species_counts)
+ggplot(species_data, aes(x = "", y = count, fill = species)) +
+  geom_bar(width = 1, stat = "identity") +
+  coord_polar(theta = "y") +
+  theme_void() +
+  labs(fill = "Species")
+```
+
+```{r}
+#stacked bar
+library(vegan)
+library(ggplot2)
+library(dplyr)
+library(tidyr)
+
+# Calculate species richness (number of species present) and diversity (Shannon index)
+df$species_richness <- apply(df[, -1], 1, function(x) sum(x > 0))
+df$diversity <- apply(df[, -1], 1, function(x) diversity(x))
+
+# Summarize species richness and diversity by section
+richness_diversity_by_section <- df %>%
+  group_by(section) %>%
+  summarize(
+    average_richness = mean(species_richness),
+    average_diversity = mean(diversity)
+  )
+
+# Print the summarized data
+print(richness_diversity_by_section)
+
+# Prepare data for stacked bar plot
+df_long <- df %>%
+  gather(key = "species", value = "count", -section, -species_richness, -diversity)
+
+# Plot stacked bar chart of species counts for each section
+ggplot(df_long, aes(x = factor(section), y = count, fill = species)) +
+  geom_bar(stat = "identity") +
+  theme_minimal() +
+  labs(x = "Section", y = "Count", fill = "Species") +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))
+
+```
+
+```{r}
+#done by zone
+# Species richness (number of species)
+species_richness <- specnumber(df)
+
+# Shannon diversity index
+shannon_diversity <- diversity(df, index = "shannon")
+
+# Simpson's diversity index
+simpson_diversity <- diversity(df, index = "simpson")
+
+# Combine the results into a data frame
+diversity_measures <- data.frame(
+  Species_Richness = species_richness,
+  Shannon_Diversity = shannon_diversity,
+  Simpson_Diversity = simpson_diversity
+)
+
+# Display the results
+print(diversity_measures)
+```
+
+```{r}
+library(ggplot2)
+library(dplyr)
+library(tidyr)
+
+# Assuming 'df' is already loaded in the environment
+
+# Reshape the data frame to a long format
+df_long <- df %>%
+  gather(key = "species", value = "count", -section)
+
+# Create a pie chart for each section
+ggplot(df_long, aes(x = factor(1), fill = species, weight = count)) +
+  geom_bar(width = 1) +
+  coord_polar(theta = "y") +
+  facet_wrap(~ section, scales = "free_x") +
+  theme_void() +
+  theme(legend.position = "bottom")
+```
+
+```{r}
+# Filter the data for section 1
+df_section1 <- df %>% filter(section == 1)
+
+# Drop the 'section' column as it's no longer needed
+df_section1 <- df_section1 %>% select(-section)
+
+# Reshape the data frame to a long format
+df_section1_long <- df_section1 %>%
+  gather(key = "species", value = "count")
+
+# Create a pie chart for section 1
+ggplot(df_section1_long, aes(x = "", y = count, fill = species)) +
+  geom_bar(stat = "identity", width = 1) +
+  coord_polar("y") +
+  theme_void() +
+  theme(legend.position = "bottom")
+```
+
+```{r}
+#nmds plain
+library(vegan)
+
+# Subset the data to include only the species count columns
+df_species <- df[, -1]
+
+# Run NMDS on the species count data
+nmds <- metaMDS(df_species, distance = "bray", k = 2)
+
+# Plot the NMDS
+plot(nmds$points[,1], nmds$points[,2], xlab = "NMDS1", ylab = "NMDS2", main = "NMDS of Sections")
+text(nmds$points[,1], nmds$points[,2], labels = df$section, pos = 3)
+```
+
+```{r}
+#nmds with color coded dots
+library(vegan)
+library(ggplot2)
+
+# Subset the data to include only the species count columns
+df_species <- df[, -1]
+
+# Run NMDS on the species count data
+nmds <- metaMDS(df_species, distance = "bray", k = 2)
+
+# Convert section to a factor for color coding
+df$section <- as.factor(df$section)
+
+# Create a data frame for plotting
+nmds_df <- data.frame(nmds$points, section = df$section)
+
+# Plot the NMDS with ggplot2 and color code by section
+ggplot(nmds_df, aes(x = MDS1, y = MDS2, color = section)) +
+  geom_point() +
+  theme_minimal() +
+  labs(x = "NMDS1", y = "NMDS2", title = "NMDS of Sections") +
+  scale_color_discrete(name = "Section")
 ```
 
