@@ -13,3 +13,7 @@ rsync -avz sr320@gannet.fish.washington.edu:/volume2/homes/cnmntgna/Anacapa_Resu
 ```{bash}
 rsync -avz sr320@gannet.fish.washington.edu:/volume2/homes/cnmntgna/Tronko_Results ../data
 ```
+```{bash}
+ls ../data/Tronko_Results
+```
+
