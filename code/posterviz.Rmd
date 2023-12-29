@@ -386,3 +386,132 @@ ggplot(nmds_df, aes(x = MDS1, y = MDS2, color = section)) +
   scale_color_discrete(name = "Section")
 ```
 
+```{r}
+library(dplyr)
+library(ggplot2)
+
+# Assuming 'df' is your data frame and it's already loaded in the environment
+
+# Remove columns beyond 'species_code'
+df_simplified <- df %>%
+  select(site_filename, species_code)
+
+# Create a stacked bar plot for each 'site_filename'
+ggplot(df_simplified, aes(x = site_filename, fill = species_code)) +
+  geom_bar(position = "stack") +
+  labs(x = "Site Filename", y = "Count", fill = "Species Code") +
+  theme_minimal()
+```
+
+```{r}
+ibrary(vegan)
+
+# Remove columns beyond 'species_code'
+df_simplified <- df %>%
+  select(site_filename, species_code)
+
+# Calculate species richness (number of species)
+species_richness <- df_simplified %>%
+  group_by(site_filename) %>%
+  summarise(richness = n_distinct(species_code))
+
+# Calculate species diversity using Shannon index
+# First, create a table of counts of species_code within each site_filename
+species_table <- table(df_simplified$site_filename, df_simplified$species_code)
+
+# Calculate Shannon diversity index for each site
+diversity_index <- diversity(species_table)
+
+# Combine richness and diversity into a single data frame
+diversity_data <- data.frame(site_filename = names(diversity_index),
+                             richness = species_richness$richness,
+                             shannon_diversity = diversity_index)
+
+# Print the species richness and diversity for each site_filename
+print(diversity_data)
+```
+
+```{r}
+# Remove columns beyond 'species_code'
+df_simplified <- df %>%
+  select(site_filename, species_code)
+
+# Count the occurrences of each species_code within each site_filename
+species_counts <- df_simplified %>%
+  group_by(site_filename, species_code) %>%
+  summarise(count = n()) %>%
+  ungroup()
+
+# Create a pie chart of species_codes for each site_filename
+ggplot(species_counts, aes(x = "", y = count, fill = species_code)) +
+  geom_bar(stat = "identity", width = 1) +
+  coord_polar("y", start = 0) +
+  facet_wrap(~site_filename) +
+  labs(x = NULL, y = NULL, fill = "Species Code") +
+  theme_void() +
+  theme(legend.position = "right")
+```
+
+```{r}
+#individual plots
+# Remove columns beyond 'species_code'
+df_simplified <- df %>%
+  select(site_filename, species_code)
+
+# Filter for 'postpoint' site_filename
+postpoint_species <- df_simplified %>%
+  filter(site_filename == "postpoint")
+
+# Count the occurrences of each species_code within 'postpoint'
+species_counts <- postpoint_species %>%
+  group_by(species_code) %>%
+  summarise(count = n()) %>%
+  ungroup()
+
+# Create a pie chart of species_codes for 'postpoint'
+ggplot(species_counts, aes(x = "", y = count, fill = species_code)) +
+  geom_bar(stat = "identity", width = 1) +
+  coord_polar("y", start = 0) +
+  labs(x = NULL, y = NULL, fill = "Species Code") +
+  theme_void() +
+  theme(legend.position = "right")
+```
+
+```{r}
+library(vegan)
+
+# Calculate species richness (the number of species present)
+df$species_richness <- rowSums(df > 0)
+
+# Calculate diversity indices
+diversity_indices <- data.frame(
+  Shannon = diversity(df, index = "shannon"),
+  Simpson = diversity(df, index = "simpson"),
+  InverseSimpson = diversity(df, index = "invsimpson")
+)
+
+# Combine species richness with diversity indices
+combined_results <- cbind(df$species_richness, diversity_indices)
+
+# Display the combined results
+print(combined_results)
+```
+
+```{r}
+library(ggplot2)
+
+# Sum the counts for each class
+class_sums <- colSums(df)
+
+# Convert to data frame for ggplot
+class_data <- data.frame(Class = names(class_sums), Count = class_sums)
+
+# Create the pie chart
+ggplot(class_data, aes(x = "", y = Count, fill = Class)) +
+  geom_bar(stat = "identity", width = 1) +
+  coord_polar("y", start = 0) +
+  theme_void() +
+  scale_fill_discrete(name = "Class") +
+  theme(legend.title = element_text(size = 12))
+```
+
