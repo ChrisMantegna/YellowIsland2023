@@ -514,4 +514,23 @@ ggplot(class_data, aes(x = "", y = Count, fill = Class)) +
   scale_fill_discrete(name = "Class") +
   theme(legend.title = element_text(size = 12))
 ```
+```{r}
+#pie chart with case change in legend
+library(ggplot2)
+library(dplyr)
+library(tidyr)
+
+# Assuming 'df' is your data frame and it contains one row of counts for each group
+df_long <- df %>%
+  pivot_longer(cols = everything(), names_to = "Class", values_to = "Count") %>%
+  mutate(Class = tools::toTitleCase(Class))
+
+ggplot(df_long, aes(x = "", y = Count, fill = Class)) +
+  geom_bar(stat = "identity", width = 1) +
+  coord_polar("y", start = 0) +
+  theme_void() +
+  theme(legend.title = element_text(size = 12)) +
+  guides(fill = guide_legend(title = "Class")) +
+  labs(fill = "Class")
+```
 
