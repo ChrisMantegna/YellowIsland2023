@@ -16,10 +16,11 @@ library(decontam)
 
 getwd()
 #set working directory
-setwd("/Users/cmantegna/Documents/YellowIsland2023/code")
+setwd("/Users/cmantegna/Documents/YellowIsland2023")
 
 #read in files
-Y18S_30<-read.csv(../data/Tronko_Results/Yellow_Sep5_q35_18S_Max30.txt, header=TRUE, sep="\t")
+18S_30<-read.csv("~/Documents/YellowIsland2023/data/Tronko_Results/Yellow_Sep5_q35_18S_Max5.txt", header=TRUE, sep="\t")
+
 18S_5<-read.csv( /data/Tronko_Results/Yellow_Sep5_q35_18S_Max5.txt, header=TRUE, sep="\t")
 CO1_30<-read.csv( /data/Tronko_Results/Yellow_Sep5_q35_CO1_Max30.txt, header=TRUE, sep="\t")
 CO1_5<-read.csv( /data/Tronko_Results/Yellow_Sep5_q35_CO1_Max5.txt, header=TRUE, sep="\t")

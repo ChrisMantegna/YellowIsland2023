@@ -8,9 +8,14 @@ output: html_document
 library(devtools)
 
 
-#devtools::install_github("benjjneb/decontam")
+devtools::install_github("benjjneb/decontam")
 
 library(decontam)
+library(phyloseq)
+library(ranacapa)
+library(devtools)
+library(ggplot2)
+library(vegan)
 
 #set working directory
 setwd("/Users/rachelmeyer/Dropbox/Tronko_Outputs/Bycatch/assign")
