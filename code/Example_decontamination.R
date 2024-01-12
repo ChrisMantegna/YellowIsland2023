@@ -10,6 +10,8 @@ library(devtools)
 
 devtools::install_github("benjjneb/decontam")
 
+devtools::install_github("joey711/phyloseq")
+
 library(decontam)
 library(phyloseq)
 library(ranacapa)
