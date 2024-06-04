@@ -1,0 +1,115 @@
+---
+title: "Yellow eDNA"
+author: "Chris"
+date: "2024-06-04"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r}
+# Install required packages if not already installed
+if (!require("tidyverse")) install.packages("tidyverse")
+
+# Load the libraries
+library(tidyverse)
+
+```
+
+
+```{r}
+# Read TRONKO output
+tronko_output <- read_tsv("tronko-output.tsv")
+
+# Create OTU table
+otu_table <- tronko_output %>%
+  pivot_wider(names_from = Taxon, values_from = Count, values_fill = list(Count = 0))
+
+# Write OTU table to CSV
+write_csv(otu_table, "otu_table.csv")
+
+```
+
+```{r}
+# Install required packages if not already installed
+if (!require("vegan")) install.packages("vegan")
+
+# Load the library
+library(vegan)
+
+```
+
+```{r}
+# Read the OTU table
+otu_table <- read_csv("otu_table.csv")
+
+# Separate the metadata (SampleID) from the OTU data
+otu_data <- otu_table %>% select(-SampleID)
+sample_ids <- otu_table$SampleID
+
+# Calculate alpha diversity (Shannon diversity index)
+alpha_div <- diversity(otu_data, index = "shannon")
+
+# Calculate beta diversity (Bray-Curtis dissimilarity)
+beta_div <- vegdist(otu_data, method = "bray")
+
+# Print the diversity results
+print(alpha_div)
+print(beta_div)
+
+```
+
+```{r}
+# Install required packages if not already installed
+if (!require("ggplot2")) install.packages("ggplot2")
+
+# Load the library
+library(ggplot2)
+
+```
+
+```{r}
+# Aggregate data for visualization
+otu_long <- tronko_output %>%
+  group_by(SampleID, Taxon) %>%
+  summarise(Count = sum(Count))
+
+# Plot bar plot
+ggplot(otu_long, aes(x = SampleID, y = Count, fill = Taxon)) +
+  geom_bar(stat = "identity", position = "stack") +
+  theme_minimal() +
+  labs(title = "Taxonomic Composition by Sample",
+       x = "Sample ID",
+       y = "Count",
+       fill = "Taxon")
+
+```
+
+```{r}
+# Install required packages if not already installed
+if (!require("pheatmap")) install.packages("pheatmap")
+
+# Load the library
+library(pheatmap)
+
+# Transform data for heatmap
+otu_matrix <- as.matrix(otu_data)
+rownames(otu_matrix) <- sample_ids
+
+# Plot heatmap
+pheatmap(otu_matrix, 
+         scale = "row", 
+         clustering_distance_rows = "euclidean",
+         clustering_distance_cols = "euclidean",
+         show_rownames = FALSE, 
+         show_colnames = TRUE)
+
+```
+
+```{r}
+
+```
+

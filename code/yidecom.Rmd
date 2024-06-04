@@ -1,5 +1,5 @@
 ---
-title: "CIB_Bycatch"
+title: "Yellow Island eDNA"
 output: html_document
 ---
 
@@ -7,16 +7,30 @@ output: html_document
 
 #get decontam installed if you haven't 
 install.packages(devtools)
-#library(devtools)
+library(devtools)
+
+install.packages("vctrs")
 
 
 devtools::install_github("benjjneb/decontam")
 
-library(decontam)
+#trying to install decom
+if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
 
-getwd()
+BiocManager::install("decontam")
+
+
+library(decontam)
+library(phyloseq)
+library(ranacapa)
+library(devtools)
+library(ggplot2)
+library(vegan)
+
+#getwd()
 #set working directory
-setwd("/Users/cmantegna/Documents/YellowIsland2023")
+3setwd("/Users/cmantegna/Documents/YellowIsland2023")
 
 #read in files
 18S_30<-read.csv("~/Documents/YellowIsland2023/data/Tronko_Results/Yellow_Sep5_q35_18S_Max5.txt", header=TRUE, sep="\t")

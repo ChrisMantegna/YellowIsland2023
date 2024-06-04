@@ -5,9 +5,13 @@
             "ascending": true
         },
         {
+            "columnIndex": 3,
+            "ascending": false
+        },
+        {
             "columnIndex": 4,
             "ascending": true
         }
     ],
-    "path": "~/GitHub/YellowIsland2023/data"
+    "path": "~/GitHub/YellowIsland2023"
 }
