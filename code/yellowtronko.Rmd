@@ -11,11 +11,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 
 ```{r}
-# Install required packages if not already installed
-if (!require("tidyverse")) install.packages("tidyverse")
 
-# Load the libraries
 library(tidyverse)
+library(vegan)
 
 ```
 
@@ -34,11 +32,6 @@ write_csv(otu_table, "otu_table.csv")
 ```
 
 ```{r}
-# Install required packages if not already installed
-if (!require("vegan")) install.packages("vegan")
-
-# Load the library
-library(vegan)
 
 ```
 
