@@ -38,6 +38,8 @@ getwd()
 
 yimeta<- read.csv("home/shared/8TB_HDD_02/cnmntgna/GitHub/YellowIsland2023/data/yimetadata.csv")
 
+yiasv<- 
+
 y18S_5<- read.csv("home/shared/8TB_HDD_02/cnmntgna/GitHub/YellowIsland2023/data/Tronko_Results/Yellow_Sep5_q35_18S_Max5.txt")
 y18S_30<- read.csv("home/shared/8TB_HDD_02/cnmntgna/GitHub/YellowIsland2023/data/Tronko_Results/Yellow_Sep5_q35_18S_Max30.txt")
 yCO1_5<- read.csv("home/shared/8TB_HDD_02/cnmntgna/GitHub/YellowIsland2023/data/Tronko_Results/Yellow_Sep5_q35_CO1_Max5.txt")
