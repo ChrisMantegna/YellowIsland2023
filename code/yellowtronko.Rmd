@@ -9,25 +9,99 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-
+# Load packages
 ```{r}
 
-library(tidyverse)
+if(!requireNamespace("BiocManager")){
+  install.packages("BiocManager")
+}
+BiocManager::install("phyloseq")
+
+```
+
+```{r}
+library(devtools)
+devtools::install_github("benjjneb/decontam")
+```
+
+```{r}
+library(decontam)
+library(devtools)
+library(ggplot2)
 library(vegan)
 
 ```
 
+# load data
+```{r}
+getwd()
+
+yimeta<- read.csv("home/shared/8TB_HDD_02/cnmntgna/GitHub/YellowIsland2023/data/yimetadata.csv")
+
+y18S_5<- read.csv("home/shared/8TB_HDD_02/cnmntgna/GitHub/YellowIsland2023/data/Tronko_Results/Yellow_Sep5_q35_18S_Max5.txt")
+y18S_30<- read.csv("home/shared/8TB_HDD_02/cnmntgna/GitHub/YellowIsland2023/data/Tronko_Results/Yellow_Sep5_q35_18S_Max30.txt")
+yCO1_5<- read.csv("home/shared/8TB_HDD_02/cnmntgna/GitHub/YellowIsland2023/data/Tronko_Results/Yellow_Sep5_q35_CO1_Max5.txt")
+yCO1_30<- read.csv("home/shared/8TB_HDD_02/cnmntgna/GitHub/YellowIsland2023/data/Tronko_Results/Yellow_Sep5_q35_CO1_Max30.txt")
+
+```
+
+# Start combining data tables
+```{r}
+
+library(phyloseq)
+library(dplyr)
+library(tibble)
+library(reshape2)
+
+# Define the new function
+convert_anacapa_to_phyloseq <- function(taxon_table, metadata_file) {
+  
+  # Validate the files (implement your own validation logic if needed)
+  # validate_input_files(taxon_table, metadata_file)
+  
+  # Group the anacapa output by taxonomy
+  # Assuming 'group_anacapa_by_taxonomy' groups and summarizes the data by taxonomy
+  taxon_table2 <- taxon_table %>%
+    group_by(taxonomy) %>%
+    summarize(across(everything(), sum)) %>%
+    tibble::column_to_rownames("taxonomy") %>%
+    as.matrix()
+  
+  # Reorder the columns (sites) for ease of displaying later
+  taxon_table2 <- taxon_table2[, order(colnames(taxon_table2))]
+  
+  # Convert the matrix into a phyloseq otu_table object, with taxa as the rows
+  ana_taxon_table_physeq <- phyloseq::otu_table(taxon_table2, taxa_are_rows = TRUE)
+  
+  # Extract the rownames of the matrix above - this has the full taxonomic path
+  taxon_names <- reshape2::colsplit(rownames(taxon_table2), ";",
+                                    names = c("Domain", "Phylum", "Class", "Order", "Family", "Genus", "Species")) %>%
+    as.matrix()
+  rownames(taxon_names) <- rownames(taxon_table2)
+  
+  tax_physeq <- phyloseq::tax_table(taxon_names)
+  colnames(tax_physeq) <- c("Domain", "Phylum", "Class", "Order", "Family", "Genus", "Species")
+  
+  # Make a phyloseq object out of the otu_table and the tax_table objects
+  physeq_object <- phyloseq::phyloseq(ana_taxon_table_physeq, tax_physeq)
+  
+  # Make sure the mapping file (i.e., the site metadata) is ordered according to site name
+  rownames(metadata_file) <- metadata_file[, 1]
+  metadata_file <- metadata_file[order(metadata_file[, 1]), ]
+  
+  # Convert the mapping file into a phyloseq sample_data object, and merge it with the
+  # phyloseq object created above to make a phyloseq object with otu table, tax table, and sample data
+  sampledata <- phyloseq::sample_data(metadata_file)
+  
+  phyloseq::merge_phyloseq(physeq_object, sampledata)
+}
+
+# Example usage (assuming 'taxon_table' and 'metadata_file' are your input data frames)
+# physeq <- convert_anacapa_to_phyloseq(taxon_table, metadata_file)
+
+```
 
 ```{r}
-# Read TRONKO output
-tronko_output <- read_tsv("tronko-output.tsv")
-
-# Create OTU table
-otu_table <- tronko_output %>%
-  pivot_wider(names_from = Taxon, values_from = Count, values_fill = list(Count = 0))
-
-# Write OTU table to CSV
-write_csv(otu_table, "otu_table.csv")
 
 ```
 
@@ -56,11 +130,6 @@ print(beta_div)
 ```
 
 ```{r}
-# Install required packages if not already installed
-if (!require("ggplot2")) install.packages("ggplot2")
-
-# Load the library
-library(ggplot2)
 
 ```
 
