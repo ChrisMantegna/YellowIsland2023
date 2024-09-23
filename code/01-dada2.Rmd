@@ -21,9 +21,13 @@ BiocManager::install("phyloseq")
 
 ```{r}
 
-if (!requireNamespace("BiocManager", quietly = TRUE))
+## try http:// if https:// URLs are not supported
+if (!requireNamespace("BiocManager", quietly=TRUE))
     install.packages("BiocManager")
-BiocManager::install("dada2", version = "3.9")
+BiocManager::install("dada2", version= "3.18")
+
+packageVersion("dada2")
+
 
 ```
 
@@ -32,5 +36,14 @@ BiocManager::install("dada2", version = "3.9")
 
 library("phyloseq")
 library("dada2")
+
+```
+
+```{r}
+
+path <- "Users" # Update with your file location
+fnFs <- sort(list.files(path, pattern = "_R1.fastq", full.names = TRUE))
+fnRs <- sort(list.files(path, pattern = "_R2.fastq", full.names = TRUE))
+
 ```
 
