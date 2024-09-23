@@ -64,14 +64,96 @@ fnRs <- sort(list.files(path, pattern = "_R2_001.fastq.gz", full.names = TRUE))
 
 ```
 
-
+# verify filtering parameters, current left several sequences out
 ```{r}
+
+# remove the trunLen command because several reverse reads were left to 0. (, truncLen=c(240,160)) 
 
 filtFs <- file.path(path, "filtered", basename(fnFs))
 filtRs <- file.path(path, "filtered", basename(fnRs))
-out <- filterAndTrim(fnFs, filtFs, fnRs, filtRs, truncLen=c(240,160),
+out <- filterAndTrim(fnFs, filtFs, fnRs, filtRs,
                      maxN=0, maxEE=c(3,5), truncQ=2, rm.phix=TRUE,
                      compress=TRUE, multithread=TRUE, verbose= TRUE)
+
+```
+
+
+# review output
+```{r}
+# 5 sequence pairs that returned 0: 1aa - 130, 1x - 119, 5d - 90, 5dd - 135, 5gg - 138
+# pairs well below other sequences: 5J - 107 (70, 59), 5w - 128 (13, 13)
+print(out)
+
+# write to table
+write.csv(out,"/Users/cmantegna/Documents/YellowIsland2023/filterOutput.csv", row.names = FALSE)
+
+```
+
+# remove empties
+```{r}
+
+nonEmptySamples <- out[,2] > 0  
+
+fnFs_filtered <- filtFs[nonEmptySamples]
+fnRs_filtered <- filtRs[nonEmptySamples]
+
+```
+
+
+
+# error rates
+```{r}
+
+errF <- learnErrors(fnFs_filtered, multithread=TRUE)
+errR <- learnErrors(fnRs_filtered, multithread=TRUE)
+
+```
+
+# plot error rates
+```{r}
+plotErrors(errF, nominalQ=TRUE)
+
+```
+
+```{r}
+
+plotErrors(errF, nominalQ=TRUE)
+
+```
+
+# alternate 1 - remove trunc and expand maxEE (mismatch adjustment)
+```{r}
+
+out1 <- filterAndTrim(fnFs, filtFs, fnRs, filtRs,
+                     maxN=0, maxEE=c(5,7), truncQ=2, rm.phix=TRUE,
+                     compress=TRUE, multithread=TRUE, verbose= TRUE)
+
+```
+
+# alternate 2 - remove trunc and expand trunQ (quality score adjustment)
+```{r}
+
+out2 <- filterAndTrim(fnFs, filtFs, fnRs, filtRs,
+                     maxN=0, maxEE=c(5,7), truncQ=1, rm.phix=TRUE,
+                     compress=TRUE, multithread=TRUE, verbose= TRUE)
+
+```
+
+# remove duplicates
+```{r}
+
+derepFs <- derepFastq(fnFs_filtered)
+derepRs <- derepFastq(fnRs_filtered)
+
+```
+
+# infer asv
+```{r}
+
+dadaFs <- dada(derepFs, err=errF, multithread=TRUE)
+
+dadaRs <- dada(derepRs, err=errR, multithread=TRUE)
+
 
 ```
 
