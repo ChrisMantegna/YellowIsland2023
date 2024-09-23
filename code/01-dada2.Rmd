@@ -145,7 +145,53 @@ out2 <- filterAndTrim(fnFs, filtFs, fnRs, filtRs,
 derepFs <- derepFastq(fnFs_filtered)
 derepRs <- derepFastq(fnRs_filtered)
 
+# the derep process takes a ton of memory - I was able to work through the F reads, but not the R. Trying this to continue to move forward.
+# Initialize an empty list to store dereplicated reverse reads
+derepRs <- vector("list", length(fnRs_filtered))
+
+# Loop over the reverse reads and dereplicate
+for (i in seq_along(fnRs_filtered)) {
+  derepRs[[i]] <- derepFastq(fnRs_filtered[[i]])
+}
+
+# Check the output to confirm
+derepRs
+
+
 ```
+
+# move large files from memory to free up space to move forward - come back to add reverse files when finished
+```{r}
+# save- forward 
+saveRDS(dadaFs, "dadaFs.rds")
+saveRDS(derepFs, "derepFs.rds")
+saveRDS(errF, "errF.rds")
+saveRDS(filtFs, "filtFs.rds")
+saveRDS(fnFs, "fnFs.rds")
+saveRDS(fnFs_filtered, "fnFs_filtered.rds")
+
+# save- reverse 
+saveRDS(dadaRs, "dadaRs.rds")
+saveRDS(derepRs, "derepRs.rds")
+saveRDS(errR, "errR.rds")
+saveRDS(filtRs, "filtRs.rds")
+saveRDS(fnRs, "fnRs.rds")
+saveRDS(fnRs_filtered, "fnRs_filtered.rds")
+
+# Remove from memory
+rm(dadaFs)
+rm(derepFs)
+rm(errF)
+rm(filtFs)
+rm(fnFs)
+rm(fnFs_filtered)
+gc()
+
+# Reload (when needed)
+#dadaFs <- readRDS("dadaFs.rds")
+
+```
+
 
 # infer asv
 ```{r}
@@ -153,6 +199,19 @@ derepRs <- derepFastq(fnRs_filtered)
 dadaFs <- dada(derepFs, err=errF, multithread=TRUE)
 
 dadaRs <- dada(derepRs, err=errR, multithread=TRUE)
+
+
+```
+
+# reload Fs and merge files
+```{r}
+
+# reload 
+dadaFs <- readRDS("dadaFs.rds")
+derepFs<- readRDS("derepFs.rds")
+
+# merge
+mergers <- mergePairs(dadaFs, derepFs, dadaRs, derepRs, verbose=TRUE)
 
 
 ```
