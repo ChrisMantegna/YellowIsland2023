@@ -1,0 +1,36 @@
+---
+title: "dada2 with OG fastq files"
+author: "Chris"
+date: "2024-09"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Load packages
+```{r}
+
+if(!requireNamespace("BiocManager")){
+  install.packages("BiocManager")
+}
+BiocManager::install("phyloseq")
+
+```
+
+```{r}
+
+if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+BiocManager::install("dada2", version = "3.9")
+
+```
+
+# load packages
+```{r}
+
+library("phyloseq")
+library("dada2")
+```
+
