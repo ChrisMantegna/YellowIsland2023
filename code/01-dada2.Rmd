@@ -12,21 +12,20 @@ knitr::opts_chunk$set(echo = TRUE)
 # Load packages
 ```{r}
 
-if(!requireNamespace("BiocManager")){
-  install.packages("BiocManager")
-}
-BiocManager::install("phyloseq")
+#if(!requireNamespace("BiocManager")){
+#  install.packages("BiocManager")
+#}
+#BiocManager::install("phyloseq")
 
 ```
 
 ```{r}
 
-## try http:// if https:// URLs are not supported
-if (!requireNamespace("BiocManager", quietly=TRUE))
-    install.packages("BiocManager")
-BiocManager::install("dada2", version= "3.18")
+#if (!requireNamespace("BiocManager", quietly=TRUE))
+#    install.packages("BiocManager")
+#BiocManager::install("dada2", version= "3.18")
 
-packageVersion("dada2")
+#packageVersion("dada2")
 
 
 ```
@@ -50,18 +49,18 @@ fnRs <- sort(list.files(path, pattern = "_R2_001.fastq.gz", full.names = TRUE))
 
 ```
 
-# find the missing reverse read
+# find the missing reverse read - only needed to do once. Sample: 5t 125 is missing. Removed from the data set to proceed
 ```{r}
 
 # get sample names for each by removing the ending
-sampleNamesFs <- gsub("_R1_001.fastq.gz", "", basename(fnFs))
-sampleNamesRs <- gsub("_R2_001.fastq.gz", "", basename(fnRs))
+#sampleNamesFs <- gsub("_R1_001.fastq.gz", "", basename(fnFs))
+#sampleNamesRs <- gsub("_R2_001.fastq.gz", "", basename(fnRs))
 
 # find the missing one
-missingReverse <- setdiff(sampleNamesFs, sampleNamesRs)
+#missingReverse <- setdiff(sampleNamesFs, sampleNamesRs)
 
 # result
-print(missingReverse)
+#print(missingReverse)
 
 ```
 
