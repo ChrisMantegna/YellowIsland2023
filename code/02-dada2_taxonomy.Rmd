@@ -58,6 +58,8 @@ asv<- read_csv("/Users/cmantegna/Documents/YellowIsland2023/data/ExportedASVtabl
 # read in reference fasta
 ```{r}
 
+taxa <- assignTaxonomy(seqtab.nochim, "path/to/18S_Euk.fa", multithread=TRUE, taxLevels=c("Kingdom", "Phylum", "Class", "Order", "Family", "Genus", "Species"))
+
 
 ```
 
