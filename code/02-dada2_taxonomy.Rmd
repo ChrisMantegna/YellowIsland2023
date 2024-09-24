@@ -1,0 +1,63 @@
+---
+title: "dada2 - taxonomy"
+author: Chris
+output:
+   pdf_document: 
+    toc: yes
+    toc_depth: 2
+    number_sections : yes
+---
+
+
+```{r knitr_init, echo=FALSE, warning=FALSE, cache=TRUE}
+library(knitr)
+#install.packages("rmdformats")
+#library(rmdformats)
+library("kableExtra")
+
+## Global options
+# The following line is necessary to make sure that 
+# everything is not reevaluated each time the file is knit
+# Note : in the case of this report it is necessary to leave cache= FALSE
+
+options(max.print="75")
+knitr::opts_chunk$set(fig.width=8, 
+                      fig.height=6, 
+                      eval=TRUE, 
+                      cache=TRUE,
+                      echo=TRUE,
+                      prompt=FALSE,
+                      tidy=TRUE,
+                      comment=NA,
+                      message=FALSE,
+                      warning=FALSE)
+opts_knit$set(width=85)
+```
+
+# load more packages
+```{r libraries, message=FALSE}
+
+library("dada2")
+library("phyloseq")
+library("ggplot2")      # graphics
+library("readxl")       # necessary to import the data from Excel file
+library("dplyr")        # filter and reformat data frames
+library("tibble")       # Needed for converting column to row names
+
+```
+
+# load data
+```{r}
+library(readr)
+
+# asv from dada2 for otu creation
+asv<- read_csv("/Users/cmantegna/Documents/YellowIsland2023/data/ExportedASVtable.csv")
+
+```
+
+# read in reference fasta
+```{r}
+
+
+```
+
