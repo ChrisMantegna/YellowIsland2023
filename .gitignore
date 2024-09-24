@@ -4,4 +4,6 @@
 .DS_Store
 *.asv
 *.rds
-*.fastq.gz
+*.fa
+*.fa.taxid
+*.tsv
