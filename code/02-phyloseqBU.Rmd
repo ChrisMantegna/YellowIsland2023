@@ -50,12 +50,20 @@ library("tibble")       # Needed for converting column to row names
 # load data
 ```{r}
 
-meta<- read.csv("home/shared/8TB_HDD_02/cnmntgna/GitHub/YellowIsland2023/data/yimetadata.csv")
+# metadata
+meta<- read.csv("/Users/cmantegna/Documents/YellowIsland2023/data/yimetadata.csv")
+# asv from dada2 for otu creation
+asv<- read.csv("/Users/cmantegna/Documents/YellowIsland2023/data/ExportedASVtable.csv", row.names = 1)
 
-asv<- read.csv("/path/to/your/asv_table.csv", row.names = 1)
+# taxonomy table from tronko
+tax18<- read.csv("/Users/cmantegna/Documents/YellowIsland2023/data/Tronko_Results/Yellow_Sep5_q35_18S_Max5.txt", header=TRUE, sep="\t")
 
+```
 
-tax18<- read.csv("home/shared/8TB_HDD_02/cnmntgna/GitHub/YellowIsland2023/data/Tronko_Results/Yellow_Sep5_q35_18S_Max5.txt")
+# create otu from asv
+```{r}
+
+otu <- otu_table(as.matrix(asv), taxa_are_rows = TRUE)
 
 ```
 
