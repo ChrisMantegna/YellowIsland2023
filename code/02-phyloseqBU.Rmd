@@ -16,7 +16,7 @@ output:
 ```{r knitr_init, echo=FALSE, warning=FALSE, cache=TRUE}
 library(knitr)
 #install.packages("rmdformats")
-library(rmdformats)
+#library(rmdformats)
 library("kableExtra")
 
 ## Global options
@@ -40,30 +40,58 @@ opts_knit$set(width=85)
 
 # load more packages
 ```{r libraries, message=FALSE}
+
 library("phyloseq")
 library("ggplot2")      # graphics
 library("readxl")       # necessary to import the data from Excel file
 library("dplyr")        # filter and reformat data frames
 library("tibble")       # Needed for converting column to row names
+
 ```
 
 # load data
 ```{r}
+library(readr)
 
 # metadata
 meta<- read.csv("/Users/cmantegna/Documents/YellowIsland2023/data/yimetadata.csv")
+
 # asv from dada2 for otu creation
-asv<- read.csv("/Users/cmantegna/Documents/YellowIsland2023/data/ExportedASVtable.csv", row.names = 1)
+asv<- read_csv("/Users/cmantegna/Documents/YellowIsland2023/data/ExportedASVtable.csv")
 
 # taxonomy table from tronko
-tax18<- read.csv("/Users/cmantegna/Documents/YellowIsland2023/data/Tronko_Results/Yellow_Sep5_q35_18S_Max5.txt", header=TRUE, sep="\t")
+tax18 <- read_tsv("/Users/cmantegna/Documents/YellowIsland2023/data/Tronko_Results/Yellow_Sep5_q35_18S_Max5.txt")
+
 
 ```
 
 # create otu from asv
 ```{r}
 
-otu <- otu_table(as.matrix(asv), taxa_are_rows = TRUE)
+# check asv
+str(asv)
 
+# Replace any non-numeric values with NA
+asv_numeric <- asv
+asv_numeric[,-1] <- lapply(asv_numeric[,-1], function(x) as.numeric(gsub("[^0-9.]", "", x)))
+
+# Check for any non-numeric values
+any(is.na(asv_numeric))
+
+
+# create otu
+otu <- otu_table(as.matrix(asv_numeric), taxa_are_rows = TRUE)
+
+# Check for any non-numeric values
+any(is.na(asv_numeric))
+
+```
+
+# create a phyloseq object
+```{r}
+
+physeq <- phyloseq(otu, meta, tax18)
+
+sample_names(physeq)
 ```
 
