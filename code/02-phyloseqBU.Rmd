@@ -52,7 +52,8 @@ library("tibble")       # Needed for converting column to row names
 
 meta<- read.csv("home/shared/8TB_HDD_02/cnmntgna/GitHub/YellowIsland2023/data/yimetadata.csv")
 
-asv<- 
+asv<- read.csv("/path/to/your/asv_table.csv", row.names = 1)
+
 
 tax18<- read.csv("home/shared/8TB_HDD_02/cnmntgna/GitHub/YellowIsland2023/data/Tronko_Results/Yellow_Sep5_q35_18S_Max5.txt")
 
