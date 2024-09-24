@@ -1,0 +1,60 @@
+---
+title: "phyloseq pipeline - backup file"
+author: Chris
+header-includes:
+   - \usepackage{color, fancyvrb}
+output:
+  rmdformats::readthedown:
+    highlight: kate
+    number_sections : yes    
+  pdf_document: 
+    toc: yes
+    toc_depth: 2
+    number_sections : yes
+---
+
+```{r knitr_init, echo=FALSE, warning=FALSE, cache=TRUE}
+library(knitr)
+#install.packages("rmdformats")
+library(rmdformats)
+library("kableExtra")
+
+## Global options
+# The following line is necessary to make sure that 
+# everything is not reevaluated each time the file is knit
+# Note : in the case of this report it is necessary to leave cache= FALSE
+
+options(max.print="75")
+knitr::opts_chunk$set(fig.width=8, 
+                      fig.height=6, 
+                      eval=TRUE, 
+                      cache=TRUE,
+                      echo=TRUE,
+                      prompt=FALSE,
+                      tidy=TRUE,
+                      comment=NA,
+                      message=FALSE,
+                      warning=FALSE)
+opts_knit$set(width=85)
+```
+
+# load more packages
+```{r libraries, message=FALSE}
+library("phyloseq")
+library("ggplot2")      # graphics
+library("readxl")       # necessary to import the data from Excel file
+library("dplyr")        # filter and reformat data frames
+library("tibble")       # Needed for converting column to row names
+```
+
+# load data
+```{r}
+
+meta<- read.csv("home/shared/8TB_HDD_02/cnmntgna/GitHub/YellowIsland2023/data/yimetadata.csv")
+
+asv<- 
+
+tax18<- read.csv("home/shared/8TB_HDD_02/cnmntgna/GitHub/YellowIsland2023/data/Tronko_Results/Yellow_Sep5_q35_18S_Max5.txt")
+
+```
+
