@@ -1,2 +1,7 @@
-/.quarto/
 .Rproj.user
+.Rhistory
+.RData
+.DS_Store
+.DS_Store
+*.rds
+*.fastq.gz
